@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Oders;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use App\Oders;
-use App\Oders_detail;
 use DB;
 
 class OdersController extends Controller

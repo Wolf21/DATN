@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests\AddProductsRequest;
 use App\Http\Requests\EditProductsRequest;
 use App\Http\Requests;
-use App\Products;
-use App\Category;
-use App\Pro_details;
-use App\Detail_img;
+use App\Models\Products;
+use App\Models\Category;
+use App\Models\Pro_details;
+use App\Models\Detail_img;
 use Auth;
 use DateTime,File,Input,DB;
 

@@ -2,16 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\News;
+use App\Models\Oders;
+use App\Models\Oders_detail;
+use App\Models\Products;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Auth;
-use App\Products;
-use App\Category;
-use App\Pro_detail;
-use App\News;
-use App\Oders;
-use App\Oders_detail;
 use DB,Cart,Datetime;
 
 class PagesController extends Controller

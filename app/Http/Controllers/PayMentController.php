@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Oders_detail;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use Session;
+use Illuminate\Support\Facades\Session;
 
 use PayPal\Api\Amount;
 use PayPal\Api\Details;
@@ -25,8 +26,6 @@ use PayPal\Auth\OAuthTokenCredential;
 use PayPal\Rest\ApiContext;
 
 use Cart,Auth,DateTime;
-use App\Oders;
-use App\Oders_detail;
 class PayMentController extends Controller
 {    
     private $apiContext;

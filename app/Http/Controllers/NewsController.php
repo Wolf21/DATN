@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
+use App\Models\News;
 use Illuminate\Http\Request;
 use App\Http\Requests\AddNewsRequest;
 use App\Http\Requests\EditNewsRequest;
 
 use App\Http\Requests;
-use App\News;
-use App\Category;
 use Auth;
 use DateTime,File,Input,DB;
 
