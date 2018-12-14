@@ -4,7 +4,7 @@ Route::auth();
 Route::get('/user', 'HomeController@index');
 Route::get('/user/edit', 'HomeController@edit');
 
-// admin route 
+// admin route
 Route::get('admin/login', ['as'  => 'getlogin', 'uses' =>'Admin\AuthController@showLoginForm']);
 Route::post('admin/login', ['as'  => 'postlogin', 'uses' =>'Admin\AuthController@login']);
 Route::get('admin/password/reset', ['as'  => 'getreser', 'uses' =>'Admin\AuthController@email']);
