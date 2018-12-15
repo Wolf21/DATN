@@ -47,15 +47,8 @@
             </div>
     @endforeach
     <!-- Danh mục điện thoại -->
-
-        <div class="clearfix">
-        </div>
-
-        <div class="clearfix">
-
-        </div>
-        <a href="http://api.hostinger.vn/redir/1309904" target="_blank">
-            <img src="/images/slides/thumbs/qc1.png" alt="Hosting Miễn Phí" border="0" width="100%" height="250"/>
+        <a href="#" target="_blank">
+            <img src="/images/slides/thumbs/qc1.png" alt="" border="0" width="100%" height="250"/>
         </a>
     </div>
 @endsection

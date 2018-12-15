@@ -13,7 +13,7 @@ class ProductService
      * @return mixed
      */
 
-    public static function getProductDetails()
+    public static function getProductDetailsByCategories()
     {
         $mobile = Products::join('category', 'products.cat_id', '=', 'category.id')
             ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
@@ -43,6 +43,29 @@ class ProductService
             ->where('category.parent_id', '=', '1')
             ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
             ->paginate(2);
+    }
+
+    /**
+     * @param $product_id
+     * @return mixed
+     */
+    public static function getDetailImg($product_id)
+    {
+        return Products::join('detail_img', 'products.id', '=', 'detail_img.pro_id')
+            ->where('products.id', $product_id)
+            ->get();
+    }
+
+    /**
+     * @param $product_id
+     * @return array
+     */
+    public static function getProductDetailsById($product_id)
+    {
+        return Products::join('pro_details', 'pro_details.pro_id', '=', 'products.id')
+            ->where('products.id', '=', $product_id)
+            ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
+            ->first();
     }
 
 }

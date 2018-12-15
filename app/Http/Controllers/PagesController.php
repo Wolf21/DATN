@@ -10,7 +10,7 @@ use App\Services\ProductService;
 use Illuminate\Http\Request;
 
 use Auth;
-use DB,Cart,Datetime;
+use DB, Cart, Datetime;
 
 class PagesController extends Controller
 {
@@ -19,8 +19,8 @@ class PagesController extends Controller
      */
     public function index()
     {
-        list($mobile, $lap, $pc) = ProductService::getProductDetails();
-    	return view('home',['mobile'=>$mobile,'laptop'=>$lap,'pc'=>$pc]);
+        list($mobile, $lap, $pc) = ProductService::getProductDetailsByCategories();
+        return view('home', ['mobile' => $mobile, 'laptop' => $lap, 'pc' => $pc]);
     }
 
     /**
@@ -29,7 +29,7 @@ class PagesController extends Controller
     public function getCart()
     {
         $sameProducts = ProductService::getSameProducts();
-        return view ('detail.card')
+        return view('detail.card')
             ->with([
                 'slug' => 'Chi tiết đơn hàng',
                 'sameProducts' => $sameProducts
@@ -42,7 +42,7 @@ class PagesController extends Controller
      */
     public function addCart($id)
     {
-        $product = Products::where('id',$id)->first();
+        $product = Products::where('id', $id)->first();
         Cart::add([
             'id' => $product->id,
             'name' => $product->name,
@@ -59,19 +59,19 @@ class PagesController extends Controller
      * @param $dk
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function getUpdateCart($id,$qty,$dk)
+    public function getUpdateCart($id, $qty, $dk)
     {
-      if ($dk=='up') {
-         $qt = $qty+1;
-         Cart::update($id, $qt);
-         return redirect()->route('getCart');
-      } elseif ($dk=='down') {
-         $qt = $qty-1;
-         Cart::update($id, $qt);
-         return redirect()->route('getCart');
-      } else {
-         return redirect()->route('getCart');
-      }
+        if ($dk == 'up') {
+            $qt = $qty + 1;
+            Cart::update($id, $qt);
+            return redirect()->route('getCart');
+        } elseif ($dk == 'down') {
+            $qt = $qty - 1;
+            Cart::update($id, $qt);
+            return redirect()->route('getCart');
+        } else {
+            return redirect()->route('getCart');
+        }
     }
 
     /**
@@ -80,8 +80,8 @@ class PagesController extends Controller
      */
     public function getDeleteCart($id)
     {
-     Cart::remove($id);
-     return redirect()->route('getCart');
+        Cart::remove($id);
+        return redirect()->route('getCart');
     }
 
     /**
@@ -89,8 +89,8 @@ class PagesController extends Controller
      */
     public function empty()
     {
-        Cart::destroy();   
-        return redirect()->route('index');   
+        Cart::destroy();
+        return redirect()->route('index');
     }
 
     /**
@@ -102,9 +102,9 @@ class PagesController extends Controller
             return redirect('login');
         } else {
 
-            return view ('detail.oder')
-            ->with('slug','Xác nhận');
-        }        
+            return view('detail.oder')
+                ->with('slug', 'Xác nhận');
+        }
     }
 
     /**
@@ -114,33 +114,33 @@ class PagesController extends Controller
     public function postOrder(Request $rq)
     {
         $oder = new Oders();
-        $total =0;
+        $total = 0;
         foreach (Cart::content() as $row) {
-            $total = $total + ( $row->qty * $row->price);
+            $total = $total + ($row->qty * $row->price);
         }
         $oder->c_id = Auth::user()->id;
         $oder->qty = Cart::count();
         $oder->sub_total = floatval($total);
-        $oder->total =  floatval($total);
+        $oder->total = floatval($total);
         $oder->note = $rq->txtnote;
         $oder->status = 0;
         $oder->type = 'cod';
         $oder->created_at = new datetime;
         $oder->save();
-        $o_id =$oder->id;
+        $o_id = $oder->id;
 
         foreach (Cart::content() as $row) {
-           $detail = new Oders_detail();
-           $detail->pro_id = $row->id;
-           $detail->qty = $row->qty;
-           $detail->o_id = $o_id;
-           $detail->created_at = new datetime;
-           $detail->save();
+            $detail = new Oders_detail();
+            $detail->pro_id = $row->id;
+            $detail->qty = $row->qty;
+            $detail->o_id = $o_id;
+            $detail->created_at = new datetime;
+            $detail->save();
         }
-        Cart::destroy();   
+        Cart::destroy();
         return redirect()->route('getcart')
-        ->with(['flash_level'=>'result_msg','flash_massage'=>' Đơn hàng của bạn đã được gửi đi !']);    
-        
+            ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đơn hàng của bạn đã được gửi đi !']);
+
     }
 
     /**
@@ -149,46 +149,43 @@ class PagesController extends Controller
      */
     public function getCategories($cat)
     {
-    	if ($cat == 'mobile') {
+        if ($cat == 'mobile') {
             // mobile
             $mobile = DB::table('products')
                 ->join('category', 'products.cat_id', '=', 'category.id')
                 ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id','=','1')
-                ->select('products.*','pro_details.cpu','pro_details.ram','pro_details.screen','pro_details.vga','pro_details.storage','pro_details.exten_memmory','pro_details.cam1','pro_details.cam2','pro_details.sim','pro_details.connect','pro_details.pin','pro_details.os','pro_details.note')
+                ->where('category.parent_id', '=', '1')
+                ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
                 ->paginate(12);
-    		return view('category.mobile',['data'=>$mobile]);
-    	} 
-        elseif ($cat == 'laptop') {
+            return view('category.mobile', ['data' => $mobile]);
+        } elseif ($cat == 'laptop') {
             // mobile
             $lap = DB::table('products')
                 ->join('category', 'products.cat_id', '=', 'category.id')
                 ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id','=','2')
-                ->select('products.*','pro_details.cpu','pro_details.ram','pro_details.screen','pro_details.vga','pro_details.storage','pro_details.exten_memmory','pro_details.cam1','pro_details.cam2','pro_details.sim','pro_details.connect','pro_details.pin','pro_details.os','pro_details.note')
+                ->where('category.parent_id', '=', '2')
+                ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
                 ->paginate(12);
-            return view('category.laptop',['data'=>$lap]);
-        }
-        elseif ($cat == 'pc') {
+            return view('category.laptop', ['data' => $lap]);
+        } elseif ($cat == 'pc') {
             // mobile
-        $pc = DB::table('products')
+            $pc = DB::table('products')
                 ->join('category', 'products.cat_id', '=', 'category.id')
                 ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id','=','19')
-                ->select('products.*','pro_details.cpu','pro_details.ram','pro_details.screen','pro_details.vga','pro_details.storage','pro_details.exten_memmory','pro_details.cam1','pro_details.cam2','pro_details.sim','pro_details.connect','pro_details.pin','pro_details.os','pro_details.note')
+                ->where('category.parent_id', '=', '19')
+                ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
                 ->paginate(8);
-            return view('category.pc',['data'=>$pc]);
-        }
-        elseif ($cat == 'tin-tuc') {
-            $new =  DB::table('news')
-                    ->orderBy('created_at', 'desc')
-                    ->paginate(3);
+            return view('category.pc', ['data' => $pc]);
+        } elseif ($cat == 'tin-tuc') {
+            $new = DB::table('news')
+                ->orderBy('created_at', 'desc')
+                ->paginate(3);
             $top1 = $new->shift();
-             $all =  DB::table('news')
-                    ->orderBy('created_at', 'desc')
-                    ->paginate(5);
-            return view('category.news',['data'=>$new,'hot1'=>$top1,'all'=>$all]);
-        } 
+            $all = DB::table('news')
+                ->orderBy('created_at', 'desc')
+                ->paginate(5);
+            return view('category.news', ['data' => $new, 'hot1' => $top1, 'all' => $all]);
+        }
         // else{
         //     return redirect()->route('index');
         // }
@@ -200,33 +197,43 @@ class PagesController extends Controller
      * @param $slug
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
      */
-    public function detail($cat,$id,$slug)
+    public function detail($cat, $id, $slug)
     {
-        if ($cat =='tin-tuc') {
-            $new = News::where('id',$id)->first();
-            return view('detail.news',['data'=>$new,'slug'=>$slug]);
-        } elseif ($cat =='mobile') {
-            $mobile = Products::where('id',$id)->first();
+        $product_details = ProductService::getProductDetailsById($id);
+        $sameProducts = ProductService::getSameProducts();
+        if ($cat == 'tin-tuc') {
+            $new = News::where('id', $id)->first();
+            return view('detail.news', ['data' => $new, 'slug' => $slug]);
+        } elseif ($cat == 'mobile') {
+            $mobile = Products::where('id', $id)->first();
+            $detailImg = ProductService::getDetailImg($id);
+            $data = [
+                'mobile' => $mobile,
+                'detail_img' => $detailImg,
+                'product_detail' => $product_details,
+                'same_products' => $sameProducts
+            ];
             if (empty($mobile)) {
-                return view ('errors.503');
-                } else {
-                   return view ('detail.mobile',['data'=>$mobile,'slug'=>$slug]);
-               }
-        }
-        elseif ($cat =='laptop') {
-            $lap = Products::where('id',$id)->first();
-            if (empty($lap)) {
-            return redirect()->route('index');
+                return view('errors.503');
             } else {
-           return view ('detail.laptop',['data'=>$lap,'slug'=>$slug]);
+                return view('detail.mobile', [
+                    'data' => $data,
+                    'slug' => $slug
+                ]);
             }
-        }
-        elseif ($cat =='pc') {            
-            $pc = Products::where('id',$id)->first();
+        } elseif ($cat == 'laptop') {
+            $lap = Products::where('id', $id)->first();
+            if (empty($lap)) {
+                return redirect()->route('index');
+            } else {
+                return view('detail.laptop', ['data' => $lap, 'slug' => $slug]);
+            }
+        } elseif ($cat == 'pc') {
+            $pc = Products::where('id', $id)->first();
             if (empty($pc)) {
                 return redirect()->route('index');
             } else {
-                return view ('detail.pc',['data'=>$pc,'slug'=>$slug]);
+                return view('detail.pc', ['data' => $pc, 'slug' => $slug]);
             }
         } else {
             return redirect()->route('index');

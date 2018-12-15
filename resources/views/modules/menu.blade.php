@@ -14,7 +14,6 @@
                         <a class="top-a" href="{{ url('/') }}"> Home </a>  &nbsp;
                         <a href="#" data-toggle="modal" data-target="#login-modal"
                            style="color:#e67e22;"> Đăng nhập </a>
-                        {{-- <a class="top-a" href="{{ url('/login') }}">Login</a> --}}
                     @else
                         <a class="top-a" href="{{ url('/user') }}"
                            style="color:#c0392b;"><strong>{!!Auth::user()->name!!}</strong></a>
@@ -82,13 +81,13 @@
                                         <thead>
                                         <tr>
                                             <th>Ảnh</th>
-                                            <th>LS</th>
+                                            <th>SL</th>
                                             <th>Tên <SPAN></SPAN></th>
                                             <th>Giá</th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <td colspan="3">Hện đang trống</td>
+                                        <td colspan="3">Giỏ Hàng Trống</td>
                                         </tbody>
                                     </table>
                                 </div>
