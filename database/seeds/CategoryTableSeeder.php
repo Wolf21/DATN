@@ -20,7 +20,7 @@ class CategoryTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'name' => 'Apple',
+                'name' => 'APPLE',
                 'slug' => 'apple-iphone',
                 'parent_id' => '0',
                 'created_at' => '2016-11-23 20:01:57',
@@ -29,7 +29,7 @@ class CategoryTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'name' => 'Android',
+                'name' => 'ANDROID',
                 'slug' => 'android',
                 'parent_id' => '0',
                 'created_at' => '2016-11-23 20:10:10',
@@ -38,31 +38,31 @@ class CategoryTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'name' => 'Window Phone',
-                'slug' => 'winsow-phone',
+                'name' => 'WINDOW PHONE',
+                'slug' => 'window-phone',
                 'parent_id' => '0',
                 'created_at' => '2016-11-23 20:17:01',
                 'updated_at' => '2016-11-23 20:42:30',
             ),
-            3 =>
-                array (
-                    'id' => 4,
-                    'name' => 'TIN TỨC - KHUYỄN MẠI',
-                    'slug' => 'news',
-                    'parent_id' => '0',
-                    'created_at' => '2016-11-24 01:38:46',
-                    'updated_at' => '2016-11-24 01:38:46',
-                ),
-            4 =>
-                array (
-                    'id' => 5,
-                    'name' => 'QUẢNG CÁO - BANNER',
-                    'slug' => 'quang-cao-banner',
-                    'parent_id' => '0',
-                    'created_at' => '2016-11-24 01:38:57',
-                    'updated_at' => '2016-11-24 01:38:57',
-                ),
-            5 =>
+            3 => 
+            array (
+                'id' => 4,
+                'name' => 'TIN TỨC - KHUYỄN MẠI',
+                'slug' => 'news',
+                'parent_id' => '0',
+                'created_at' => '2016-11-24 01:38:46',
+                'updated_at' => '2016-11-24 01:38:46',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'name' => 'QUẢNG CÁO - BANNER',
+                'slug' => 'quang-cao-banner',
+                'parent_id' => '0',
+                'created_at' => '2016-11-24 01:38:57',
+                'updated_at' => '2016-11-24 01:38:57',
+            ),
+            5 => 
             array (
                 'id' => 6,
                 'name' => 'Samsung',
@@ -71,7 +71,7 @@ class CategoryTableSeeder extends Seeder
                 'created_at' => '2016-11-23 20:17:39',
                 'updated_at' => '2016-11-23 20:17:39',
             ),
-            6 =>
+            6 => 
             array (
                 'id' => 7,
                 'name' => 'Iphone',
@@ -80,7 +80,7 @@ class CategoryTableSeeder extends Seeder
                 'created_at' => '2016-11-24 01:36:10',
                 'updated_at' => '2016-11-24 01:36:10',
             ),
-            7 =>
+            7 => 
             array (
                 'id' => 8,
                 'name' => 'OPPO',
@@ -89,7 +89,7 @@ class CategoryTableSeeder extends Seeder
                 'created_at' => '2016-11-24 01:36:21',
                 'updated_at' => '2016-11-24 01:36:21',
             ),
-            8 =>
+            8 => 
             array (
                 'id' => 9,
                 'name' => 'Huawei',
@@ -98,7 +98,7 @@ class CategoryTableSeeder extends Seeder
                 'created_at' => '2016-11-24 01:36:31',
                 'updated_at' => '2016-11-24 01:36:31',
             ),
-            9 =>
+            9 => 
             array (
                 'id' => 10,
                 'name' => 'Xiaomi',
