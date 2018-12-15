@@ -6,75 +6,97 @@ use App\Models\News;
 use App\Models\Oders;
 use App\Models\Oders_detail;
 use App\Models\Products;
+use App\Services\ProductService;
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
 use Auth;
 use DB,Cart,Datetime;
 
 class PagesController extends Controller
 {
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
-        // mobile
-        $mobile = DB::table('products')
-                ->join('category', 'products.cat_id', '=', 'category.id')
-                ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id','=','1')
-                ->select('products.*','pro_details.cpu','pro_details.ram','pro_details.screen','pro_details.vga','pro_details.storage','pro_details.exten_memmory','pro_details.cam1','pro_details.cam2','pro_details.sim','pro_details.connect','pro_details.pin','pro_details.os','pro_details.note')
-                ->paginate(9);
-        $lap = DB::table('products')
-                ->join('category', 'products.cat_id', '=', 'category.id')
-                ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id','=','2')
-                ->select('products.*','pro_details.cpu','pro_details.ram','pro_details.screen','pro_details.vga','pro_details.storage','pro_details.exten_memmory','pro_details.cam1','pro_details.cam2','pro_details.sim','pro_details.connect','pro_details.pin','pro_details.os','pro_details.note')
-                ->paginate(6);
-        $pc = DB::table('products')
-                ->join('category', 'products.cat_id', '=', 'category.id')
-                ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id','=','19')
-                ->select('products.*','pro_details.cpu','pro_details.ram','pro_details.screen','pro_details.vga','pro_details.storage','pro_details.exten_memmory','pro_details.cam1','pro_details.cam2','pro_details.sim','pro_details.connect','pro_details.pin','pro_details.os','pro_details.note')
-                ->paginate(4);
-
+        list($mobile, $lap, $pc) = ProductService::getProductDetails();
     	return view('home',['mobile'=>$mobile,'laptop'=>$lap,'pc'=>$pc]);
     }
-    public function addcart($id)
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function getCart()
     {
-        $pro = Products::where('id',$id)->first();
-        Cart::add(['id' => $pro->id, 'name' => $pro->name, 'qty' => 1, 'price' => $pro->price,'options' => ['img' => $pro->images]]);
-        return redirect()->route('getcart');
+        $sameProducts = ProductService::getSameProducts();
+        return view ('detail.card')
+            ->with([
+                'slug' => 'Chi tiết đơn hàng',
+                'sameProducts' => $sameProducts
+            ]);
     }
 
-    public function getupdatecart($id,$qty,$dk)
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function addCart($id)
+    {
+        $product = Products::where('id',$id)->first();
+        Cart::add([
+            'id' => $product->id,
+            'name' => $product->name,
+            'qty' => 1,
+            'price' => $product->price,
+            'options' => ['img' => $product->images]
+        ]);
+        return redirect()->route('getCart');
+    }
+
+    /**
+     * @param $id
+     * @param $qty
+     * @param $dk
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function getUpdateCart($id,$qty,$dk)
     {
       if ($dk=='up') {
          $qt = $qty+1;
          Cart::update($id, $qt);
-         return redirect()->route('getcart');
+         return redirect()->route('getCart');
       } elseif ($dk=='down') {
          $qt = $qty-1;
          Cart::update($id, $qt);
-         return redirect()->route('getcart');
+         return redirect()->route('getCart');
       } else {
-         return redirect()->route('getcart');
+         return redirect()->route('getCart');
       }
     }
-    public function getdeletecart($id)
+
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function getDeleteCart($id)
     {
      Cart::remove($id);
-     return redirect()->route('getcart');
+     return redirect()->route('getCart');
     }
-    public function xoa()
+
+    /**
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function empty()
     {
         Cart::destroy();   
         return redirect()->route('index');   
     }
-    public function getcart()
-    {   
-    	return view ('detail.card')
-        ->with('slug','Chi tiết đơn hàng');
-    }
-    public function getoder()
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|\Illuminate\View\View
+     */
+    public function getOrder()
     {
         if (Auth::guest()) {
             return redirect('login');
@@ -84,7 +106,12 @@ class PagesController extends Controller
             ->with('slug','Xác nhận');
         }        
     }
-    public function postoder(Request $rq)
+
+    /**
+     * @param Request $rq
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function postOrder(Request $rq)
     {
         $oder = new Oders();
         $total =0;
@@ -115,7 +142,12 @@ class PagesController extends Controller
         ->with(['flash_level'=>'result_msg','flash_massage'=>' Đơn hàng của bạn đã được gửi đi !']);    
         
     }
-    public function getcate($cat)
+
+    /**
+     * @param $cat
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function getCategories($cat)
     {
     	if ($cat == 'mobile') {
             // mobile
@@ -161,6 +193,13 @@ class PagesController extends Controller
         //     return redirect()->route('index');
         // }
     }
+
+    /**
+     * @param $cat
+     * @param $id
+     * @param $slug
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
+     */
     public function detail($cat,$id,$slug)
     {
         if ($cat =='tin-tuc') {
