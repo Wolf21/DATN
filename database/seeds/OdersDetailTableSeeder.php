@@ -20,7 +20,7 @@ class OdersDetailTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'pro_id' => 26,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 1,
                 'created_at' => '2016-12-01 19:52:14',
@@ -29,7 +29,7 @@ class OdersDetailTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'pro_id' => 24,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 1,
                 'created_at' => '2016-12-01 19:52:14',
@@ -38,7 +38,7 @@ class OdersDetailTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'pro_id' => 26,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 2,
                 'created_at' => '2016-12-01 19:55:27',
@@ -47,7 +47,7 @@ class OdersDetailTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 4,
-                'pro_id' => 24,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 2,
                 'created_at' => '2016-12-01 19:55:27',
@@ -56,7 +56,7 @@ class OdersDetailTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 10,
-                'pro_id' => 35,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 6,
                 'created_at' => '2016-12-01 20:32:39',
@@ -65,7 +65,7 @@ class OdersDetailTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 11,
-                'pro_id' => 36,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 6,
                 'created_at' => '2016-12-01 20:32:39',
@@ -74,7 +74,7 @@ class OdersDetailTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 12,
-                'pro_id' => 23,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 7,
                 'created_at' => '2016-12-06 02:39:35',
@@ -83,7 +83,7 @@ class OdersDetailTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 13,
-                'pro_id' => 22,
+                'pro_id' => rand(1,9),
                 'qty' => 2,
                 'o_id' => 8,
                 'created_at' => '2016-12-17 03:52:19',
@@ -92,7 +92,7 @@ class OdersDetailTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 14,
-                'pro_id' => 23,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 9,
                 'created_at' => '2016-12-17 04:50:09',
@@ -101,7 +101,7 @@ class OdersDetailTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 15,
-                'pro_id' => 23,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 10,
                 'created_at' => '2016-12-17 04:53:28',
@@ -110,7 +110,7 @@ class OdersDetailTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 16,
-                'pro_id' => 35,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 10,
                 'created_at' => '2016-12-17 04:53:28',
@@ -119,7 +119,7 @@ class OdersDetailTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 17,
-                'pro_id' => 23,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 11,
                 'created_at' => '2016-12-17 04:54:11',
@@ -128,7 +128,7 @@ class OdersDetailTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 18,
-                'pro_id' => 35,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 12,
                 'created_at' => '2016-12-17 06:42:29',
@@ -137,7 +137,7 @@ class OdersDetailTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 19,
-                'pro_id' => 24,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 12,
                 'created_at' => '2016-12-17 06:42:29',
@@ -146,7 +146,7 @@ class OdersDetailTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 20,
-                'pro_id' => 23,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 13,
                 'created_at' => '2016-12-25 21:47:13',
@@ -155,7 +155,7 @@ class OdersDetailTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 21,
-                'pro_id' => 23,
+                'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 14,
                 'created_at' => '2016-12-25 21:50:44',
