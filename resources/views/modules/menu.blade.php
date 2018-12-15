@@ -14,38 +14,33 @@
                         <a class="top-a" href="{{ url('/') }}"> Home </a>  &nbsp;
                         <a href="#" data-toggle="modal" data-target="#login-modal"
                            style="color:#e67e22;"> Đăng nhập </a>
-                        {{-- <a class="top-a" href="{{ url('/login') }}">Login</a> --}}
                     @else
                         <a class="top-a" href="{{ url('/user') }}"
-                           style="color:#c0392b;"><strong>{!!Auth::user()->name!!}</strong></a>
+                           style="color:#c0392b;"><strong>{{Auth::user()->name}}</strong></a>
                         <a class="top-a" href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i><small>Thoát</small></a>
                     @endif
                 </span>
             </div>
+            <?php 
+            $categories = \App\Models\Category::where('parent_id', 0)->get();
+            ?>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="main-mav-top">
                 <ul class="nav navbar-nav">
-                    <li><a href="{!!url('')!!}" title="" style="color: #FFFFFF;background-color: #2c3e50;"><b
+                    <li><a href="{{url('')}}" title="" style="color: #FFFFFF;background-color: #2c3e50;"><b
                                 class="glyphicon glyphicon-home"></b> Trang chủ </a></li>
+                    @foreach($categories as $category)
                     <li>
-                        <a href="{!!url('mobile')!!}">Điện Thoại </a>
+                        <a href="{{ url('') .'/'. $category->slug }}"> {{ $category->name }} </a>
                     </li>
-                    <li>
-                        <a href="{!!url('laptop')!!}"> Laptop </a>
-                    </li>
-                    <li>
-                        <a href="{!!url('pc')!!}"> Máy Tính </a>
-                    </li>
-                    <li>
-                        <a href="{!!url('tin-tuc')!!}"> Tin Tức - Khuyễn Mãi </a>
-                    </li>
+                    @endforeach
                 </ul>
                 <ul class="nav navbar-nav pull-right">
                     {{-- <li><a href="{{ url('/admin/home') }}">Vào trang quản trị</a></li> --}}
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown"> <span
                                 class="glyphicon glyphicon-shopping-cart"><span
-                                    class="badge">{!!Cart::count();!!}</span></span> Giỏ Hàng <b class="caret"></b></a>
+                                    class="badge">{{ Cart::count() }}</span></span> Giỏ Hàng <b class="caret"></b></a>
                         <ul class="dropdown-menu" style="right:0; left: auto; min-width: 350px;">
                             @if(Cart::count() !=0)
                                 <div class="table-responsive">
@@ -61,19 +56,19 @@
                                         <tbody>
                                         @foreach(Cart::content() as $row)
                                             <tr>
-                                                <td> {!!$row->images!!} <img class="card-img img-circle"
-                                                                             src="{!!url('uploads/products/'.$row->options->img)!!}"
+                                                <td> {{$row->images}} <img class="card-img img-circle"
+                                                                             src="{{url('uploads/products/'.$row->options->img)}}"
                                                                              alt="dell"></td>
-                                                <td>{!!$row->qty!!}</td>
-                                                <td>{!!$row->name!!}</td>
-                                                <td>{!!$row->price!!} Vnd</td>
+                                                <td>{{$row->qty}}</td>
+                                                <td>{{$row->name}}</td>
+                                                <td>{{$row->price}} Vnd</td>
                                             </tr>
                                         @endforeach
                                         </tbody>
                                     </table>
-                                    <a href="{!!url('/gio-hang/')!!}" type="button" class="btn btn-success"> Chi Tiết
+                                    <a href="{{url('/gio-hang/')}}" type="button" class="btn btn-success"> Chi Tiết
                                         Giỏ Hàng </a>
-                                    <a href="{!!url('/gio-hang/xoa')!!}" type="button"
+                                    <a href="{{url('/gio-hang/xoa')}}" type="button"
                                        class="btn btn-danger pull-right"> Xóa </a>
                                 </div>
                             @else
@@ -82,13 +77,13 @@
                                         <thead>
                                         <tr>
                                             <th>Ảnh</th>
-                                            <th>LS</th>
+                                            <th>SL</th>
                                             <th>Tên <SPAN></SPAN></th>
                                             <th>Giá</th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <td colspan="3">Hện đang trống</td>
+                                        <td colspan="3">Giỏ Hàng Trống</td>
                                         </tbody>
                                     </table>
                                 </div>
@@ -120,12 +115,12 @@
 <!-- left slider bar nav -->
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Đóng</a>
-    <a href="{!!url('mobile')!!}">Điện Thoại</a>
-    <a href="{!!url('laptop')!!}">Laptop</a>
-    <a href="{!!url('pc')!!}">Máy Tính</a>
-    <a href="{!!url('tin-tuc')!!}">Tin Tức</a>
-    <a href="{!!url('gio-hang')!!}"> <span class="glyphicon glyphicon-shopping-cart"><span
-                class="badge">{!!Cart::count()!!}</span></span> Giỏ Hàng </a>
+    <a href="{{url('mobile')}}">Điện Thoại</a>
+    <a href="{{url('laptop')}}">Laptop</a>
+    <a href="{{url('pc')}}">Máy Tính</a>
+    <a href="{{url('tin-tuc')}}">Tin Tức</a>
+    <a href="{{url('gio-hang')}}"> <span class="glyphicon glyphicon-shopping-cart"><span
+                class="badge">{{Cart::count()}}</span></span> Giỏ Hàng </a>
 </div>
 <!-- /left slider bar nav -->
 
@@ -167,7 +162,7 @@
                 <input type="submit" name="login" class="btn btn-primary" value="Đăng nhập">
             </form>
             <div class="login-help">
-                <a class="btn btn-link" href="{!!url('/register')!!}"> <strong style="color:red;"> Đăng ký </strong>
+                <a class="btn btn-link" href="{{url('/register')}}"> <strong style="color:red;"> Đăng ký </strong>
                 </a> - <a class="btn btn-link" href="{{ url('/password/reset') }}">Bạn đã quên mật khẩu?</a>
             </div>
         </div>
