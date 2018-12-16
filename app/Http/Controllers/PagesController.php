@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\Categories;
 use App\Models\News;
 use App\Models\Oders;
 use App\Models\Oders_detail;
 use App\Models\Products;
+use App\Services\CategoriesService;
 use App\Services\ProductService;
 use Illuminate\Http\Request;
 
@@ -149,34 +151,8 @@ class PagesController extends Controller
      */
     public function getCategories($cat)
     {
-        if ($cat == 'mobile') {
-            // mobile
-            $mobile = DB::table('products')
-                ->join('category', 'products.cat_id', '=', 'category.id')
-                ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id', '=', '1')
-                ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
-                ->paginate(12);
-            return view('category.mobile', ['data' => $mobile]);
-        } elseif ($cat == 'laptop') {
-            // mobile
-            $lap = DB::table('products')
-                ->join('category', 'products.cat_id', '=', 'category.id')
-                ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id', '=', '2')
-                ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
-                ->paginate(12);
-            return view('category.laptop', ['data' => $lap]);
-        } elseif ($cat == 'pc') {
-            // mobile
-            $pc = DB::table('products')
-                ->join('category', 'products.cat_id', '=', 'category.id')
-                ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-                ->where('category.parent_id', '=', '19')
-                ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
-                ->paginate(8);
-            return view('category.pc', ['data' => $pc]);
-        } elseif ($cat == 'tin-tuc') {
+        $cat_parent_id = CategoriesService::getCategoryBySlug($cat);
+        if ($cat == Categories::NEWS) {
             $new = DB::table('news')
                 ->orderBy('created_at', 'desc')
                 ->paginate(3);
@@ -185,10 +161,10 @@ class PagesController extends Controller
                 ->orderBy('created_at', 'desc')
                 ->paginate(5);
             return view('category.news', ['data' => $new, 'hot1' => $top1, 'all' => $all]);
+        } else {
+            $products = ProductService::getProductByCategory($cat_parent_id);
+            return view('category.mobile', ['products', $products]);
         }
-        // else{
-        //     return redirect()->route('index');
-        // }
     }
 
     /**

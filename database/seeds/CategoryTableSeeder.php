@@ -57,7 +57,7 @@ class CategoryTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'name' => 'QUẢNG CÁO - BANNER',
-                'slug' => 'quang-cao-banner',
+                'slug' => 'ad-banner',
                 'parent_id' => '0',
                 'created_at' => '2016-11-24 01:38:57',
                 'updated_at' => '2016-11-24 01:38:57',
