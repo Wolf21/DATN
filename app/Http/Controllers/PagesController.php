@@ -151,7 +151,7 @@ class PagesController extends Controller
      */
     public function getCategories($cat)
     {
-        $cat_parent_id = CategoriesService::getCategoryBySlug($cat);
+        $cat_parent = CategoriesService::getCategoryBySlug($cat);
         if ($cat == Categories::NEWS) {
             $new = DB::table('news')
                 ->orderBy('created_at', 'desc')
@@ -162,8 +162,8 @@ class PagesController extends Controller
                 ->paginate(5);
             return view('category.news', ['data' => $new, 'hot1' => $top1, 'all' => $all]);
         } else {
-            $products = ProductService::getProductByCategory($cat_parent_id);
-            return view('category.mobile', ['products', $products]);
+            $products = ProductService::getProductByCategory($cat_parent->id);
+            return view('category.mobile', ['products' => $products]);
         }
     }
 
