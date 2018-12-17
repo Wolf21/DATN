@@ -87,8 +87,7 @@ class ProductService
                 'pro_details.pin',
                 'pro_details.os',
                 'pro_details.note'
-            )
-            ->paginate(12);
+            )->paginate(12);
     }
 
 }

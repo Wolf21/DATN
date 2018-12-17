@@ -1,3 +1,10 @@
+<style>
+    .custom-active {
+        color: #FFFFFF !important;
+        background-color: #2c3e50 !important;
+    }
+</style>
+
 <!-- main menu  navbar -->
 <nav class="navbar navbar-default navbar-top" role="navigation" id="main-Nav"
      style="background-color: #16a085;margin-bottom: 5px;font-size: 13px;">
@@ -21,18 +28,18 @@
                     @endif
                 </span>
             </div>
-            <?php 
-            $categories = \App\Models\Category::where('parent_id', 0)->get();
-            ?>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+        <?php
+        $categories = \App\Models\Category::where('parent_id', 0)->get();
+        ?>
+        <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="main-mav-top">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{url('')}}" title="" style="color: #FFFFFF;background-color: #2c3e50;"><b
-                                class="glyphicon glyphicon-home"></b> Trang chủ </a></li>
+                    <li class="main-page custom-active"><a href="{{url('')}}" title=""><b
+                                class="glyphicon glyphicon-home"></b> TRANG CHỦ </a></li>
                     @foreach($categories as $category)
-                    <li>
-                        <a href="{{ url('') .'/'. $category->slug }}"> {{ $category->name }} </a>
-                    </li>
+                        <li>
+                            <a href="{{ url('') .'/'. $category->slug }}" class="top-menu"> {{ $category->name }} </a>
+                        </li>
                     @endforeach
                 </ul>
                 <ul class="nav navbar-nav pull-right">
@@ -57,8 +64,8 @@
                                         @foreach(Cart::content() as $row)
                                             <tr>
                                                 <td> {{$row->images}} <img class="card-img img-circle"
-                                                                             src="{{url('uploads/products/'.$row->options->img)}}"
-                                                                             alt="dell"></td>
+                                                                           src="{{url('uploads/products/'.$row->options->img)}}"
+                                                                           alt="dell"></td>
                                                 <td>{{$row->qty}}</td>
                                                 <td>{{$row->name}}</td>
                                                 <td>{{$row->price}} Vnd</td>
@@ -112,18 +119,6 @@
     </div><!-- /container -->
 </nav>    <!-- /main nav -->
 
-<!-- left slider bar nav -->
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Đóng</a>
-    <a href="{{url('mobile')}}">Điện Thoại</a>
-    <a href="{{url('laptop')}}">Laptop</a>
-    <a href="{{url('pc')}}">Máy Tính</a>
-    <a href="{{url('tin-tuc')}}">Tin Tức</a>
-    <a href="{{url('gio-hang')}}"> <span class="glyphicon glyphicon-shopping-cart"><span
-                class="badge">{{Cart::count()}}</span></span> Giỏ Hàng </a>
-</div>
-<!-- /left slider bar nav -->
-
 {{-- loginform --}}
 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
      style="display: none;">
@@ -168,3 +163,15 @@
         </div>
     </div>
 </div>
+@section('script')
+    <script>
+        $(document).ready(function () {
+            $('.top-menu').each(function (index, element){
+                if (location.href === element.href) {
+                    $(this).addClass('custom-active');
+                    $('.main-page').removeClass('custom-active');
+                }
+            });
+        });
+    </script>
+@stop
