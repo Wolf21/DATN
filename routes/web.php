@@ -5,9 +5,7 @@ Route::get('/user', 'HomeController@index');
 Route::get('/user/edit', 'HomeController@edit');
 
 // admin route
-Route::get('admin/login', 'Admin\AuthController@showLoginForm')->name('getLogin');
-Route::post('admin/login', 'Admin\AuthController@login')->name('postLogin');
-Route::get('admin/password/reset', 'Admin\AuthController@email')->name('getReset');
+Route::get('/password/reset', 'Auth\AuthController@email')->name('getReset');
 
 Route::get('admin/logout', 'Admin\AuthController@logout');
 
@@ -21,8 +19,8 @@ Route::group(['prefix' => '/'], function () {
     Route::get('cart/empty', 'PagesController@empty')->name('getEmpty');
 
 // tien hanh dat hang
-    Route::get('dat-hang', 'PagesController@getOrder')->name('getOrder');
-    Route::post('dat-hang', 'PagesController@postOrder')->name('postOrder');
+    Route::get('order', 'PagesController@getOrder')->name('getOrder');
+    Route::post('order/complete', 'PagesController@postOrder')->name('orderComplete');
 // category
     Route::get('/{cat}', 'PagesController@getCategories')->name('getCategories');
     Route::get('/{cat}/{id}-{slug}', 'PagesController@detail')->name('getDetail');
@@ -103,3 +101,7 @@ Route::group(['middleware' => 'admin'], function () {
         // ---------------van de khac ----------------------
     });
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
