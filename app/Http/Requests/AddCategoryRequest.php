@@ -24,12 +24,14 @@ class AddCategoryRequest extends Request
     public function rules()
     {
         return [
+            'sltCate' => 'required',
             'txtCateName' => 'required|unique:category,name'
         ];
     }
     public function messages()
     {
         return [
+            'sltCate.required' => ' Hãy chọn danh mục cha',
             'txtCateName.required' => ' Hãy nhập tên danh mục ',
             'txtCateName.unique' => 'Tên danh mục này đã tồn tại '
             

@@ -8,6 +8,7 @@ use App\Http\Requests\LoginRequest;
 use App\Services\LoginService;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
@@ -58,18 +59,30 @@ class LoginController extends Controller
      */
     public static function login(LoginRequest $request)
     {
-        $inputs = $request->only('name', 'password');
-        $user = LoginService::getUserByName($inputs['name']);
+        $inputs = $request->only('user_name', 'password');
+        Input::flashExcept('password');
+        $user = LoginService::getUserByName($inputs['user_name']);
         $message = LoginService::getMessage($user);
         if (empty($message) && Auth::attempt($inputs)) {
             if ($user->role == Role::ADMIN) {
-                return redirect(url('/admin'));
+                return redirect(url('/admin/home'));
             } else {
                 return redirect(url('/'));
             }
         }
         Session::flash('error', $message['msg']);
         return redirect()->back();
+    }
+
+    /**
+     * Handle a logout request to the application.
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function logout()
+    {
+        Auth::guard()->logout();
+        return redirect(url('/'));
     }
 
 }

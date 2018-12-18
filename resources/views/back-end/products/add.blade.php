@@ -10,7 +10,7 @@
 		</div><!--/.row-->
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header"><small>Thêm mới sản phẩm: {!!$loai!!}</small></h1>
+				<h1 class="page-header"><small>Thêm mới sản phẩm: {{$loai}}</small></h1>
 			</div>
 		</div><!--/.row-->		
 		<div class="row">
@@ -28,7 +28,7 @@
 				    @elseif (Session()->has('flash_level'))
 				    	<div class="alert alert-success">
 					        <ul>
-					            {!! Session::get('flash_massage') !!}	
+					            {{ Session::get('flash_massage') }}	
 					        </ul>
 					    </div>
 					@endif
@@ -39,7 +39,7 @@
 					      		<select name="sltCate" id="inputSltCate" required class="form-control">
 					      			<option value="">--Chọn thương hiệu--</option>
 					      			@foreach($cat as $dt)
-					      				<option value="{!!$dt->id!!}" >{!!'--|--|'.$dt->name!!}</option> 	
+					      				<option value="{{$dt->id}}" >{{$dt->name}}</option>
 					      			@endforeach	
 					      		</select>
 				      		</div>
@@ -132,7 +132,7 @@
 				      			<div class="row">
 					      			@for( $i=1; $i<=12; $i++)
 					      			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					      				Hình ảnh {!!$i!!} : <input type="file" name="txtdetail_img[]" value="{{ old('txtdetail_img[]') }}" accept="image/png" id="inputtxtdetail_img" class="form-control">
+					      				Hình ảnh {{$i}} : <input type="file" name="txtdetail_img[]" value="{{ old('txtdetail_img[]') }}" accept="image/png" id="inputtxtdetail_img" class="form-control">
 					      			</div>
 					      			@endfor
 					      		</div>				      			

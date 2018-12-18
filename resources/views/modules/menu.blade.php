@@ -73,9 +73,9 @@
                                         @endforeach
                                         </tbody>
                                     </table>
-                                    <a href="{{url('/gio-hang/')}}" type="button" class="btn btn-success"> Chi Tiết
+                                    <a href="{{url('/cart/')}}" type="button" class="btn btn-success"> Chi Tiết
                                         Giỏ Hàng </a>
-                                    <a href="{{url('/gio-hang/xoa')}}" type="button"
+                                    <a href="{{url('/cart/empty')}}" type="button"
                                        class="btn btn-danger pull-right"> Xóa </a>
                                 </div>
                             @else

@@ -1,7 +1,11 @@
 <?php
 
-//Route::auth();
+
+//Auth::routes();
 Route::get('/user', 'HomeController@index');
+Route::get('/login', 'Auth\LoginController@showLoginForm');
+Route::post('/login', 'Auth\LoginController@login');
+Route::get('/logout', 'Auth\LoginController@logout');
 Route::get('/user/edit', 'HomeController@edit');
 
 // admin route
@@ -31,31 +35,30 @@ Route::resource('payment', 'PayMentController');
 // --------------------------------cac cong viec trong admin (back-end)---------------------------------------
 Route::group(['prefix' => 'admin'], function () {
 
-    Route::get('/', function () {
-        dd('ok');
+    Route::get('/home', function () {
         return view('back-end.home');
     });
     // -------------------- quan ly danh muc----------------------
-    Route::group(['prefix' => 'danhmuc'], function () {
-        Route::get('add', ['as' => 'getaddcat', 'uses' => 'CategoryController@getadd']);
-        Route::post('add', ['as' => 'postaddcat', 'uses' => 'CategoryController@postadd']);
+    Route::group(['prefix' => 'category'], function () {
+        Route::get('/', ['as' => 'getCat', 'uses' => 'CategoryController@getList']);
+        Route::get('add', ['as' => 'getAddCat', 'uses' => 'CategoryController@getAdd']);
+        Route::post('add', ['as' => 'postAddCat', 'uses' => 'CategoryController@postAdd']);
 
-        Route::get('/', ['as' => 'getcat', 'uses' => 'CategoryController@getlist']);
-        Route::get('del/{id}', ['as' => 'getdellcat', 'uses' => 'CategoryController@getdel'])->where('id', '[0-9]+');
+        Route::get('delete/{id}', ['as' => 'getDelCat', 'uses' => 'CategoryController@getDelete'])->where('id', '[0-9]+');
 
-        Route::get('edit/{id}', ['as' => 'geteditcat', 'uses' => 'CategoryController@getedit'])->where('id', '[0-9]+');
-        Route::post('edit/{id}', ['as' => 'posteditcat', 'uses' => 'CategoryController@postedit'])->where('id', '[0-9]+');
+        Route::get('edit/{id}', ['as' => 'getEditCat', 'uses' => 'CategoryController@getEdit'])->where('id', '[0-9]+');
+        Route::post('edit/{id}', ['as' => 'postEditCat', 'uses' => 'CategoryController@postEdit'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly danh muc--------------------
-    Route::group(['prefix' => '/sanpham'], function () {
-        Route::get('/{loai}/add', ['as' => 'getaddpro', 'uses' => 'ProductsController@getadd']);
-        Route::post('/{loai}/add', ['as' => 'postaddpro', 'uses' => 'ProductsController@postadd']);
+    Route::group(['prefix' => '/product'], function () {
+        Route::get('/{loai}/add', ['as' => 'getAddProduct', 'uses' => 'ProductsController@getAdd']);
+        Route::post('/{loai}/add', ['as' => 'postAddProduct', 'uses' => 'ProductsController@postAdd']);
 
-        Route::get('/{loai}', ['as' => 'getpro', 'uses' => 'ProductsController@getlist']);
-        Route::get('/del/{id}', ['as' => 'getdellpro', 'uses' => 'ProductsController@getdel'])->where('id', '[0-9]+');
+        Route::get('/{loai}', ['as' => 'getProduct', 'uses' => 'ProductsController@getList']);
+        Route::get('/delete/{id}', ['as' => 'getDelProduct', 'uses' => 'ProductsController@getDelete'])->where('id', '[0-9]+');
 
-        Route::get('/{loai}/edit/{id}', ['as' => 'geteditpro', 'uses' => 'ProductsController@getedit'])->where('id', '[0-9]+');
-        Route::post('/{loai}/edit/{id}', ['as' => 'posteditpro', 'uses' => 'ProductsController@postedit'])->where('id', '[0-9]+');
+        Route::get('/edit/{id}', ['as' => 'getEditProduct', 'uses' => 'ProductsController@getEdit'])->where('id', '[0-9]+');
+        Route::post('/edit/{id}', ['as' => 'postEditProduct', 'uses' => 'ProductsController@postEdit'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly danh muc-----------------------------
     Route::group(['prefix' => '/news'], function () {
@@ -69,14 +72,14 @@ Route::group(['prefix' => 'admin'], function () {
         Route::post('/edit/{id}', ['as' => 'posteditnews', 'uses' => 'NewsController@postedit'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly đơn đặt hàng--------------------
-    Route::group(['prefix' => '/donhang'], function () {
+    Route::group(['prefix' => '/order'], function () {
         ;
 
-        Route::get('', ['as' => 'getpro', 'uses' => 'OdersController@getlist']);
-        Route::get('/del/{id}', ['as' => 'getdeloder', 'uses' => 'OdersController@getdel'])->where('id', '[0-9]+');
+        Route::get('/', ['as' => 'getProduct', 'uses' => 'OrdersController@getList']);
+        Route::get('/delete/{id}', ['as' => 'getDelOrder', 'uses' => 'OrdersController@getDelete'])->where('id', '[0-9]+');
 
-        Route::get('/detail/{id}', ['as' => 'getdetail', 'uses' => 'OdersController@getdetail'])->where('id', '[0-9]+');
-        Route::post('/detail/{id}', ['as' => 'postdetail', 'uses' => 'OdersController@postdetail'])->where('id', '[0-9]+');
+        Route::get('/detail/{id}', ['as' => 'getDetail', 'uses' => 'OrdersController@getDetail'])->where('id', '[0-9]+');
+        Route::post('/detail/{id}', ['as' => 'postDetail', 'uses' => 'OrdersController@postDetail'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly thong tin khach hang--------------------
     Route::group(['prefix' => '/khachhang'], function () {
@@ -100,7 +103,3 @@ Route::group(['prefix' => 'admin'], function () {
     });
     // ---------------van de khac ----------------------
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

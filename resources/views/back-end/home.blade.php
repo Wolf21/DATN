@@ -9,8 +9,8 @@
 			</ol>
 		</div><!--/.row-->
 		<?php 
-          $oder = DB::table('oders')->count('*'); 
-          $oder_new = DB::table('oders')->where('status',0)->count('*'); 
+          $oder = DB::table('orders')->count('*');
+          $oder_new = DB::table('orders')->where('status',0)->count('*');
           $mem = DB::table('users')->count('*');            
           $pro = DB::table('products')->count('*');            
 

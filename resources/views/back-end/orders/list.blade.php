@@ -49,11 +49,11 @@
 									@foreach($data as $row)
 										<tr>
 											<td>{!!$row->id!!}</td>
-											<td>{!!$row->user->name!!}</td>
-											<td>{!!$row->user->address!!}</td>
-											<td>{!!$row->user->phone!!}</td>
-											<td>{!!$row->user->email!!}</td>											
-											<td>{!!$row->created_at!!}</td>
+											<td>{!!$row->name!!}</td>
+											<td>{!!$row->address!!}</td>
+											<td>{!!$row->phone!!}</td>
+											<td>{!!$row->email!!}</td>
+											<td>{!!$row ->created_at!!}</td>
 											<td>{!!$row->total!!} Vnd</td>
 											<td>
 												@if($row->status ==0)
@@ -63,8 +63,8 @@
 												@endif
 											</td>
 											<td>
-											    <a href="{!!url('admin/donhang/detail/'.$row->id)!!}" title="Chi tiết">Chi tiết  </a> &nbsp;
-											    <a href="{!!url('admin/donhang/del/'.$row->id)!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')"> Hủy bỏ</a>
+											    <a href="{!!url('admin/order/detail/'.$row->id)!!}" title="Chi tiết">Chi tiết  </a> &nbsp;
+											    <a href="{!!url('admin/order/delete/'.$row->id)!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')"> Hủy bỏ</a>
 											</td>
 										</tr>
 									@endforeach								
