@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Day 001 Login Form</title>
+    <title>Mobile Shop : Hệ thống bán hàng trực tuyến</title>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
     <link rel="stylesheet" href="{{ url('/css/login.css') }}">
 </head>

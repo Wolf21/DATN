@@ -44,5 +44,11 @@ class LoginController extends Controller
     {
         return view('auth.login');
     }
+
+    public static function login()
+    {
+        dd(1);
+        return view('auth.login');
+    }
     
 }
