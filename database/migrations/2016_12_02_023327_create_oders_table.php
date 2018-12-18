@@ -12,7 +12,7 @@ class CreateOdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('oders', function (Blueprint $table) {
+        Schema::create('orders', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('c_id')->unsigned();
             $table->foreign('c_id')->references('id')->on('users')->onDelete('cascade');
@@ -33,6 +33,6 @@ class CreateOdersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('oders');
+        Schema::drop('orders');
     }
 }

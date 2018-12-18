@@ -18,7 +18,7 @@ class CreateOdersDetailTable extends Migration
             $table->foreign('pro_id')->references('id')->on('products')->onDelete('cascade');
             $table->integer('qty');
             $table->integer('o_id')->unsigned();
-            $table->foreign('o_id')->references('id')->on('oders')->onDelete('cascade');
+            $table->foreign('o_id')->references('id')->on('orders')->onDelete('cascade');
             $table->timestamps();
         });
     }

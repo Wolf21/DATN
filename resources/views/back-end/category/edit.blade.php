@@ -40,7 +40,6 @@
 					      		<label for="input-id">Danh mục cha</label>
 					      		<select name="sltCate" id="inputSltCate" class="form-control">
 					      			<option value="0">-ROOT --</option>
-					      			<?php MenuMulti($cat,0,$str='---| ',$data['parent_id']); ?>  		
 					      		</select>
 				      		</div>
 				      		<div class="form-group">

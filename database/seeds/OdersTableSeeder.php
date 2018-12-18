@@ -14,9 +14,9 @@ class OdersTableSeeder extends Seeder
     {
         
 
-        \DB::table('oders')->delete();
+        \DB::table('orders')->delete();
         
-        \DB::table('oders')->insert(array (
+        \DB::table('orders')->insert(array (
             0 => 
             array (
                 'id' => 1,
