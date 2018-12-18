@@ -12,6 +12,11 @@
 
 <div class="login-wrap">
     <div class="login-html">
+        <div style="margin-bottom: 25px;">
+            @if(session('error'))
+                <p class="text-error">{{ session('error') }}</p>
+            @endif
+        </div>
         <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
         <label for="tab-1" class="tab"><a href="{{ url('/login') }}">ĐăngNhập</a></label>
         <input id="tab-2" type="radio" name="tab" class="sign-up">
@@ -21,13 +26,13 @@
             <div class="sign-in-htm">
                 <div class="group">
                     <label for="user" class="label">Tên Đăng Nhập</label>
-                    <input id="user" type="text" class="input" name="name">
-                    <div class="text-danger">{{ $errors->first('name') }}</div>
+                    <input id="user" type="text" class="input" name="user_name" value="{{ old('user_name') ?? '' }}">
+                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
                 </div>
                 <div class="group">
                     <label for="pass" class="label">Mật Khẩu</label>
                     <input id="pass" type="password" class="input" data-type="password" name="password">
-                    <div class="text-danger">{{ $errors->first('password') }}</div>
+                    <div><p class="text-error">{{ $errors->first('password') }}</p></div>
                 </div>
                 <div class="group">
                     <input type="submit" class="button" value="Đăng Nhập">
@@ -43,22 +48,22 @@
                 <div class="group">
                     <label for="user" class="label">Tên Đăng Nhập</label>
                     <input id="user" type="text" class="input">
-                    <div class="text-danger">{{ $errors->first('password') }}</div>
+                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
                 </div>
                 <div class="group">
                     <label for="pass" class="label">Mật Khẩu</label>
                     <input id="pass" type="password" class="input" data-type="password">
-                    <div class="text-danger">{{ $errors->first('password') }}</div>
+                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
                 </div>
                 <div class="group">
                     <label for="pass" class="label">Nhập Lại Mật Khẩu</label>
                     <input id="pass" type="password" class="input" data-type="password">
-                    <div class="text-danger">{{ $errors->first('password') }}</div>
+                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
                 </div>
                 <div class="group">
                     <label for="pass" class="label">Email</label>
                     <input id="pass" type="text" class="input">
-                    <div class="text-danger">{{ $errors->first('password') }}</div>
+                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
                 </div>
                 <div class="group">
                     <input type="submit" class="button" value="Đăng Ký">

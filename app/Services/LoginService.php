@@ -15,7 +15,7 @@ class LoginService
      */
     public static function getUserByName($name)
     {
-        return User::where('name', 'LIKE BINARY', $name)
+        return User::where('user_name', 'LIKE BINARY', $name)
             ->first();
     }
 
@@ -30,11 +30,11 @@ class LoginService
         //check account not exist
         if (!$user) {
             return [
-                'msg' => iniGetMessage('MSG_INCORRECT_USER_OR_PASSWORD')
+                'msg' => 'Tài Khoản Hoặc Mật Khẩu Không Đúng!'
             ];
         } elseif (!$user->status) {
             return [
-                'msg' => iniGetMessage('MSG_USER_IN_ACTIVE')
+                'msg' => 'Tài Khoản Của Bạn Đã Bị Inactive, Vui Lòng Liên Hệ Admin!'
             ];
         }
         return [];

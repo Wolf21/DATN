@@ -1,7 +1,11 @@
 <?php
 
-//Route::auth();
+
+//Auth::routes();
 Route::get('/user', 'HomeController@index');
+Route::get('/login', 'Auth\LoginController@showLoginForm');
+Route::post('/login', 'Auth\LoginController@login');
+Route::get('/logout', 'Auth\LoginController@logout');
 Route::get('/user/edit', 'HomeController@edit');
 
 // admin route
@@ -31,8 +35,7 @@ Route::resource('payment', 'PayMentController');
 // --------------------------------cac cong viec trong admin (back-end)---------------------------------------
 Route::group(['prefix' => 'admin'], function () {
 
-    Route::get('/', function () {
-        dd('ok');
+    Route::get('/home', function () {
         return view('back-end.home');
     });
     // -------------------- quan ly danh muc----------------------
@@ -100,7 +103,3 @@ Route::group(['prefix' => 'admin'], function () {
     });
     // ---------------van de khac ----------------------
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

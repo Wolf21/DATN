@@ -20,8 +20,9 @@ class UsersTableSeeder extends Seeder
         $users = [
             [
                 'id' => 1,
-                'name' => 'admin',
+                'user_name' => 'admin',
                 'email' => 'cuongnq211@gmail.com',
+                'name' => 'Admin',
                 'password' => '123456',
                 'role' => \App\Enums\Role::ADMIN,
                 'phone' => '0868896944',
@@ -33,8 +34,9 @@ class UsersTableSeeder extends Seeder
             [
 
                 'id' => 2,
-                'name' => 'user',
+                'user_name' => 'user',
                 'email' => 'cgvnd123@gmail.com',
+                'name' => 'User',
                 'password' => '123456',
                 'role' => \App\Enums\Role::USER,
                 'phone' => '0868896944',
