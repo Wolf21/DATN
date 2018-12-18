@@ -45,6 +45,6 @@ class User extends Authenticatable
      */
     public function getRole()
     {
-        return $this->role_id;
+        return $this->role;
     }
 }

@@ -2,8 +2,13 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Enums\Role;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\LoginRequest;
+use App\Services\LoginService;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
@@ -45,10 +50,26 @@ class LoginController extends Controller
         return view('auth.login');
     }
 
-    public static function login()
+    /**
+     * handler login
+     *
+     * @param LoginRequest $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public static function login(LoginRequest $request)
     {
-        dd(1);
-        return view('auth.login');
+        $inputs = $request->only('name', 'password');
+        $user = LoginService::getUserByName($inputs['name']);
+        $message = LoginService::getMessage($user);
+        if (empty($message) && Auth::attempt($inputs)) {
+            if ($user->role == Role::ADMIN) {
+                return redirect(url('/admin'));
+            } else {
+                return redirect(url('/'));
+            }
+        }
+        Session::flash('error', $message['msg']);
+        return redirect()->back();
     }
-    
+
 }
