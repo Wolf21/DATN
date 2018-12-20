@@ -40,9 +40,9 @@ Route::group(['prefix' => 'admin'], function () {
     });
     // -------------------- quan ly danh muc----------------------
     Route::group(['prefix' => 'category'], function () {
-        Route::get('/', ['as' => 'getCat', 'uses' => 'CategoryController@getList']);
-        Route::get('add', ['as' => 'getAddCat', 'uses' => 'CategoryController@getAdd']);
-        Route::post('add', ['as' => 'postAddCat', 'uses' => 'CategoryController@postAdd']);
+        Route::get('/', 'CategoryController@getList')->name('getCat');
+        Route::get('add', 'CategoryController@getAdd')->name('getAddCat');
+        Route::post('add', 'CategoryController@postAdd')->name('postAddCat');
 
         Route::get('delete/{id}', ['as' => 'getDelCat', 'uses' => 'CategoryController@getDelete'])->where('id', '[0-9]+');
 
@@ -82,24 +82,24 @@ Route::group(['prefix' => 'admin'], function () {
         Route::post('/detail/{id}', ['as' => 'postDetail', 'uses' => 'OrdersController@postDetail'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly thong tin khach hang--------------------
-    Route::group(['prefix' => '/khachhang'], function () {
+    Route::group(['prefix' => '/user'], function () {
         ;
 
-        Route::get('', ['as' => 'getmem', 'uses' => 'UsersController@getlist']);
-        Route::get('/del/{id}', ['as' => 'getdelmem', 'uses' => 'UsersController@getdel'])->where('id', '[0-9]+');
+        Route::get('', ['as' => 'getUser', 'uses' => 'UsersController@getList']);
+        Route::get('/delete/{id}', ['as' => 'getDelUser', 'uses' => 'UsersController@getDelete'])->where('id', '[0-9]+');
 
-        Route::get('/edit/{id}', ['as' => 'geteditmem', 'uses' => 'UsersController@getedit'])->where('id', '[0-9]+');
-        Route::post('/edit/{id}', ['as' => 'posteditmem', 'uses' => 'UsersController@postedit'])->where('id', '[0-9]+');
+        Route::get('/edit/{id}', ['as' => 'getEditUser', 'uses' => 'UsersController@getEdit'])->where('id', '[0-9]+');
+        Route::post('/edit/{id}', ['as' => 'postEditUser', 'uses' => 'UsersController@postEdit'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly thong nhan vien--------------------
-    Route::group(['prefix' => '/nhanvien'], function () {
+    Route::group(['prefix' => '/member'], function () {
         ;
 
-        Route::get('', ['as' => 'getnv', 'uses' => 'Admin_usersController@getlist']);
-        Route::get('/del/{id}', ['as' => 'getdelnv', 'uses' => 'Admin_usersController@getdel'])->where('id', '[0-9]+');
+        Route::get('', ['as' => 'getMember', 'uses' => 'Admin_usersController@getList']);
+        Route::get('/delete/{id}', ['as' => 'getDelMember', 'uses' => 'Admin_usersController@getDelete'])->where('id', '[0-9]+');
 
-        Route::get('/edit/{id}', ['as' => 'geteditnv', 'uses' => 'Admin_usersController@getedit'])->where('id', '[0-9]+');
-        Route::post('/edit/{id}', ['as' => 'posteditnv', 'uses' => 'Admin_usersController@postedit'])->where('id', '[0-9]+');
+        Route::get('/edit/{id}', ['as' => 'getEditMember', 'uses' => 'Admin_usersController@getEdit'])->where('id', '[0-9]+');
+        Route::post('/edit/{id}', ['as' => 'postEditMember', 'uses' => 'Admin_usersController@postEdit'])->where('id', '[0-9]+');
     });
     // ---------------van de khac ----------------------
 });
