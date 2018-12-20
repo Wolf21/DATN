@@ -29,7 +29,7 @@ class CategoryController extends Controller
         $cat->slug = str_slug($rq->txtCateName, '-');
         $cat->created_at = Carbon::now();
         $cat->save();
-        return redirect()->route('getcat')
+        return redirect()->route('getCat')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã thêm thành công !']);
 
     }
@@ -49,7 +49,7 @@ class CategoryController extends Controller
         $cat->parent_id = $request->sltCate;
         $cat->updated_at = new DateTime;
         $cat->save();
-        return redirect()->route('getcat')
+        return redirect()->route('getCat')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã sửa']);
 
     }
@@ -60,13 +60,13 @@ class CategoryController extends Controller
         if ($parent_id == 0) {
             $category = category::find($id);
             $category->delete();
-            return redirect()->route('getcat')
+            return redirect()->route('getCat')
                 ->with(['flash_level' => 'result_msg', 'flash_massage' => 'Đã xóa !']);
         } else {
             echo '<script type="text/javascript">
                   alert("Không thể xóa danh mục này !");                
                 window.location = "';
-            echo route('getcat');
+            echo route('getCat');
             echo '";
          </script>';
         }

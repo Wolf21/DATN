@@ -31,7 +31,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         Sánh sách loại sản phẩm
-                        <a href="{!!url('admin/category/add')!!}" title="">
+                        <a href="{{url('admin/category/add')}}" title="">
                             <button type="button" class="btn btn-primary pull-right">Thêm mới danh mục</button>
                         </a>
                     </div>
@@ -46,7 +46,7 @@
                     @elseif (Session()->has('flash_level'))
                         <div class="alert alert-success">
                             <ul>
-                                {!! Session::get('flash_massage') !!}
+                                {{ Session::get('flash_massage') }}
                             </ul>
                         </div>
                     @endif

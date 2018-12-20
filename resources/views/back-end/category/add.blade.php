@@ -40,7 +40,7 @@
                                 </ul>
                             </div>
                         @endif
-                        {{Form::open(['url' => route('postaddcat'), 'method' => 'POST', 'role' => 'form'])}}
+                        {{Form::open(['url' => route('postAddCat'), 'method' => 'POST', 'role' => 'form'])}}
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="input-id">Danh mục cha</label>

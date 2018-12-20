@@ -40,9 +40,9 @@ Route::group(['prefix' => 'admin'], function () {
     });
     // -------------------- quan ly danh muc----------------------
     Route::group(['prefix' => 'category'], function () {
-        Route::get('/', ['as' => 'getCat', 'uses' => 'CategoryController@getList']);
-        Route::get('add', ['as' => 'getAddCat', 'uses' => 'CategoryController@getAdd']);
-        Route::post('add', ['as' => 'postAddCat', 'uses' => 'CategoryController@postAdd']);
+        Route::get('/', 'CategoryController@getList')->name('getCat');
+        Route::get('add', 'CategoryController@getAdd')->name('getAddCat');
+        Route::post('add', 'CategoryController@postAdd')->name('postAddCat');
 
         Route::get('delete/{id}', ['as' => 'getDelCat', 'uses' => 'CategoryController@getDelete'])->where('id', '[0-9]+');
 
