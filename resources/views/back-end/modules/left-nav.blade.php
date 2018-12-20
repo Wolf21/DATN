@@ -32,13 +32,13 @@
                 </svg>
                 Đơn đặt hàng</a></li>
 
-        <li><a href="{{url('admin/khachhang')}}">
+        <li><a href="{{url('admin/user')}}">
                 <svg class="glyph stroked app-window">
                     <use xlink:href="#stroked-line-graph"></use>
                 </svg>
                 Khách hàng</a></li>
 
-        <li><a href="{{url('admin/nhanvien')}}">
+        <li><a href="{{url('admin/member')}}">
                 <svg class="glyph stroked female user">
                     <use xlink:href="#stroked-female-user"/>
                 </svg>

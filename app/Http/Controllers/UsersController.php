@@ -9,12 +9,12 @@ use App\Models\User;
 
 class UsersController extends Controller
 {
-   public function getlist()
+   public function getList()
    {
    		$data = User::paginate(10);
     	return view('back-end.users.list',['data'=>$data]);
    }
-   public function getedit($id)
+   public function getEdit($id)
    {
    		$data = User::where('id',$id)->first();
    		return view('back-end.users.edit',['data'=>$data]);
