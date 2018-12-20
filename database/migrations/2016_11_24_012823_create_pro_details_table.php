@@ -14,19 +14,19 @@ class CreateProDetailsTable extends Migration
     {
         Schema::create('pro_details', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('cpu');
-            $table->string('ram');
-            $table->string('screen');
-            $table->string('vga');
-            $table->string('storage');
-            $table->string('exten_memmory');
-            $table->string('cam1');
-            $table->string('cam2');
-            $table->string('sim');
-            $table->string('connect');
-            $table->string('pin');            
-            $table->string('os');            
-            $table->text('note');            
+            $table->string('cpu')->nullable();
+            $table->string('ram')->nullable();
+            $table->string('screen')->nullable();
+            $table->string('vga')->nullable();
+            $table->string('storage')->nullable();
+            $table->string('exten_memmory')->nullable();
+            $table->string('cam1')->nullable();
+            $table->string('cam2')->nullable();
+            $table->string('sim')->nullable();
+            $table->string('connect')->nullable();
+            $table->string('pin')->nullable();
+            $table->string('os')->nullable();
+            $table->text('note')->nullable();
             $table->integer('pro_id')->unsigned();
             $table->foreign('pro_id')->references('id')->on('products')->onDelete('cascade');;     
             $table->timestamps();
