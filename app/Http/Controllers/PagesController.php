@@ -9,10 +9,11 @@ use App\Models\Oders_detail;
 use App\Models\Products;
 use App\Services\CategoriesService;
 use App\Services\ProductService;
-use Illuminate\Http\Request;
-
 use Auth;
-use DB, Cart, Datetime;
+use Cart;
+use Datetime;
+use DB;
+use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
@@ -21,8 +22,8 @@ class PagesController extends Controller
      */
     public function index()
     {
-        list($mobile, $lap, $pc) = ProductService::getProductDetailsByCategories();
-        return view('home', ['mobile' => $mobile, 'laptop' => $lap, 'pc' => $pc]);
+        $mobile = ProductService::getProductDetailsByCategories();
+        return view('home', ['mobile' => $mobile]);
     }
 
     /**
@@ -151,7 +152,7 @@ class PagesController extends Controller
      */
     public function getCategories($cat)
     {
-        $cat_parent = CategoriesService::getCategoryBySlug($cat);
+        $catParent = CategoriesService::getCategoryBySlug($cat);
         if ($cat == Categories::NEWS) {
             $new = DB::table('news')
                 ->orderBy('created_at', 'desc')
@@ -162,8 +163,8 @@ class PagesController extends Controller
                 ->paginate(5);
             return view('category.news', ['data' => $new, 'hot1' => $top1, 'all' => $all]);
         } else {
-            $products = ProductService::getProductByCategory($cat_parent->id);
-            return view('category.mobile', ['products' => $products]);
+            $products = ProductService::getProductByCategory($catParent->id);
+            return view('category.mobile', ['products' => $products, 'catParent' => $catParent]);
         }
     }
 
@@ -180,7 +181,7 @@ class PagesController extends Controller
         if ($cat == 'tin-tuc') {
             $new = News::where('id', $id)->first();
             return view('detail.news', ['data' => $new, 'slug' => $slug]);
-        } elseif ($cat == 'mobile') {
+        } else {
             $mobile = Products::where('id', $id)->first();
             $detailImg = ProductService::getDetailImg($id);
             $data = [
@@ -197,22 +198,6 @@ class PagesController extends Controller
                     'slug' => $slug
                 ]);
             }
-        } elseif ($cat == 'laptop') {
-            $lap = Products::where('id', $id)->first();
-            if (empty($lap)) {
-                return redirect()->route('index');
-            } else {
-                return view('detail.laptop', ['data' => $lap, 'slug' => $slug]);
-            }
-        } elseif ($cat == 'pc') {
-            $pc = Products::where('id', $id)->first();
-            if (empty($pc)) {
-                return redirect()->route('index');
-            } else {
-                return view('detail.pc', ['data' => $pc, 'slug' => $slug]);
-            }
-        } else {
-            return redirect()->route('index');
         }
     }
 }

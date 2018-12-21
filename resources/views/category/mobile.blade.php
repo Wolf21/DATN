@@ -30,7 +30,7 @@
                         </div><!-- /div introl -->
                     </div> <!-- /div bt -->
                     <div class="ct">
-                        <a href="{{url('mobile/'.$row->id.'-'.$row->slug)}}" title="Chi tiết">
+                        <a href="{{url( $catParent->slug .'/'. $row->id .'-'. $row->slug)}}" title="Chi tiết">
                             <span class="label label-info">Ưu đãi khi mua</span>
                             @if ($row->promo1!='')
                                 <li><span class="glyphicon glyphicon-ok-sign"></span>{{$row->promo1}}</li>
