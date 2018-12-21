@@ -97,7 +97,7 @@
                         </div>
                       </div>
                       @if($data['mobile']->status ==1)
-                        <a href="{{url('gio-hang/addcart/'.$data['mobile']->id)}}" title="" class="btn btn-large btn-block btn-primary" style="font-size: 20px;">Đặt hàng ngay</a>
+                        <a href="{{url('cart/add/'.$data['mobile']->id)}}" title="" class="btn btn-large btn-block btn-primary" style="font-size: 20px;">Đặt hàng ngay</a>
                       @else
                         <a href="" title="" class="btn btn-large btn-block btn-primary disabled" style="font-size: 20px;">Tạm hết hàng</a>
                       @endif
@@ -289,7 +289,7 @@
                 </a>
               </div>
                 <span class="btn label-warning"><strong>{{number_format($row->price)}}</strong>Vnd </span>
-                <a href="{{url('gio-hang/addcart/'.$row->id)}}" class="btn btn-success pull-right add">Thêm vào giỏ </a>
+                <a href="{{url('cart/add/'.$row->id)}}" class="btn btn-success pull-right add">Thêm vào giỏ </a>
             </div> <!-- / div thumbnail -->
           </div>  <!-- /div col-4 -->
         @endforeach        
