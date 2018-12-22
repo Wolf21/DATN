@@ -58,7 +58,7 @@
                             về trang chủ
                         </a>
 
-                        <a href="#" class="btn btn-primary">
+                        <a href="" class="btn btn-primary">
                             <i class="ace-icon fa fa-tachometer"></i>
                             Liên hệ quản trị viên
                         </a>
