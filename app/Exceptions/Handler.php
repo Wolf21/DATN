@@ -3,7 +3,13 @@
 namespace App\Exceptions;
 
 use Exception;
+use Illuminate\Database\Eloquent\MassAssignmentException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Session\TokenMismatchException;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Session;
+use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {
@@ -49,10 +55,7 @@ class Handler extends ExceptionHandler
         // check session timeout or illegal access
 //        if ($exception instanceof TokenMismatchException) {
 //            Log::error($exception->getMessage(), $exception->getTrace());
-//            if (\Auth::guard(null)->check()) {
-//                return response()->view('errors.error');
-//            }
-//            Session::flash('error', iniGetMessage('MSG_SESSION_EXPIRED'));
+//            Session::flash('error', 'ERROR');
 //            return redirect(route('loginForm'));
 //        }
 //
