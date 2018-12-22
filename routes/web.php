@@ -3,8 +3,10 @@
 
 //Auth::routes();
 Route::get('/user', 'HomeController@index');
-Route::get('/login', 'Auth\LoginController@showLoginForm');
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('loginForm');
 Route::post('/login', 'Auth\LoginController@login');
+Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('registerForm');
+Route::post('/register', 'Auth\RegisterController@register')->name('register');
 Route::get('/logout', 'Auth\LoginController@logout');
 Route::get('/user/edit', 'HomeController@edit');
 
@@ -13,7 +15,7 @@ Route::get('/password/reset', 'Auth\AuthController@email')->name('getReset');
 
 Route::get('admin/logout', 'Admin\AuthController@logout');
 
-Route::group(['prefix' => '/'], function () {
+Route::group(['prefix' => '/', 'middleware' => 'not_admin'], function () {
     Route::get('/', 'PagesController@index')->name('index');
 // cart
     Route::get('cart', 'PagesController@getCart')->name('getCart');
@@ -33,7 +35,7 @@ Route::group(['prefix' => '/'], function () {
 Route::resource('payment', 'PayMentController');
 
 // --------------------------------cac cong viec trong admin (back-end)---------------------------------------
-Route::group(['prefix' => 'admin'], function () {
+Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
 
     Route::get('/home', function () {
         return view('back-end.home');

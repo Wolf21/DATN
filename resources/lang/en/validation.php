@@ -26,7 +26,7 @@ return [
     'between' => [
         'numeric' => 'The :attribute must be between :min and :max.',
         'file' => 'The :attribute must be between :min and :max kilobytes.',
-        'string' => 'The :attribute must be between :min and :max characters.',
+        'string' => ':attribute phải từ :min đến :max ký tự!',
         'array' => 'The :attribute must have between :min and :max items.',
     ],
     'boolean' => 'The :attribute field must be true or false.',
@@ -39,7 +39,7 @@ return [
     'digits_between' => 'The :attribute must be between :min and :max digits.',
     'dimensions' => 'The :attribute has invalid image dimensions.',
     'distinct' => 'The :attribute field has a duplicate value.',
-    'email' => 'The :attribute must be a valid email address.',
+    'email' => ':attribute không đúng định dạng !',
     'exists' => 'The selected :attribute is invalid.',
     'file' => 'The :attribute must be a file.',
     'filled' => 'The :attribute field must have a value.',
@@ -110,7 +110,7 @@ return [
     ],
     'string' => 'The :attribute must be a string.',
     'timezone' => 'The :attribute must be a valid zone.',
-    'unique' => 'The :attribute has already been taken.',
+    'unique' => ':attribute đã tồn tại!',
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute format is invalid.',
     'uuid' => 'The :attribute must be a valid UUID.',
@@ -145,7 +145,8 @@ return [
 
     'attributes' => [
         'user_name' => 'Tên Đăng Nhập',
-        'password' => 'Mật Khẩu'
+        'password' => 'Mật Khẩu',
+        'email' => 'Email',
     ],
 
 ];

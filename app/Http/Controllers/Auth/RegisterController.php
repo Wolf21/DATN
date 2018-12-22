@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Http\Requests\RegisterRequest;
+use App\Services\UserService;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -68,5 +72,22 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public static function showRegistrationForm()
+    {
+        return view('auth.register');
+    }
+
+    public static function register(RegisterRequest $request)
+    {
+        $inputs = $request->all();
+        Input::flash();
+        UserService::registerUser($inputs);
+        Session::flash('info', 'Đăng ký thành công, Hãy đăng nhập để tiếp tục !');
+        return redirect(route('loginForm'));
     }
 }

@@ -16,12 +16,12 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('user_name', 25)->unique();
             $table->string('email')->unique();
-            $table->string('name');
+            $table->string('name')->nullable();
             $table->string('password');
             $table->tinyInteger('role')->default(2);
-            $table->string('phone');
-            $table->string('address');
-            $table->tinyInteger('status')->comment('1:active, 0:inactive');
+            $table->string('phone')->nullable();
+            $table->string('address')->nullable();
+            $table->tinyInteger('status')->default(1)->comment('1:active, 0:inactive');
             $table->rememberToken();
             $table->timestamps();
         });
