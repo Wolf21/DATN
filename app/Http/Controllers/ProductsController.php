@@ -37,7 +37,7 @@ class ProductsController extends Controller
                 )
                 ->paginate(10);
             $cat = Category::whereNotIn('parent_id', [0, 4])->get();
-            return view('back-end.products.list', ['data' => $pro, 'cat' => $cat, 'loai' => 0]);
+            return view('back-end.products.list', ['data' => $pro, 'cat' => $cat, 'loai' => $id]);
         }
     }
 

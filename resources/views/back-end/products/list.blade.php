@@ -25,7 +25,8 @@
                                         <select name="sltCate" id="inputLoai" class="form-control">
                                             <option value="0">-- CHỌN MỘT THƯƠNG HIỆU --</option>
                                             @foreach($cat as $row)
-                                                <option value="{{ $row->id }}">{{ $row->name }}</option>
+                                                <option
+                                                    value="{{ $row->id }}" {{$row->id == $loai ? 'selected' : ''}}>{{ $row->name }}</option>
                                             @endforeach
                                         </select>
                                         <script>
