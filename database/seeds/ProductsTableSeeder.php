@@ -28,9 +28,9 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005553_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 ',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 
 <p>&nbsp;</p>
 
@@ -101,8 +101,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 09:39:13',
-                'updated_at' => '2016-11-28 18:02:19',
+                'created_at' => '2018-11-24 09:39:13',
+                'updated_at' => '2018-11-28 18:02:19',
             ),
             1 => 
             array (
@@ -115,9 +115,9 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005568_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 ',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 
 <p>&nbsp;</p>
 
@@ -188,8 +188,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 09:39:28',
-                'updated_at' => '2016-11-24 09:39:28',
+                'created_at' => '2018-11-24 09:39:28',
+                'updated_at' => '2018-11-24 09:39:28',
             ),
             2 => 
             array (
@@ -301,8 +301,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             3 => 
             array (
@@ -414,8 +414,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             4 => 
             array (
@@ -437,8 +437,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:44:07',
-                'updated_at' => '2016-11-28 23:01:37',
+                'created_at' => '2018-11-25 23:44:07',
+                'updated_at' => '2018-11-28 23:01:37',
             ),
             5 => 
             array (
@@ -460,8 +460,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:44:11',
-                'updated_at' => '2016-11-28 23:01:52',
+                'created_at' => '2018-11-25 23:44:11',
+                'updated_at' => '2018-11-28 23:01:52',
             ),
             6 => 
             array (
@@ -483,8 +483,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:44:15',
-                'updated_at' => '2016-11-28 23:02:04',
+                'created_at' => '2018-11-25 23:44:15',
+                'updated_at' => '2018-11-28 23:02:04',
             ),
             7 => 
             array (
@@ -506,8 +506,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             8 => 
             array (
@@ -529,8 +529,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             9 => 
             array (
@@ -543,9 +543,9 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005568_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 ',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 
 <p>&nbsp;</p>
 
@@ -616,8 +616,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 09:39:28',
-                'updated_at' => '2016-11-24 09:39:28',
+                'created_at' => '2018-11-24 09:39:28',
+                'updated_at' => '2018-11-24 09:39:28',
             ),
             10 => 
             array (
@@ -630,9 +630,9 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005568_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 ',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2016 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
 
 <p>&nbsp;</p>
 
@@ -703,8 +703,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 6,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 09:39:28',
-                'updated_at' => '2016-11-24 09:39:28',
+                'created_at' => '2018-11-24 09:39:28',
+                'updated_at' => '2018-11-24 09:39:28',
             ),
             11 => 
             array (
@@ -816,8 +816,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             12 => 
             array (
@@ -929,8 +929,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             13 => 
             array (
@@ -1042,8 +1042,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             14 => 
             array (
@@ -1155,8 +1155,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             15 => 
             array (
@@ -1268,8 +1268,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             16 => 
             array (
@@ -1381,8 +1381,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             17 => 
             array (
@@ -1494,8 +1494,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 8,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             18 => 
             array (
@@ -1607,8 +1607,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             19 => 
             array (
@@ -1720,8 +1720,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             20 => 
             array (
@@ -1833,8 +1833,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             21 => 
             array (
@@ -1946,8 +1946,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             22 => 
             array (
@@ -2059,8 +2059,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             23 => 
             array (
@@ -2172,8 +2172,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 7,
                 'user_id' => 1,
-                'created_at' => '2016-11-24 18:48:45',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:45',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             24 => 
             array (
@@ -2195,8 +2195,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             25 => 
             array (
@@ -2218,8 +2218,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             26 => 
             array (
@@ -2241,8 +2241,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             27 => 
             array (
@@ -2264,8 +2264,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             28 => 
             array (
@@ -2287,8 +2287,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             29 => 
             array (
@@ -2310,8 +2310,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             30 => 
             array (
@@ -2333,8 +2333,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 14,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             31 => 
             array (
@@ -2356,8 +2356,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 9,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             32 => 
             array (
@@ -2379,8 +2379,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 9,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             33 => 
             array (
@@ -2402,8 +2402,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 9,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             34 => 
             array (
@@ -2425,8 +2425,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 9,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             35 => 
             array (
@@ -2448,8 +2448,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 10,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             36 => 
             array (
@@ -2471,8 +2471,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 10,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             37 => 
             array (
@@ -2494,8 +2494,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 10,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             38 => 
             array (
@@ -2517,8 +2517,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 10,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             39 => 
             array (
@@ -2540,8 +2540,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 11,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             40 => 
             array (
@@ -2563,8 +2563,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 11,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             41 => 
             array (
@@ -2586,8 +2586,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 11,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             42 => 
             array (
@@ -2609,8 +2609,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 11,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             43 => 
             array (
@@ -2632,8 +2632,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 12,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             44 => 
             array (
@@ -2655,8 +2655,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 12,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             45 => 
             array (
@@ -2678,8 +2678,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 12,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             46 => 
             array (
@@ -2701,8 +2701,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 12,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             47 => 
             array (
@@ -2724,8 +2724,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 13,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             48 => 
             array (
@@ -2747,8 +2747,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 13,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             49 => 
             array (
@@ -2770,8 +2770,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 13,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             50 => 
             array (
@@ -2793,8 +2793,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 13,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             51 => 
             array (
@@ -2816,8 +2816,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 15,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             52 => 
             array (
@@ -2839,8 +2839,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 15,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             53 => 
             array (
@@ -2862,8 +2862,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 15,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             54 => 
             array (
@@ -2885,8 +2885,8 @@ class ProductsTableSeeder extends Seeder
                 'status' => 1,
                 'cat_id' => 15,
                 'user_id' => 1,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
         ));
         

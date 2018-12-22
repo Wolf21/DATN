@@ -27,7 +27,7 @@ class NewsTableSeeder extends Seeder
 ',
                 'full' => '<p>iPhone SE kế thừa từ nhiều mẫu iPhone hiện nay, n&oacute; l&agrave; tổng h&ograve;a của vẻ đẹp thanh lịch, gọn g&agrave;ng của&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-5s-16gb" target="_blank" title=" iPhone 5s" type=" iPhone 5s">iPhone 5s</a>&nbsp;với sức mạnh cấu h&igrave;nh của iPhone 6s. Ch&iacute;nh v&igrave; vậy, iPhone SE vẫn l&agrave; mong ước của nhiều t&iacute;n đồ nh&agrave; T&aacute;o.</p>
 
-<p><img alt="iPhone SE đổi trả thiết kế thanh lịch, mạnh như iPhone 6s còn dưới 7 triệu đồng" src="https://cdn1.tgdd.vn/Files/2016/11/28/919237/iphone-se-2_1204x535.jpg" title="iPhone SE đổi trả thiết kế thanh lịch, mạnh như iPhone 6s còn dưới 7 triệu đồng" /></p>
+<p><img alt="iPhone SE đổi trả thiết kế thanh lịch, mạnh như iPhone 6s còn dưới 7 triệu đồng" src="https://cdn1.tgdd.vn/Files/2018/11/28/919237/iphone-se-2_1204x535.jpg" title="iPhone SE đổi trả thiết kế thanh lịch, mạnh như iPhone 6s còn dưới 7 triệu đồng" /></p>
 
 <p>Về gi&aacute; b&aacute;n, hiện tại iPhone SE h&agrave;ng đổi trả chỉ c&ograve;n dưới 7 triệu, ở mức trung b&igrave;nh l&agrave; 6.8 triệu đồng, thậm ch&iacute; c&oacute; chiếc chỉ 6.3 triệu đồng, t&ugrave;y thời gian bảo h&agrave;nh. Đ&acirc;y ch&iacute;nh l&agrave; lựa chọn tốt cho nhiều bạn trẻ mong muốn c&oacute; một iPhone &ldquo;nhỏ nhưng c&oacute; v&otilde;&rdquo;, gọn g&agrave;ng nhưng cực kỳ mạnh mẽ.</p>
 
@@ -38,56 +38,56 @@ class NewsTableSeeder extends Seeder
                 'source' => 'the gioi di dong',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 21:03:07',
-                'updated_at' => '2016-11-28 21:03:07',
+                'created_at' => '2018-11-28 21:03:07',
+                'updated_at' => '2018-11-28 21:03:07',
             ),
             1 => 
             array (
                 'id' => 2,
-                'title' => 'Điểm tin HOT 23/11: Mẫu iPhone SE 2017 đẹp nao lòng, đoạn video 5 giây biến iPhone thành cục gạch',
-                'slug' => 'diem-tin-hot-2311-mau-iphone-se-2017-dep-nao-long-doan-video-5-giay-bien-iphone-thanh-cuc-gach',
+                'title' => 'Điểm tin HOT 23/11: Mẫu iPhone SE 2018 đẹp nao lòng, đoạn video 5 giây biến iPhone thành cục gạch',
+                'slug' => 'diem-tin-hot-2311-mau-iphone-se-2018-dep-nao-long-doan-video-5-giay-bien-iphone-thanh-cuc-gach',
                 'author' => 'admin',
-                'intro' => '<p>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2017 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất.</p>
+                'intro' => '<p>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2018 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất.</p>
 ',
-                'full' => '<h2>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2017 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất. Ngo&agrave;i ra, cư d&acirc;n mạng đang truyền tay nhau 1 clip 5 gi&acirc;y khiến nhiều chiếc iPhone trở th&agrave;nh cục gạch 1 c&aacute;ch nhẹ nh&agrave;ng.</h2>
+                'full' => '<h2>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2018 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất. Ngo&agrave;i ra, cư d&acirc;n mạng đang truyền tay nhau 1 clip 5 gi&acirc;y khiến nhiều chiếc iPhone trở th&agrave;nh cục gạch 1 c&aacute;ch nhẹ nh&agrave;ng.</h2>
 
-<h3><strong>1.&nbsp;Nếu iPhone SE 2017 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</strong></h3>
+<h3><strong>1.&nbsp;Nếu iPhone SE 2018 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</strong></h3>
 
-<p>Mới đ&acirc;y, nh&agrave; thiết kế nhỏ tuổi Đạt Nobita tiếp tục đến với mẫu thiết kế iPhone SE 2017 m&agrave; theo m&igrave;nh l&agrave; &ldquo;đẹp kh&ocirc;ng tỳ vết&rdquo;. iPhone SE 2017 trong mẫu thiết kế n&agrave;y c&oacute; khung viền phẳng, rất mạnh mẽ trong khi mặt trước v&agrave; sau được phủ k&iacute;nh cường lực. C&oacute; vẻ như những th&ocirc;ng tin cho rằng năm sau iPhone sẽ sử dụng lại kiểu thiết kế tr&ecirc;n iPhone 4/4s đ&atilde; ảnh hưởng tới mẫu concept n&agrave;y.</p>
+<p>Mới đ&acirc;y, nh&agrave; thiết kế nhỏ tuổi Đạt Nobita tiếp tục đến với mẫu thiết kế iPhone SE 2018 m&agrave; theo m&igrave;nh l&agrave; &ldquo;đẹp kh&ocirc;ng tỳ vết&rdquo;. iPhone SE 2018 trong mẫu thiết kế n&agrave;y c&oacute; khung viền phẳng, rất mạnh mẽ trong khi mặt trước v&agrave; sau được phủ k&iacute;nh cường lực. C&oacute; vẻ như những th&ocirc;ng tin cho rằng năm sau iPhone sẽ sử dụng lại kiểu thiết kế tr&ecirc;n iPhone 4/4s đ&atilde; ảnh hưởng tới mẫu concept n&agrave;y.</p>
 
-<p><img alt="Nếu iPhone SE 2017 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" src="https://cdn3.tgdd.vn/Files/2016/11/22/917054/se1_1280x720.jpg" title="Nếu iPhone SE 2017 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" /></p>
+<p><img alt="Nếu iPhone SE 2018 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" src="https://cdn3.tgdd.vn/Files/2018/11/22/917054/se1_1280x720.jpg" title="Nếu iPhone SE 2018 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" /></p>
 
-<p>Chưa hết, concept iPhone SE 2017 c&ograve;n ấn tượng bởi viền cạnh m&agrave;n h&igrave;nh si&ecirc;u mỏng, cạnh tr&ecirc;n cũng rất hẹp, t&iacute;ch hợp camera trước gọn nhỏ, tinh tế. Lần n&agrave;y, m&aacute;y kh&ocirc;ng c&oacute; n&uacute;t nguồn cạnh tr&ecirc;n m&agrave; l&agrave; ở cạnh phải để tiện lợi cho người d&ugrave;ng bởi m&agrave;n h&igrave;nh của m&aacute;y đ&atilde; lớn hơn.</p>
+<p>Chưa hết, concept iPhone SE 2018 c&ograve;n ấn tượng bởi viền cạnh m&agrave;n h&igrave;nh si&ecirc;u mỏng, cạnh tr&ecirc;n cũng rất hẹp, t&iacute;ch hợp camera trước gọn nhỏ, tinh tế. Lần n&agrave;y, m&aacute;y kh&ocirc;ng c&oacute; n&uacute;t nguồn cạnh tr&ecirc;n m&agrave; l&agrave; ở cạnh phải để tiện lợi cho người d&ugrave;ng bởi m&agrave;n h&igrave;nh của m&aacute;y đ&atilde; lớn hơn.</p>
 
-<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/neu-iphone-se-2017-dep-the-nay-thi-iphone-7-cung-se-e-hang-917054" target="_blank" title="Nếu iPhone SE 2017 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi">Nếu iPhone SE 2017 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</a></p>
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/neu-iphone-se-2018-dep-the-nay-thi-iphone-7-cung-se-e-hang-917054" target="_blank" title="Nếu iPhone SE 2018 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi">Nếu iPhone SE 2018 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</a></p>
 
 <h3><strong>2.&nbsp;Cảnh b&aacute;o: Đoạn video 5 gi&acirc;y khiến m&aacute;y iPhone trở th&agrave;nh &quot;cục gạch&quot;</strong></h3>
 
-<p><img alt="" src="https://www.thegioididong.com/tin-tuc/mau-iphone-se-2017-dep-nao-long-doan-video-5-giay-917408" /></p>
+<p><img alt="" src="https://www.thegioididong.com/tin-tuc/mau-iphone-se-2018-dep-nao-long-doan-video-5-giay-917408" /></p>
 
 <p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/canh-bao-doan-video-5-giay-khien-may-iphone-tro-thanh-cuc-gach-917063" target="_blank" title="Cảnh báo: Đoạn video 5 giây khiến máy iPhone trở thành cục gạch">Cảnh b&aacute;o: Đoạn video 5 gi&acirc;y khiến m&aacute;y iPhone trở th&agrave;nh &quot;cục gạch&quot;</a></p>
 
 <h3><strong>3.&nbsp;Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp c&oacute; &ldquo;người anh em&rdquo;</strong></h3>
 
-<p>Trang c&ocirc;ng nghệ th&acirc;n cận với Samsung &ndash;&nbsp;<a href="http://www.sammobile.com/2016/11/23/first-images-of-the-glossy-black-galaxy-s7-edge-surface-online/" rel="nofollow" target="_blank" title="Galaxy S7 Edge" type="Galaxy S7 Edge">Sammobile</a>&nbsp;l&agrave; nguồn tin mang đến cho ch&uacute;ng ta những h&igrave;nh ảnh n&agrave;y. Trong bộ ảnh dưới đ&acirc;y, c&aacute;c bạn c&oacute; thể thấy rằng Galaxy S7 Edge xuất hiện với m&agrave;u đen b&oacute;ng bẩy hơn so với m&agrave;u Black Onyx trước đ&oacute;.</p>
+<p>Trang c&ocirc;ng nghệ th&acirc;n cận với Samsung &ndash;&nbsp;<a href="http://www.sammobile.com/2018/11/23/first-images-of-the-glossy-black-galaxy-s7-edge-surface-online/" rel="nofollow" target="_blank" title="Galaxy S7 Edge" type="Galaxy S7 Edge">Sammobile</a>&nbsp;l&agrave; nguồn tin mang đến cho ch&uacute;ng ta những h&igrave;nh ảnh n&agrave;y. Trong bộ ảnh dưới đ&acirc;y, c&aacute;c bạn c&oacute; thể thấy rằng Galaxy S7 Edge xuất hiện với m&agrave;u đen b&oacute;ng bẩy hơn so với m&agrave;u Black Onyx trước đ&oacute;.</p>
 
-<p><img alt="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" src="https://cdn.tgdd.vn/Files/2016/11/23/917387/s7-edge-glossy-black-7_690x690.jpg" title="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" /></p>
+<p><img alt="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" src="https://cdn.tgdd.vn/Files/2018/11/23/917387/s7-edge-glossy-black-7_690x690.jpg" title="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" /></p>
 
 <p>Đặc biệt, bộ ảnh n&agrave;y cũng rất sắc n&eacute;t v&agrave; chi tiết, kh&ocirc;ng c&oacute; vẻ g&igrave; l&agrave; đang chụp l&eacute;n cả, v&igrave; vậy c&oacute; thể n&oacute;i rằng Samsung đ&atilde; sẵn s&agrave;ng để tung phi&ecirc;n bản m&agrave;u sắc mới n&agrave;y cho dịp cuối năm để những ai th&iacute;ch m&agrave;u đen b&oacute;ng c&oacute; th&ecirc;m lựa chọn hấp dẫn.</p>
 
 <p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/galaxy-s7-edge-glossy-black-bong-dung-xuat-hien-917387" target="_blank" title="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có người anh em">Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp c&oacute; &ldquo;người anh em&rdquo;</a></p>
 
-<h3><strong>4.&nbsp;3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2016)</strong></h3>
+<h3><strong>4.&nbsp;3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2018)</strong></h3>
 
-<p><img alt="Apple iPhone SE" src="https://cdn3.tgdd.vn/Files/2016/11/22/917091/iphone-se_800x450.jpg" title="Apple iPhone SE" /></p>
+<p><img alt="Apple iPhone SE" src="https://cdn3.tgdd.vn/Files/2018/11/22/917091/iphone-se_800x450.jpg" title="Apple iPhone SE" /></p>
 
 <p>Bắt đầu rồi đ&oacute; c&aacute;c bạn ạ, m&ugrave;a mua sắm cuối năm đang nhộn nhịp hẳn l&ecirc;n. Thị trường di động kh&ocirc;ng chỉ xuất hiện c&aacute;c mẫu&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank" title="Đặt mua smartphone tại Thegioididong.com" type="Đặt mua smartphone tại Thegioididong.com">smartphone</a>&nbsp;mới thời thượng, m&agrave; b&ecirc;n cạnh đ&oacute;, những mẫu m&aacute;y được b&aacute;n ra trước đ&oacute; cũng ồ ạt giảm gi&aacute; để h&uacute;t kh&aacute;ch.</p>
 
-<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/top-3-smartphone-co-gia-giam-lam-nao-long-nguoi-viet-11-2016-917091" target="_blank" title="3 smartphone có giá giảm làm nao lòng người dùng Việt (11/2016)">3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2016)</a></p>
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/top-3-smartphone-co-gia-giam-lam-nao-long-nguoi-viet-11-2018-917091" target="_blank" title="3 smartphone có giá giảm làm nao lòng người dùng Việt (11/2018)">3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2018)</a></p>
 
 <h3><strong>5.&nbsp;7 t&iacute;nh năng tuyệt vời gi&uacute;p bạn sử dụng Android như chuy&ecirc;n gia</strong></h3>
 
-<p><img alt="Android" src="https://cdn1.tgdd.vn/Files/2016/11/23/917202/android_800x450.jpg" title="Android" /></p>
+<p><img alt="Android" src="https://cdn1.tgdd.vn/Files/2018/11/23/917202/android_800x450.jpg" title="Android" /></p>
 
 <p><a href="https://www.thegioididong.com/tin-tuc/tim-kiem?key=android" target="_blank" title="Android" type="Android">Android</a>&nbsp;l&agrave; một hệ điều hảnh phổ biến nhất hiện nay với rất nhiều tuỳ chỉnh th&uacute; vị. V&igrave; vậy, h&ocirc;m nay m&igrave;nh xin giới thiệu với c&aacute;c bạn c&aacute;c cử chỉ rất hữu &iacute;ch gi&uacute;p bạn sử dụng thiết bị như một chuy&ecirc;n gia. Mời c&aacute;c bạn c&ugrave;ng theo d&otilde;i b&agrave;i viết nh&eacute;.</p>
 ',
@@ -96,56 +96,56 @@ class NewsTableSeeder extends Seeder
                 'source' => 'thegoididong.com',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 19:18:49',
-                'updated_at' => '2016-11-28 19:18:49',
+                'created_at' => '2018-11-28 19:18:49',
+                'updated_at' => '2018-11-28 19:18:49',
             ),
             2 => 
             array (
                 'id' => 3,
-                'title' => 'Điểm tin HOT 23/11: Mẫu iPhone SE 2017 ',
-                'slug' => 'diem-tin-hot-2311-mau-iphone-se-2017',
+                'title' => 'Điểm tin HOT 23/11: Mẫu iPhone SE 2018 ',
+                'slug' => 'diem-tin-hot-2311-mau-iphone-se-2018',
                 'author' => 'admin',
-                'intro' => '<p>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2017 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất.</p>
+                'intro' => '<p>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2018 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất.</p>
 ',
-                'full' => '<h2>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2017 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất. Ngo&agrave;i ra, cư d&acirc;n mạng đang truyền tay nhau 1 clip 5 gi&acirc;y khiến nhiều chiếc iPhone trở th&agrave;nh cục gạch 1 c&aacute;ch nhẹ nh&agrave;ng.</h2>
+                'full' => '<h2>Mới đ&acirc;y, 1 nh&agrave; thiết kể trẻ tuổi sinh năm 1998 tại Việt Nam đ&atilde; tạo ra 1 bản concept iPhone SE 2018 đẹp đến nao l&ograve;ng, sợ kiểu n&agrave;y th&igrave; iPhone 7 sẽ ế h&agrave;ng mất. Ngo&agrave;i ra, cư d&acirc;n mạng đang truyền tay nhau 1 clip 5 gi&acirc;y khiến nhiều chiếc iPhone trở th&agrave;nh cục gạch 1 c&aacute;ch nhẹ nh&agrave;ng.</h2>
 
-<h3><strong>1.&nbsp;Nếu iPhone SE 2017 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</strong></h3>
+<h3><strong>1.&nbsp;Nếu iPhone SE 2018 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</strong></h3>
 
-<p>Mới đ&acirc;y, nh&agrave; thiết kế nhỏ tuổi Đạt Nobita tiếp tục đến với mẫu thiết kế iPhone SE 2017 m&agrave; theo m&igrave;nh l&agrave; &ldquo;đẹp kh&ocirc;ng tỳ vết&rdquo;. iPhone SE 2017 trong mẫu thiết kế n&agrave;y c&oacute; khung viền phẳng, rất mạnh mẽ trong khi mặt trước v&agrave; sau được phủ k&iacute;nh cường lực. C&oacute; vẻ như những th&ocirc;ng tin cho rằng năm sau iPhone sẽ sử dụng lại kiểu thiết kế tr&ecirc;n iPhone 4/4s đ&atilde; ảnh hưởng tới mẫu concept n&agrave;y.</p>
+<p>Mới đ&acirc;y, nh&agrave; thiết kế nhỏ tuổi Đạt Nobita tiếp tục đến với mẫu thiết kế iPhone SE 2018 m&agrave; theo m&igrave;nh l&agrave; &ldquo;đẹp kh&ocirc;ng tỳ vết&rdquo;. iPhone SE 2018 trong mẫu thiết kế n&agrave;y c&oacute; khung viền phẳng, rất mạnh mẽ trong khi mặt trước v&agrave; sau được phủ k&iacute;nh cường lực. C&oacute; vẻ như những th&ocirc;ng tin cho rằng năm sau iPhone sẽ sử dụng lại kiểu thiết kế tr&ecirc;n iPhone 4/4s đ&atilde; ảnh hưởng tới mẫu concept n&agrave;y.</p>
 
-<p><img alt="Nếu iPhone SE 2017 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" src="https://cdn3.tgdd.vn/Files/2016/11/22/917054/se1_1280x720.jpg" title="Nếu iPhone SE 2017 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" /></p>
+<p><img alt="Nếu iPhone SE 2018 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" src="https://cdn3.tgdd.vn/Files/2018/11/22/917054/se1_1280x720.jpg" title="Nếu iPhone SE 2018 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi" /></p>
 
-<p>Chưa hết, concept iPhone SE 2017 c&ograve;n ấn tượng bởi viền cạnh m&agrave;n h&igrave;nh si&ecirc;u mỏng, cạnh tr&ecirc;n cũng rất hẹp, t&iacute;ch hợp camera trước gọn nhỏ, tinh tế. Lần n&agrave;y, m&aacute;y kh&ocirc;ng c&oacute; n&uacute;t nguồn cạnh tr&ecirc;n m&agrave; l&agrave; ở cạnh phải để tiện lợi cho người d&ugrave;ng bởi m&agrave;n h&igrave;nh của m&aacute;y đ&atilde; lớn hơn.</p>
+<p>Chưa hết, concept iPhone SE 2018 c&ograve;n ấn tượng bởi viền cạnh m&agrave;n h&igrave;nh si&ecirc;u mỏng, cạnh tr&ecirc;n cũng rất hẹp, t&iacute;ch hợp camera trước gọn nhỏ, tinh tế. Lần n&agrave;y, m&aacute;y kh&ocirc;ng c&oacute; n&uacute;t nguồn cạnh tr&ecirc;n m&agrave; l&agrave; ở cạnh phải để tiện lợi cho người d&ugrave;ng bởi m&agrave;n h&igrave;nh của m&aacute;y đ&atilde; lớn hơn.</p>
 
-<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/neu-iphone-se-2017-dep-the-nay-thi-iphone-7-cung-se-e-hang-917054" target="_blank" title="Nếu iPhone SE 2017 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi">Nếu iPhone SE 2017 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</a></p>
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/neu-iphone-se-2018-dep-the-nay-thi-iphone-7-cung-se-e-hang-917054" target="_blank" title="Nếu iPhone SE 2018 đẹp thế này thì iPhone 7 cũng sẽ ế hàng cho coi">Nếu iPhone SE 2018 đẹp thế n&agrave;y th&igrave; iPhone 7 cũng sẽ ế h&agrave;ng cho coi</a></p>
 
 <h3><strong>2.&nbsp;Cảnh b&aacute;o: Đoạn video 5 gi&acirc;y khiến m&aacute;y iPhone trở th&agrave;nh &quot;cục gạch&quot;</strong></h3>
 
-<p><img alt="" src="https://www.thegioididong.com/tin-tuc/mau-iphone-se-2017-dep-nao-long-doan-video-5-giay-917408" /></p>
+<p><img alt="" src="https://www.thegioididong.com/tin-tuc/mau-iphone-se-2018-dep-nao-long-doan-video-5-giay-917408" /></p>
 
 <p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/canh-bao-doan-video-5-giay-khien-may-iphone-tro-thanh-cuc-gach-917063" target="_blank" title="Cảnh báo: Đoạn video 5 giây khiến máy iPhone trở thành cục gạch">Cảnh b&aacute;o: Đoạn video 5 gi&acirc;y khiến m&aacute;y iPhone trở th&agrave;nh &quot;cục gạch&quot;</a></p>
 
 <h3><strong>3.&nbsp;Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp c&oacute; &ldquo;người anh em&rdquo;</strong></h3>
 
-<p>Trang c&ocirc;ng nghệ th&acirc;n cận với Samsung &ndash;&nbsp;<a href="http://www.sammobile.com/2016/11/23/first-images-of-the-glossy-black-galaxy-s7-edge-surface-online/" rel="nofollow" target="_blank" title="Galaxy S7 Edge" type="Galaxy S7 Edge">Sammobile</a>&nbsp;l&agrave; nguồn tin mang đến cho ch&uacute;ng ta những h&igrave;nh ảnh n&agrave;y. Trong bộ ảnh dưới đ&acirc;y, c&aacute;c bạn c&oacute; thể thấy rằng Galaxy S7 Edge xuất hiện với m&agrave;u đen b&oacute;ng bẩy hơn so với m&agrave;u Black Onyx trước đ&oacute;.</p>
+<p>Trang c&ocirc;ng nghệ th&acirc;n cận với Samsung &ndash;&nbsp;<a href="http://www.sammobile.com/2018/11/23/first-images-of-the-glossy-black-galaxy-s7-edge-surface-online/" rel="nofollow" target="_blank" title="Galaxy S7 Edge" type="Galaxy S7 Edge">Sammobile</a>&nbsp;l&agrave; nguồn tin mang đến cho ch&uacute;ng ta những h&igrave;nh ảnh n&agrave;y. Trong bộ ảnh dưới đ&acirc;y, c&aacute;c bạn c&oacute; thể thấy rằng Galaxy S7 Edge xuất hiện với m&agrave;u đen b&oacute;ng bẩy hơn so với m&agrave;u Black Onyx trước đ&oacute;.</p>
 
-<p><img alt="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" src="https://cdn.tgdd.vn/Files/2016/11/23/917387/s7-edge-glossy-black-7_690x690.jpg" title="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" /></p>
+<p><img alt="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" src="https://cdn.tgdd.vn/Files/2018/11/23/917387/s7-edge-glossy-black-7_690x690.jpg" title="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có “người anh em”" /></p>
 
 <p>Đặc biệt, bộ ảnh n&agrave;y cũng rất sắc n&eacute;t v&agrave; chi tiết, kh&ocirc;ng c&oacute; vẻ g&igrave; l&agrave; đang chụp l&eacute;n cả, v&igrave; vậy c&oacute; thể n&oacute;i rằng Samsung đ&atilde; sẵn s&agrave;ng để tung phi&ecirc;n bản m&agrave;u sắc mới n&agrave;y cho dịp cuối năm để những ai th&iacute;ch m&agrave;u đen b&oacute;ng c&oacute; th&ecirc;m lựa chọn hấp dẫn.</p>
 
 <p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/galaxy-s7-edge-glossy-black-bong-dung-xuat-hien-917387" target="_blank" title="Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp có người anh em">Galaxy S7 Edge Glossy Black bỗng dưng xuất hiện, iPhone 7 Jet Black sắp c&oacute; &ldquo;người anh em&rdquo;</a></p>
 
-<h3><strong>4.&nbsp;3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2016)</strong></h3>
+<h3><strong>4.&nbsp;3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2018)</strong></h3>
 
-<p><img alt="Apple iPhone SE" src="https://cdn3.tgdd.vn/Files/2016/11/22/917091/iphone-se_800x450.jpg" title="Apple iPhone SE" /></p>
+<p><img alt="Apple iPhone SE" src="https://cdn3.tgdd.vn/Files/2018/11/22/917091/iphone-se_800x450.jpg" title="Apple iPhone SE" /></p>
 
 <p>Bắt đầu rồi đ&oacute; c&aacute;c bạn ạ, m&ugrave;a mua sắm cuối năm đang nhộn nhịp hẳn l&ecirc;n. Thị trường di động kh&ocirc;ng chỉ xuất hiện c&aacute;c mẫu&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank" title="Đặt mua smartphone tại Thegioididong.com" type="Đặt mua smartphone tại Thegioididong.com">smartphone</a>&nbsp;mới thời thượng, m&agrave; b&ecirc;n cạnh đ&oacute;, những mẫu m&aacute;y được b&aacute;n ra trước đ&oacute; cũng ồ ạt giảm gi&aacute; để h&uacute;t kh&aacute;ch.</p>
 
-<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/top-3-smartphone-co-gia-giam-lam-nao-long-nguoi-viet-11-2016-917091" target="_blank" title="3 smartphone có giá giảm làm nao lòng người dùng Việt (11/2016)">3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2016)</a></p>
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/top-3-smartphone-co-gia-giam-lam-nao-long-nguoi-viet-11-2018-917091" target="_blank" title="3 smartphone có giá giảm làm nao lòng người dùng Việt (11/2018)">3 smartphone c&oacute; gi&aacute; giảm l&agrave;m nao l&ograve;ng người d&ugrave;ng Việt (11/2018)</a></p>
 
 <h3><strong>5.&nbsp;7 t&iacute;nh năng tuyệt vời gi&uacute;p bạn sử dụng Android như chuy&ecirc;n gia</strong></h3>
 
-<p><img alt="Android" src="https://cdn1.tgdd.vn/Files/2016/11/23/917202/android_800x450.jpg" title="Android" /></p>
+<p><img alt="Android" src="https://cdn1.tgdd.vn/Files/2018/11/23/917202/android_800x450.jpg" title="Android" /></p>
 
 <p><a href="https://www.thegioididong.com/tin-tuc/tim-kiem?key=android" target="_blank" title="Android" type="Android">Android</a>&nbsp;l&agrave; một hệ điều hảnh phổ biến nhất hiện nay với rất nhiều tuỳ chỉnh th&uacute; vị. V&igrave; vậy, h&ocirc;m nay m&igrave;nh xin giới thiệu với c&aacute;c bạn c&aacute;c cử chỉ rất hữu &iacute;ch gi&uacute;p bạn sử dụng thiết bị như một chuy&ecirc;n gia. Mời c&aacute;c bạn c&ugrave;ng theo d&otilde;i b&agrave;i viết nh&eacute;.</p>
 ',
@@ -154,8 +154,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'thegoididong.com',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 19:19:05',
-                'updated_at' => '2016-11-28 19:19:05',
+                'created_at' => '2018-11-28 19:19:05',
+                'updated_at' => '2018-11-28 19:19:05',
             ),
             3 => 
             array (
@@ -176,8 +176,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 20:41:17',
-                'updated_at' => '2016-11-28 20:41:17',
+                'created_at' => '2018-11-28 20:41:17',
+                'updated_at' => '2018-11-28 20:41:17',
             ),
             4 => 
             array (
@@ -198,8 +198,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 20:41:43',
-                'updated_at' => '2016-11-28 20:41:43',
+                'created_at' => '2018-11-28 20:41:43',
+                'updated_at' => '2018-11-28 20:41:43',
             ),
             5 => 
             array (
@@ -220,8 +220,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 20:41:58',
-                'updated_at' => '2016-11-28 20:41:58',
+                'created_at' => '2018-11-28 20:41:58',
+                'updated_at' => '2018-11-28 20:41:58',
             ),
             6 => 
             array (
@@ -242,8 +242,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 20:42:09',
-                'updated_at' => '2016-11-28 20:42:09',
+                'created_at' => '2018-11-28 20:42:09',
+                'updated_at' => '2018-11-28 20:42:09',
             ),
             7 => 
             array (
@@ -264,8 +264,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 20:42:16',
-                'updated_at' => '2016-11-28 20:42:16',
+                'created_at' => '2018-11-28 20:42:16',
+                'updated_at' => '2018-11-28 20:42:16',
             ),
             8 => 
             array (
@@ -290,8 +290,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'thegoididong.com',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 23:09:06',
-                'updated_at' => '2016-11-28 23:09:06',
+                'created_at' => '2018-11-28 23:09:06',
+                'updated_at' => '2018-11-28 23:09:06',
             ),
             9 => 
             array (
@@ -316,8 +316,8 @@ class NewsTableSeeder extends Seeder
                 'source' => 'thegoididong.com',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 23:09:34',
-                'updated_at' => '2016-11-28 23:09:34',
+                'created_at' => '2018-11-28 23:09:34',
+                'updated_at' => '2018-11-28 23:09:34',
             ),
             10 => 
             array (
@@ -337,59 +337,59 @@ class NewsTableSeeder extends Seeder
                 'source' => 'thegoididong.com',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-28 23:09:49',
-                'updated_at' => '2016-11-28 23:09:49',
+                'created_at' => '2018-11-28 23:09:49',
+                'updated_at' => '2018-11-28 23:09:49',
             ),
             11 => 
             array (
                 'id' => 12,
-                'title' => 'khuyễn mại mùa mua sắm cuối năm 2017',
-                'slug' => 'khuyen-mai-mua-mua-sam-cuoi-nam-2017',
+                'title' => 'khuyễn mại mùa mua sắm cuối năm 2018',
+                'slug' => 'khuyen-mai-mua-mua-sam-cuoi-nam-2018',
                 'author' => 'admin',
-                'intro' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2016. Si&ecirc;u',
-                'full' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2016. Si&ecirc;u thị Megaplaza | Vui vẻ Mua sắm - Tiết kiệm chi ti&ecirc;u.</p>
+                'intro' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2018. Si&ecirc;u',
+                'full' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2018. Si&ecirc;u thị Megaplaza | Vui vẻ Mua sắm - Tiết kiệm chi ti&ecirc;u.</p>
 ',
                 'images' => '1480404640_iphone-se-1_1240x698.jpg',
                 'status' => 1,
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-29 00:30:40',
-                'updated_at' => '2016-11-29 00:30:40',
+                'created_at' => '2018-11-29 00:30:40',
+                'updated_at' => '2018-11-29 00:30:40',
             ),
             12 => 
             array (
                 'id' => 13,
-                'title' => 'khuyễn mại mùa mua sắm cuối năm 2017 1',
-                'slug' => 'khuyen-mai-mua-mua-sam-cuoi-nam-2017-1',
+                'title' => 'khuyễn mại mùa mua sắm cuối năm 2018 1',
+                'slug' => 'khuyen-mai-mua-mua-sam-cuoi-nam-2018-1',
                 'author' => 'admin',
-                'intro' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2016. Si&ecirc;u',
-                'full' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2016. Si&ecirc;u thị Megaplaza | Vui vẻ Mua sắm - Tiết kiệm chi ti&ecirc;u.</p>
+                'intro' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2018. Si&ecirc;u',
+                'full' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2018. Si&ecirc;u thị Megaplaza | Vui vẻ Mua sắm - Tiết kiệm chi ti&ecirc;u.</p>
 ',
                 'images' => '1480404648_iphone-se-1_1240x698.jpg',
                 'status' => 1,
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-29 00:30:48',
-                'updated_at' => '2016-11-29 00:30:48',
+                'created_at' => '2018-11-29 00:30:48',
+                'updated_at' => '2018-11-29 00:30:48',
             ),
             13 => 
             array (
                 'id' => 14,
-                'title' => 'khuyễn mại mùa mua sắm cuối năm 12/2017 ',
-                'slug' => 'khuyen-mai-mua-mua-sam-cuoi-nam-122017',
+                'title' => 'khuyễn mại mùa mua sắm cuối năm 12/2018 ',
+                'slug' => 'khuyen-mai-mua-mua-sam-cuoi-nam-122018',
                 'author' => 'admin',
-                'intro' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2016. Si&ecirc;u',
-                'full' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2016. Si&ecirc;u thị Megaplaza | Vui vẻ Mua sắm - Tiết kiệm chi ti&ecirc;u.</p>
+                'intro' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2018. Si&ecirc;u',
+                'full' => '<p>H&agrave;ng ng&agrave;n sản phẩm Đồ gia dụng Điện, Đồ d&ugrave;ng Nh&agrave; bếp đang được GIẢM GI&Aacute; SỐC trong ng&agrave;y Online Friday tại Megaplaza. Nhanh tay, cơ hội Mua sắm GI&Aacute; SI&Ecirc;U RẺ cuối c&ugrave;ng trong năm 2018. Si&ecirc;u thị Megaplaza | Vui vẻ Mua sắm - Tiết kiệm chi ti&ecirc;u.</p>
 ',
                 'images' => '1480404656_iphone-se-1_1240x698.jpg',
                 'status' => 1,
                 'source' => 'Google Product Forum​',
                 'cat_id' => rand(16, 17),
                 'user_id' => 1,
-                'created_at' => '2016-11-29 00:30:56',
-                'updated_at' => '2016-11-29 00:30:56',
+                'created_at' => '2018-11-29 00:30:56',
+                'updated_at' => '2018-11-29 00:30:56',
             ),
         ));
         

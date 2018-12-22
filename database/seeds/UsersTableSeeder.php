@@ -28,8 +28,8 @@ class UsersTableSeeder extends Seeder
                 'phone' => '0868896944',
                 'address' => 'Ho chi minh',
                 'status' => 1,
-                'created_at' => '2016-11-23 20:44:11',
-                'updated_at' => '2016-12-17 02:55:05',
+                'created_at' => '2018-11-23 20:44:11',
+                'updated_at' => '2018-12-17 02:55:05',
             ],
             [
 
@@ -42,8 +42,8 @@ class UsersTableSeeder extends Seeder
                 'phone' => '0868896944',
                 'address' => 'dl',
                 'status' => 1,
-                'created_at' => '2016-12-25 21:45:02',
-                'updated_at' => '2016-12-25 21:45:02',
+                'created_at' => '2018-12-25 21:45:02',
+                'updated_at' => '2018-12-25 21:45:02',
             ]
         ];
         foreach ($users as $user) {
