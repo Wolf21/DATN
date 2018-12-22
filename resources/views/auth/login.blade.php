@@ -15,6 +15,8 @@
         <div style="margin-bottom: 25px;">
             @if(session('error'))
                 <p class="text-error">{{ session('error') }}</p>
+            @elseif(session('info'))
+                <p class="text-error">{{ session('info') }}</p>
             @endif
         </div>
         <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
@@ -40,37 +42,6 @@
                 <div class="hr"></div>
                 <div class="foot-lnk">
                     <a href="#forgot">Quên Mật Khẩu?</a>
-                </div>
-            </div>
-            {{ Form::close() }}
-            {{ Form::open(['url' => url('/register'), 'method' => 'POST']) }}
-            <div class="sign-up-htm">
-                <div class="group">
-                    <label for="user" class="label">Tên Đăng Nhập</label>
-                    <input id="user" type="text" class="input">
-                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
-                </div>
-                <div class="group">
-                    <label for="pass" class="label">Mật Khẩu</label>
-                    <input id="pass" type="password" class="input" data-type="password">
-                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
-                </div>
-                <div class="group">
-                    <label for="pass" class="label">Nhập Lại Mật Khẩu</label>
-                    <input id="pass" type="password" class="input" data-type="password">
-                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
-                </div>
-                <div class="group">
-                    <label for="pass" class="label">Email</label>
-                    <input id="pass" type="text" class="input">
-                    <div><p class="text-error">{{ $errors->first('user_name') }}</p></div>
-                </div>
-                <div class="group">
-                    <input type="submit" class="button" value="Đăng Ký">
-                </div>
-                <div class="hr"></div>
-                <div class="foot-lnk">
-                    <label for="tab-1"><a href="{{ url('/login') }}">Đã Có Tài Khoản?</a></label>
                 </div>
             </div>
             {{ Form::close() }}

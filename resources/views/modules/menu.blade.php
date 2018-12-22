@@ -4,7 +4,6 @@
         background-color: #2c3e50 !important;
     }
 </style>
-
 <!-- main menu  navbar -->
 <nav class="navbar navbar-default navbar-top" role="navigation" id="main-Nav"
      style="background-color: #16a085;margin-bottom: 5px;font-size: 13px;">
@@ -19,7 +18,7 @@
               <!-- Authentication Links -->
                     @if (Auth::guest())
                         <a class="top-a" href="{{ url('/') }}"> Home </a>  &nbsp;
-                        <a href="#" data-toggle="modal" data-target="#login-modal"
+                        <a href="{{ route('loginForm') }}"
                            style="color:#e67e22;"> Đăng nhập </a>
                     @else
                         <a class="top-a" href="{{ url('/user') }}"
@@ -99,7 +98,7 @@
                     </li>
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Đăng nhập</a></li>
+                        <li><a href="{{ route('loginForm') }}">Đăng nhập</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -118,55 +117,10 @@
         </div> <!-- /row -->
     </div><!-- /container -->
 </nav>    <!-- /main nav -->
-
-{{-- loginform --}}
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
-     style="display: none;">
-    <div class="modal-dialog">
-        <div class="loginmodal-container">
-            <h1>Đăng nhập</h1><br>
-            <form class="form-horizontal" role="form" method="POST" id="login-form" action="{{ url('/login') }}">
-                {{ csrf_field() }}
-                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                    <input id="email" type="email" class="form-control" name="email" placeholder="Nhập địa chỉ Email"
-                           value="{{ old('email') }}">
-                    @if ($errors->has('email'))
-                        <span class="help-block">
-                    <strong>{{ $errors->first('email') }}</strong>
-                </span>
-                    @endif
-                </div>
-                <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                    <input id="password" type="password" name="password" class="form-control"
-                           placeholder="Nhập mật khẩu">
-                    @if ($errors->has('password'))
-                        <span class="help-block">
-                    <strong>{{ $errors->first('password') }}</strong>
-                </span>
-                    @endif
-                </div>
-                <div class="form-group">
-                    <div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="remember"> Ghi nhớ
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <input type="submit" name="login" class="btn btn-primary" value="Đăng nhập">
-            </form>
-            <div class="login-help">
-                <a class="btn btn-link" href="{{url('/register')}}"> <strong style="color:red;"> Đăng ký </strong>
-                </a> - <a class="btn btn-link" href="{{ url('/password/reset') }}">Bạn đã quên mật khẩu?</a>
-            </div>
-        </div>
-    </div>
-</div>
 @section('script')
     <script>
         $(document).ready(function () {
-            $('.top-menu').each(function (index, element){
+            $('.top-menu').each(function (index, element) {
                 if (location.href === element.href) {
                     $(this).addClass('custom-active');
                     $('.main-page').removeClass('custom-active');
