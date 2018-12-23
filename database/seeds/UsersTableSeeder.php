@@ -49,6 +49,19 @@ class UsersTableSeeder extends Seeder
         foreach ($users as $user) {
             User::create($user);
         }
+        for ($i = 3; $i<= 10; $i++) {
+            User::create([
+                'id' => $i,
+                'user_name' => 'user' . $i,
+                'email' => $i . 'cgvnd123@gmail.com',
+                'name' => 'User' .''. $i,
+                'password' => '123456',
+                'role' => rand(1,2),
+                'phone' => '0868896944',
+                'address' => 'dl',
+                'status' => 1,
+            ]);
+        }
 
 
     }
