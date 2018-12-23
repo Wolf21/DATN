@@ -57,9 +57,9 @@
 											</td>										
 											<td>{!!$row->created_at!!}</td>											
 											<td>
-											    <a href="{!!url('admin/khachhang/edit/'.$row->id)!!}" title="Chi tiết"> Cập nhật</a> &nbsp;
+											    <a href="{!!url('admin/member/edit/'.$row->id)!!}" title="Chi tiết"> Cập nhật</a> &nbsp;
 											    @if ($row->level !=100)
-											    	<a href="{!!url('admin/khachhang/del/'.$row->id)!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')">Xóa bỏ</a>
+											    	<a href="{!!url('admin/member/delete/'.$row->id)!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')">Xóa bỏ</a>
 											    @endif
 											</td>
 										</tr>

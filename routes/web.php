@@ -2,13 +2,13 @@
 
 
 //Auth::routes();
-Route::get('/user', 'HomeController@index');
+Route::get('/user', 'HomeController@getEdit');
+//Route::get('/user/edit', 'HomeController@getEdit');
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('loginForm');
 Route::post('/login', 'Auth\LoginController@login');
 Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('registerForm');
 Route::post('/register', 'Auth\RegisterController@register')->name('register');
 Route::get('/logout', 'Auth\LoginController@logout');
-Route::get('/user/edit', 'HomeController@edit');
 
 // admin route
 Route::get('/password/reset', 'Auth\AuthController@email')->name('getReset');

@@ -47,7 +47,7 @@
 				      			<label for="input-id">Tên Khách hàng</label>
 				      			<input type="text" name="txtName" id="inputTxtName" class="form-control" value="{!! old('txtCateName', isset($data['name']) ? $data['name'] : null)!!}" required="required">
 				      		</div>
-				      		<input type="submit" name="btnCateAdd" class="btn btn-primary" value="Thêm danh mục" class="button" />
+				      		<input type="submit" name="btnCateAdd" class="btn btn-primary" value="Chỉnh Sửa" class="button" />
 				      	</form>					      	
 					</div>
 				</div>
