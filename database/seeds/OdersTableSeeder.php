@@ -27,8 +27,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'cod',
                 'note' => 'ok giao hang nhanh nhat co the',
-                'created_at' => '2016-12-01 19:52:14',
-                'updated_at' => '2016-12-05 01:53:57',
+                'created_at' => '2018-12-01 19:52:14',
+                'updated_at' => '2018-12-05 01:53:57',
             ),
             1 => 
             array (
@@ -40,8 +40,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'cod',
                 'note' => 'sad',
-                'created_at' => '2016-12-01 19:55:27',
-                'updated_at' => '2016-12-25 21:51:13',
+                'created_at' => '2018-12-01 19:55:27',
+                'updated_at' => '2018-12-25 21:51:13',
             ),
             2 => 
             array (
@@ -53,8 +53,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'cod',
                 'note' => 'ok be le',
-                'created_at' => '2016-12-01 20:32:39',
-                'updated_at' => '2016-12-05 01:54:07',
+                'created_at' => '2018-12-01 20:32:39',
+                'updated_at' => '2018-12-05 01:54:07',
             ),
             3 => 
             array (
@@ -66,8 +66,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'cod',
                 'note' => 'asd',
-                'created_at' => '2016-12-06 02:39:35',
-                'updated_at' => '2016-12-25 21:51:24',
+                'created_at' => '2018-12-06 02:39:35',
+                'updated_at' => '2018-12-25 21:51:24',
             ),
             4 => 
             array (
@@ -79,8 +79,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'cod',
                 'note' => 'nhan hang nhanh',
-                'created_at' => '2016-12-17 03:52:18',
-                'updated_at' => '2016-12-25 21:51:28',
+                'created_at' => '2018-12-17 03:52:18',
+                'updated_at' => '2018-12-25 21:51:28',
             ),
             5 => 
             array (
@@ -92,8 +92,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'paypal',
                 'note' => 'PAY-39X56047VY8578917LBKSMVA',
-                'created_at' => '2016-12-17 04:50:08',
-                'updated_at' => '2016-12-17 04:50:08',
+                'created_at' => '2018-12-17 04:50:08',
+                'updated_at' => '2018-12-17 04:50:08',
             ),
             6 => 
             array (
@@ -105,8 +105,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'cod',
                 'note' => 'ghi chu',
-                'created_at' => '2016-12-17 04:53:28',
-                'updated_at' => '2016-12-25 21:51:35',
+                'created_at' => '2018-12-17 04:53:28',
+                'updated_at' => '2018-12-25 21:51:35',
             ),
             7 => 
             array (
@@ -119,8 +119,8 @@ class OdersTableSeeder extends Seeder
                 'type' => 'cod',
                 'note' => '                    
 ',
-                'created_at' => '2016-12-17 04:54:11',
-                'updated_at' => '2016-12-25 21:51:42',
+                'created_at' => '2018-12-17 04:54:11',
+                'updated_at' => '2018-12-25 21:51:42',
             ),
             8 => 
             array (
@@ -132,8 +132,8 @@ class OdersTableSeeder extends Seeder
                 'status' => 1,
                 'type' => 'paypal',
                 'note' => 'PAY-5DH63736F1042400PLBKUBIY',
-                'created_at' => '2016-12-17 06:42:29',
-                'updated_at' => '2016-12-17 06:42:29',
+                'created_at' => '2018-12-17 06:42:29',
+                'updated_at' => '2018-12-17 06:42:29',
             ),
             9 => 
             array (
@@ -146,8 +146,8 @@ class OdersTableSeeder extends Seeder
                 'type' => 'cod',
                 'note' => '                    
 viet@test.com',
-                'created_at' => '2016-12-25 21:47:13',
-                'updated_at' => '2016-12-25 21:51:18',
+                'created_at' => '2018-12-25 21:47:13',
+                'updated_at' => '2018-12-25 21:51:18',
             ),
             10 => 
             array (
@@ -160,8 +160,8 @@ viet@test.com',
                 'type' => 'cod',
                 'note' => '                    
 ',
-                'created_at' => '2016-12-25 21:50:44',
-                'updated_at' => '2016-12-25 21:51:56',
+                'created_at' => '2018-12-25 21:50:44',
+                'updated_at' => '2018-12-25 21:51:56',
             ),
         ));
         

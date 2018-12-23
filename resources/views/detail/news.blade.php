@@ -121,7 +121,7 @@
                 </a>
               </div>
                 <span class="btn label-warning"><strong>{!!number_format($row->price)!!}</strong>Vnd </span>
-                <a href="{!!url('goa-hang')!!}" class="btn btn-success pull-right add">Thêm vào giỏ </a>
+                <a href="{!!url('cart/add' . $row->id)!!}" class="btn btn-success pull-right add">Thêm vào giỏ </a>
             </div> <!-- / div thumbnail -->
           </div>  <!-- /div col-4 -->
         @endforeach        

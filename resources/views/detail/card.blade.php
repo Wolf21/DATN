@@ -183,7 +183,7 @@
                                 </div>
                                 <span
                                     class="btn label-warning"><strong>{{number_format($row->price)}}</strong> VNĐ </span>
-                                <a href="{{url('cart/addcart/'.$row->id)}}"
+                                <a href="{{url('cart/add/'.$row->id)}}"
                                    class="btn btn-success pull-right add">Thêm vào giỏ </a>
                             </div>
                         </div>

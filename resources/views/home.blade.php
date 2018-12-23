@@ -25,7 +25,10 @@
                         </div>
                     </div>
                     <div class="ct">
-                        <a href="{{url('mobile/'.$row->id.'-'.$row->slug)}}" title="Xem chi tiết">
+                        <?php
+                        $category = \App\Models\Category::find($row->cat_id);
+                        $parentCategorySlug = \App\Models\Category::find($category->id)->slug;?>
+                        <a href="{{url($parentCategorySlug .'/'. $row->id .'-'. $row->slug)}}" title="Xem chi tiết">
                             <span class="label label-info">Ưu đãi khi mua</span>
                             <li><span class="glyphicon glyphicon-hand-right"></span> {{$row->promo1}}</li>
                             <li><span class="glyphicon glyphicon-hand-right"></span> {{$row->promo2}}</li>
@@ -45,7 +48,12 @@
                         giỏ </a>
                 </div>
             </div>
-    @endforeach
+        @endforeach
+        <div class="clearfix">
+
+        </div>
+        <!-- ===================================================================================/products ============================== -->
+    {{ $mobile->render() }}
     <!-- Danh mục điện thoại -->
         <a href="#" target="_blank">
             <img src="/images/slides/thumbs/qc1.png" alt="" border="0" width="100%" height="250"/>

@@ -11,7 +11,7 @@ class CategoryController extends Controller
 {
     public function getList()
     {
-        $data = Category::where('parent_id', 0)->get();
+        $data = Category::all();
         return View('back-end.category.cat-list', ['data' => $data]);
     }
 
@@ -36,7 +36,7 @@ class CategoryController extends Controller
 
     public function getEdit($id)
     {
-        $cat = Category::all();
+        $cat = Category::where('parent_id', 0)->get();
         $data = Category::findOrFail($id)->toArray();
         return View('back-end.category.edit', ['cat' => $cat, 'data' => $data]);
     }

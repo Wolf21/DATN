@@ -13,7 +13,12 @@ class CategoriesService
     public static function getCategoryBySlug($cat_slug)
     {
         return Category::where('slug', $cat_slug)
-            ->select('id')
+            ->first();
+    }
+
+    public static function getCategoryById($cat_id)
+    {
+        return Category::where('id', $cat_id)
             ->first();
     }
 }

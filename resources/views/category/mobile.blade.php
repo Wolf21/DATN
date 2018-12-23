@@ -30,7 +30,7 @@
                         </div><!-- /div introl -->
                     </div> <!-- /div bt -->
                     <div class="ct">
-                        <a href="{{url('mobile/'.$row->id.'-'.$row->slug)}}" title="Chi tiết">
+                        <a href="{{url( $catParent->slug .'/'. $row->id .'-'. $row->slug)}}" title="Chi tiết">
                             <span class="label label-info">Ưu đãi khi mua</span>
                             @if ($row->promo1!='')
                                 <li><span class="glyphicon glyphicon-ok-sign"></span>{{$row->promo1}}</li>
@@ -52,7 +52,7 @@
                         </a>
                     </div>
                     <span class="btn label-warning"><strong>{{number_format($row->price)}}</strong>Vnd </span>
-                    <a href="{{url('gio-hang/addcart/'.$row->id)}}" class="btn btn-success pull-right add">Thêm vào
+                    <a href="{{url('cart/add/'.$row->id)}}" class="btn btn-success pull-right add">Thêm vào
                         giỏ </a>
                 </div> <!-- / div thumbnail -->
             </div>  <!-- /div col-4 -->

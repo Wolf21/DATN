@@ -1,6 +1,6 @@
 <?php
 
-use App\Enums\Guard;
+use App\Enums\Role;
 use Illuminate\Support\Facades\Auth;
 
 /*

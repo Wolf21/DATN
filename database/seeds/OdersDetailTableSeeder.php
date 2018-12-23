@@ -23,8 +23,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 1,
-                'created_at' => '2016-12-01 19:52:14',
-                'updated_at' => '2016-12-01 19:52:14',
+                'created_at' => '2018-12-01 19:52:14',
+                'updated_at' => '2018-12-01 19:52:14',
             ),
             1 => 
             array (
@@ -32,8 +32,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 1,
-                'created_at' => '2016-12-01 19:52:14',
-                'updated_at' => '2016-12-01 19:52:14',
+                'created_at' => '2018-12-01 19:52:14',
+                'updated_at' => '2018-12-01 19:52:14',
             ),
             2 => 
             array (
@@ -41,8 +41,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 2,
-                'created_at' => '2016-12-01 19:55:27',
-                'updated_at' => '2016-12-01 19:55:27',
+                'created_at' => '2018-12-01 19:55:27',
+                'updated_at' => '2018-12-01 19:55:27',
             ),
             3 => 
             array (
@@ -50,8 +50,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 2,
-                'created_at' => '2016-12-01 19:55:27',
-                'updated_at' => '2016-12-01 19:55:27',
+                'created_at' => '2018-12-01 19:55:27',
+                'updated_at' => '2018-12-01 19:55:27',
             ),
             4 => 
             array (
@@ -59,8 +59,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 6,
-                'created_at' => '2016-12-01 20:32:39',
-                'updated_at' => '2016-12-01 20:32:39',
+                'created_at' => '2018-12-01 20:32:39',
+                'updated_at' => '2018-12-01 20:32:39',
             ),
             5 => 
             array (
@@ -68,8 +68,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 6,
-                'created_at' => '2016-12-01 20:32:39',
-                'updated_at' => '2016-12-01 20:32:39',
+                'created_at' => '2018-12-01 20:32:39',
+                'updated_at' => '2018-12-01 20:32:39',
             ),
             6 => 
             array (
@@ -77,8 +77,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 7,
-                'created_at' => '2016-12-06 02:39:35',
-                'updated_at' => '2016-12-06 02:39:35',
+                'created_at' => '2018-12-06 02:39:35',
+                'updated_at' => '2018-12-06 02:39:35',
             ),
             7 => 
             array (
@@ -86,8 +86,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 2,
                 'o_id' => 8,
-                'created_at' => '2016-12-17 03:52:19',
-                'updated_at' => '2016-12-17 03:52:19',
+                'created_at' => '2018-12-17 03:52:19',
+                'updated_at' => '2018-12-17 03:52:19',
             ),
             8 => 
             array (
@@ -95,8 +95,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 9,
-                'created_at' => '2016-12-17 04:50:09',
-                'updated_at' => '2016-12-17 04:50:09',
+                'created_at' => '2018-12-17 04:50:09',
+                'updated_at' => '2018-12-17 04:50:09',
             ),
             9 => 
             array (
@@ -104,8 +104,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 10,
-                'created_at' => '2016-12-17 04:53:28',
-                'updated_at' => '2016-12-17 04:53:28',
+                'created_at' => '2018-12-17 04:53:28',
+                'updated_at' => '2018-12-17 04:53:28',
             ),
             10 => 
             array (
@@ -113,8 +113,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 10,
-                'created_at' => '2016-12-17 04:53:28',
-                'updated_at' => '2016-12-17 04:53:28',
+                'created_at' => '2018-12-17 04:53:28',
+                'updated_at' => '2018-12-17 04:53:28',
             ),
             11 => 
             array (
@@ -122,8 +122,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 11,
-                'created_at' => '2016-12-17 04:54:11',
-                'updated_at' => '2016-12-17 04:54:11',
+                'created_at' => '2018-12-17 04:54:11',
+                'updated_at' => '2018-12-17 04:54:11',
             ),
             12 => 
             array (
@@ -131,8 +131,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 12,
-                'created_at' => '2016-12-17 06:42:29',
-                'updated_at' => '2016-12-17 06:42:29',
+                'created_at' => '2018-12-17 06:42:29',
+                'updated_at' => '2018-12-17 06:42:29',
             ),
             13 => 
             array (
@@ -140,8 +140,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 12,
-                'created_at' => '2016-12-17 06:42:29',
-                'updated_at' => '2016-12-17 06:42:29',
+                'created_at' => '2018-12-17 06:42:29',
+                'updated_at' => '2018-12-17 06:42:29',
             ),
             14 => 
             array (
@@ -149,8 +149,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 13,
-                'created_at' => '2016-12-25 21:47:13',
-                'updated_at' => '2016-12-25 21:47:13',
+                'created_at' => '2018-12-25 21:47:13',
+                'updated_at' => '2018-12-25 21:47:13',
             ),
             15 => 
             array (
@@ -158,8 +158,8 @@ class OdersDetailTableSeeder extends Seeder
                 'pro_id' => rand(1,9),
                 'qty' => 1,
                 'o_id' => 14,
-                'created_at' => '2016-12-25 21:50:44',
-                'updated_at' => '2016-12-25 21:50:44',
+                'created_at' => '2018-12-25 21:50:44',
+                'updated_at' => '2018-12-25 21:50:44',
             ),
         ));
         

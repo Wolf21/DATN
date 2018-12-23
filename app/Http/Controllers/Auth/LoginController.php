@@ -81,8 +81,8 @@ class LoginController extends Controller
      */
     public function logout()
     {
+        $redirect = Auth()->user()->role == Role::USER ? url('') : route('loginForm');
         Auth::guard()->logout();
-        return redirect(url('/'));
+        return redirect($redirect);
     }
-
 }

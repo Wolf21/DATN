@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-class EditNewsRequest extends Request
+class RegisterRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -22,16 +22,17 @@ class EditNewsRequest extends Request
     public function rules()
     {
         return [
-            'txtTitle' => 'required',
-            'txtAuth' => 'required'
+            'user_name' => 'required|between:5,255|unique:users',
+            'password' => 'required|between:6,255',
+            'password_confirm' => 'same:password',
+            'email' => 'required|email'
         ];
     }
+
     public function messages()
     {
         return [
-            'txtTitle.required' => ' Hãy nhập tên bản tin ',            
-            'txtAuth.required' => 'Hãy nhập tên tác giả'
-            
+            'password_confirm.same' => 'Mật khẩu không khớp !'
         ];
     }
 }

@@ -34,8 +34,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 6.0',
                 'note' => '',
                 'pro_id' => 1,
-                'created_at' => '2016-11-24 09:39:13',
-                'updated_at' => '2016-11-28 18:02:19',
+                'created_at' => '2018-11-24 09:39:13',
+                'updated_at' => '2018-11-28 18:02:19',
             ),
             1 => 
             array (
@@ -54,8 +54,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 6.0',
                 'note' => '',
                 'pro_id' => 2,
-                'created_at' => '2016-11-24 09:39:28',
-                'updated_at' => '2016-11-24 09:39:28',
+                'created_at' => '2018-11-24 09:39:28',
+                'updated_at' => '2018-11-24 09:39:28',
             ),
             2 => 
             array (
@@ -74,8 +74,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'IOS 10.0',
                 'note' => '',
                 'pro_id' => 3,
-                'created_at' => '2016-11-24 18:48:39',
-                'updated_at' => '2016-12-01 20:52:21',
+                'created_at' => '2018-11-24 18:48:39',
+                'updated_at' => '2018-12-01 20:52:21',
             ),
             3 => 
             array (
@@ -94,8 +94,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'IOS 10.0',
                 'note' => '',
                 'pro_id' => 4,
-                'created_at' => '2016-11-24 18:48:46',
-                'updated_at' => '2016-12-01 20:53:36',
+                'created_at' => '2018-11-24 18:48:46',
+                'updated_at' => '2018-12-01 20:53:36',
             ),
             4 => 
             array (
@@ -114,8 +114,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 7.0',
                 'note' => '',
                 'pro_id' => 5,
-                'created_at' => '2016-11-25 23:44:07',
-                'updated_at' => '2016-11-28 23:01:37',
+                'created_at' => '2018-11-25 23:44:07',
+                'updated_at' => '2018-11-28 23:01:37',
             ),
             5 => 
             array (
@@ -134,8 +134,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 7.0',
                 'note' => '',
                 'pro_id' => 6,
-                'created_at' => '2016-11-25 23:44:11',
-                'updated_at' => '2016-11-28 23:01:52',
+                'created_at' => '2018-11-25 23:44:11',
+                'updated_at' => '2018-11-28 23:01:52',
             ),
             6 => 
             array (
@@ -154,8 +154,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 7.0',
                 'note' => '',
                 'pro_id' => 7,
-                'created_at' => '2016-11-25 23:44:15',
-                'updated_at' => '2016-11-28 23:02:04',
+                'created_at' => '2018-11-25 23:44:15',
+                'updated_at' => '2018-11-28 23:02:04',
             ),
             7 => 
             array (
@@ -174,8 +174,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 7.0',
                 'note' => '',
                 'pro_id' => 8,
-                'created_at' => '2016-11-25 23:45:03',
-                'updated_at' => '2016-11-28 23:03:32',
+                'created_at' => '2018-11-25 23:45:03',
+                'updated_at' => '2018-11-28 23:03:32',
             ),
             8 => 
             array (
@@ -194,8 +194,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Andoid 7.0',
                 'note' => '',
                 'pro_id' => 9,
-                'created_at' => '2016-11-25 23:45:08',
-                'updated_at' => '2016-11-28 23:04:05',
+                'created_at' => '2018-11-25 23:45:08',
+                'updated_at' => '2018-11-28 23:04:05',
             ),
             9 => 
             array (
@@ -214,8 +214,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => '',
                 'pro_id' => 10,
-                'created_at' => '2016-11-26 00:43:40',
-                'updated_at' => '2016-11-26 00:43:40',
+                'created_at' => '2018-11-26 00:43:40',
+                'updated_at' => '2018-11-26 00:43:40',
             ),
             10 => 
             array (
@@ -234,8 +234,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => '',
                 'pro_id' => 11,
-                'created_at' => '2016-11-26 00:43:47',
-                'updated_at' => '2016-11-26 00:43:47',
+                'created_at' => '2018-11-26 00:43:47',
+                'updated_at' => '2018-11-26 00:43:47',
             ),
             11 => 
             array (
@@ -254,8 +254,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => '',
                 'pro_id' => 12,
-                'created_at' => '2016-11-26 00:43:51',
-                'updated_at' => '2016-11-26 00:43:51',
+                'created_at' => '2018-11-26 00:43:51',
+                'updated_at' => '2018-11-26 00:43:51',
             ),
             12 => 
             array (
@@ -274,8 +274,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => '',
                 'pro_id' => 13,
-                'created_at' => '2016-11-26 00:43:55',
-                'updated_at' => '2016-11-26 00:43:55',
+                'created_at' => '2018-11-26 00:43:55',
+                'updated_at' => '2018-11-26 00:43:55',
             ),
             13 => 
             array (
@@ -294,8 +294,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => '',
                 'pro_id' => 14,
-                'created_at' => '2016-11-26 00:43:58',
-                'updated_at' => '2016-11-26 00:43:58',
+                'created_at' => '2018-11-26 00:43:58',
+                'updated_at' => '2018-11-26 00:43:58',
             ),
             14 => 
             array (
@@ -314,8 +314,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => '',
                 'pro_id' => 15,
-                'created_at' => '2016-11-26 00:44:02',
-                'updated_at' => '2016-11-26 00:44:02',
+                'created_at' => '2018-11-26 00:44:02',
+                'updated_at' => '2018-11-26 00:44:02',
             ),
             15 => 
             array (
@@ -334,8 +334,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 16,
-                'created_at' => '2016-11-26 02:13:19',
-                'updated_at' => '2016-11-26 02:13:19',
+                'created_at' => '2018-11-26 02:13:19',
+                'updated_at' => '2018-11-26 02:13:19',
             ),
             16 => 
             array (
@@ -354,8 +354,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 17,
-                'created_at' => '2016-11-26 02:13:24',
-                'updated_at' => '2016-11-26 02:13:24',
+                'created_at' => '2018-11-26 02:13:24',
+                'updated_at' => '2018-11-26 02:13:24',
             ),
             17 => 
             array (
@@ -374,8 +374,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 18,
-                'created_at' => '2016-11-26 02:13:27',
-                'updated_at' => '2016-11-26 02:13:27',
+                'created_at' => '2018-11-26 02:13:27',
+                'updated_at' => '2018-11-26 02:13:27',
             ),
             18 => 
             array (
@@ -394,8 +394,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 19,
-                'created_at' => '2016-11-26 02:13:31',
-                'updated_at' => '2016-11-26 02:13:31',
+                'created_at' => '2018-11-26 02:13:31',
+                'updated_at' => '2018-11-26 02:13:31',
             ),
             19 => 
             array (
@@ -414,8 +414,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 20,
-                'created_at' => '2016-11-26 02:13:35',
-                'updated_at' => '2016-11-26 02:13:35',
+                'created_at' => '2018-11-26 02:13:35',
+                'updated_at' => '2018-11-26 02:13:35',
             ),
             20 => 
             array (
@@ -434,8 +434,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 21,
-                'created_at' => '2016-11-26 02:13:53',
-                'updated_at' => '2016-11-26 02:13:53',
+                'created_at' => '2018-11-26 02:13:53',
+                'updated_at' => '2018-11-26 02:13:53',
             ),
             21 => 
             array (
@@ -454,8 +454,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 22,
-                'created_at' => '2016-11-26 02:13:55',
-                'updated_at' => '2016-11-26 02:13:55',
+                'created_at' => '2018-11-26 02:13:55',
+                'updated_at' => '2018-11-26 02:13:55',
             ),
             22 => 
             array (
@@ -474,8 +474,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 23,
-                'created_at' => '2016-11-26 02:14:00',
-                'updated_at' => '2016-11-26 02:14:00',
+                'created_at' => '2018-11-26 02:14:00',
+                'updated_at' => '2018-11-26 02:14:00',
             ),
             23 => 
             array (
@@ -494,8 +494,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Cài sẵn Windows 7 bản quyền',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 24,
-                'created_at' => '2016-11-26 02:14:03',
-                'updated_at' => '2016-11-26 02:14:03',
+                'created_at' => '2018-11-26 02:14:03',
+                'updated_at' => '2018-11-26 02:14:03',
             ),
             24 => 
             array (
@@ -514,8 +514,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 25,
-                'created_at' => '2016-11-26 02:18:03',
-                'updated_at' => '2016-11-26 02:18:03',
+                'created_at' => '2018-11-26 02:18:03',
+                'updated_at' => '2018-11-26 02:18:03',
             ),
             25 => 
             array (
@@ -534,8 +534,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 26,
-                'created_at' => '2016-11-26 02:18:08',
-                'updated_at' => '2016-11-26 02:18:08',
+                'created_at' => '2018-11-26 02:18:08',
+                'updated_at' => '2018-11-26 02:18:08',
             ),
             26 => 
             array (
@@ -554,8 +554,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 27,
-                'created_at' => '2016-11-26 02:18:11',
-                'updated_at' => '2016-11-26 02:18:11',
+                'created_at' => '2018-11-26 02:18:11',
+                'updated_at' => '2018-11-26 02:18:11',
             ),
             27 => 
             array (
@@ -574,8 +574,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 28,
-                'created_at' => '2016-11-26 02:18:14',
-                'updated_at' => '2016-11-26 02:18:14',
+                'created_at' => '2018-11-26 02:18:14',
+                'updated_at' => '2018-11-26 02:18:14',
             ),
             28 => 
             array (
@@ -594,8 +594,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 29,
-                'created_at' => '2016-11-26 02:18:17',
-                'updated_at' => '2016-11-26 02:18:17',
+                'created_at' => '2018-11-26 02:18:17',
+                'updated_at' => '2018-11-26 02:18:17',
             ),
             29 => 
             array (
@@ -614,8 +614,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 30,
-                'created_at' => '2016-11-26 02:18:34',
-                'updated_at' => '2016-11-26 02:18:34',
+                'created_at' => '2018-11-26 02:18:34',
+                'updated_at' => '2018-11-26 02:18:34',
             ),
             30 => 
             array (
@@ -634,8 +634,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 31,
-                'created_at' => '2016-11-26 02:19:12',
-                'updated_at' => '2016-11-26 02:19:12',
+                'created_at' => '2018-11-26 02:19:12',
+                'updated_at' => '2018-11-26 02:19:12',
             ),
             31 => 
             array (
@@ -654,8 +654,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 32,
-                'created_at' => '2016-11-26 02:19:16',
-                'updated_at' => '2016-11-26 02:19:16',
+                'created_at' => '2018-11-26 02:19:16',
+                'updated_at' => '2018-11-26 02:19:16',
             ),
             32 => 
             array (
@@ -674,8 +674,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => 33,
-                'created_at' => '2016-11-26 02:19:19',
-                'updated_at' => '2016-11-26 02:19:19',
+                'created_at' => '2018-11-26 02:19:19',
+                'updated_at' => '2018-11-26 02:19:19',
             ),
         ));
         for ($i = 34; $i<= 55; $i++) {
@@ -695,8 +695,8 @@ class ProDetailsTableSeeder extends Seeder
                 'os' => 'Windows 10 bản dùng thử',
                 'note' => 'Dây nguồn, Ốc ..',
                 'pro_id' => $i,
-                'created_at' => '2016-11-26 02:19:19',
-                'updated_at' => '2016-11-26 02:19:19',
+                'created_at' => '2018-11-26 02:19:19',
+                'updated_at' => '2018-11-26 02:19:19',
             ]);
         }
         
