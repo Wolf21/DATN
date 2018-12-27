@@ -34,7 +34,8 @@ class ProductService
                 'pro_details.pin',
                 'pro_details.os',
                 'pro_details.note'
-            )->paginate(9);
+            )->orderby('created_at', 'DESC')
+            ->paginate(9);
     }
 
     /**
