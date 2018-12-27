@@ -11,7 +11,7 @@
 		<?php 
           $oder = DB::table('orders')->count('*');
           $oder_new = DB::table('orders')->where('status',0)->count('*');
-          $mem = DB::table('users')->count('*');            
+          $mem = DB::table('users')->where('role', \App\Enums\Role::USER)->count('*');
           $pro = DB::table('products')->count('*');            
 
         ?>
