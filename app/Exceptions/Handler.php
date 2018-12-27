@@ -61,7 +61,7 @@ class Handler extends ExceptionHandler
 
         //handler in case errors status code 403, 404, 500, 503
         if (method_exists($exception, 'getStatusCode')) {
-            $statusCode = array('403', '404', '500', '503');
+            $statusCode = array('401', '403', '404', '500', '503');
             $status = $exception->getStatusCode();
             if (in_array($status, $statusCode)) {
                 return response()->view('errors.' . $status);
