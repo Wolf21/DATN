@@ -15,27 +15,35 @@ class ProductService
 
     public static function getProductDetailsByCategories()
     {
-        return Products::join('category', 'products.cat_id', '=', 'category.id')
+        $select = [
+            'category.id as cat_id',
+            'products.*',
+            'pro_details.cpu',
+            'pro_details.ram',
+            'pro_details.screen',
+            'pro_details.vga',
+            'pro_details.storage',
+            'pro_details.exten_memmory',
+            'pro_details.cam1',
+            'pro_details.cam2',
+            'pro_details.sim',
+            'pro_details.connect',
+            'pro_details.pin',
+            'pro_details.os',
+            'pro_details.note'
+        ];
+        $appends = [];
+        $products = Products::join('category', 'products.cat_id', '=', 'category.id')
             ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
-            ->whereNotIn('category.parent_id', [0, 4])
-            ->select(
-                'category.id as cat_id',
-                'products.*',
-                'pro_details.cpu',
-                'pro_details.ram',
-                'pro_details.screen',
-                'pro_details.vga',
-                'pro_details.storage',
-                'pro_details.exten_memmory',
-                'pro_details.cam1',
-                'pro_details.cam2',
-                'pro_details.sim',
-                'pro_details.connect',
-                'pro_details.pin',
-                'pro_details.os',
-                'pro_details.note'
-            )->orderby('created_at', 'DESC')
-            ->paginate(9);
+            ->whereNotIn('category.parent_id', [0, 4]);
+        if (isset(request()->key)) {
+            $products = $products->where('products.name', 'LIKE', '%' . request()->key . '%');
+            $appends = ['key' => request()->key];
+        };
+        $products = $products->select($select)->orderby('created_at', 'DESC')
+            ->paginate(9)->appends($appends);
+
+        return $products;
     }
 
     /**

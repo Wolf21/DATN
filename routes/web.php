@@ -17,6 +17,7 @@ Route::get('admin/logout', 'Admin\AuthController@logout');
 
 Route::group(['prefix' => '/', 'middleware' => 'not_admin'], function () {
     Route::get('/', 'PagesController@index')->name('index');
+    Route::get('/search', 'PagesController@search')->name('search');
 // cart
     Route::get('cart', 'PagesController@getCart')->name('getCart');
     Route::get('cart/add/{id}', 'PagesController@addCart')->name('addCart');
@@ -99,7 +100,6 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin_and_su'], function () 
 
         Route::get('', ['as' => 'getMember', 'uses' => 'Admin_usersController@getList']);
         Route::get('/delete/{id}', ['as' => 'getDelMember', 'uses' => 'Admin_usersController@getDelete'])->where('id', '[0-9]+');
-
         Route::get('/edit/{id}', ['as' => 'getEditMember', 'uses' => 'Admin_usersController@getEdit'])->where('id', '[0-9]+');
         Route::post('/edit/{id}', ['as' => 'postEditMember', 'uses' => 'Admin_usersController@postEdit'])->where('id', '[0-9]+');
     });

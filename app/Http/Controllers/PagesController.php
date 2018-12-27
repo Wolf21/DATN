@@ -29,6 +29,15 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
+    public function search()
+    {
+        $mobile = ProductService::getProductDetailsByCategories();
+        return view('home', ['mobile' => $mobile]);
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getCart()
     {
         $sameProducts = ProductService::getSameProducts();

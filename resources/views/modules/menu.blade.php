@@ -3,6 +3,22 @@
         color: #FFFFFF !important;
         background-color: #2c3e50 !important;
     }
+
+    .input-search {
+        height: 30px;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .form-search {
+        padding: 10px;
+    }
+
+    #search {
+        margin-bottom: 4px;
+        height: 30px;
+    }
+
 </style>
 <!-- main menu  navbar -->
 <nav class="navbar navbar-default navbar-top" role="navigation" id="main-Nav"
@@ -28,7 +44,7 @@
                 </span>
             </div>
         <?php
-        $categories = \App\Models\Category::where('parent_id', 0)->get();
+        $categories = \App\Models\Category::where('parent_id', 0)->where('id', '!=', 5)->get();
         ?>
         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="main-mav-top">
@@ -40,6 +56,16 @@
                             <a href="{{ url('') .'/'. $category->slug }}" class="top-menu"> {{ $category->name }} </a>
                         </li>
                     @endforeach
+                    <li>
+                        {{Form::open(['method' => 'GET', 'class' => 'form-search'])}}
+                        <span class="input-icon align-middle">
+                                <i class="ace-icon fa fa-search"></i>
+
+                                <input name="key" type="text" class="input-search" placeholder="Nhập thông tin cần tìm..."/>
+                            </span>
+                        <button id="search" class="btn btn-sm" type="button">Tìm kiếm!</button>
+                        {{Form::close()}}
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
                     {{-- <li><a href="{{ url('/admin/home') }}">Vào trang quản trị</a></li> --}}

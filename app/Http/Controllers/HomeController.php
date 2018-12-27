@@ -27,9 +27,4 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public static function getEdit()
-    {
-//        $orders = Oders::where('c_id', 1)->first();
-        return view('member.user');
-    }
 }
