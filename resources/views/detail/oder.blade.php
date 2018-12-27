@@ -47,7 +47,7 @@
               </div>
               {{-- form thong tin khach hang dat hang           --}}
               @if ($_GET['paymethod'] =='cod' )
-              <form action="" method="POST" role="form">
+              <form action="{{route('orderComplete')}}" method="POST" role="form">
                 <legend class="text-left">Xác nhận thông tin khách hàng</legend>
                 {{ csrf_field() }}
                 <div class="form-group">
@@ -65,7 +65,7 @@
                 <button type="submit" class="btn btn-primary pull-right"> Đặt hàng (COD)</button> 
               </form>
               @else 
-              <form action="{!!url('/payment')!!}" method="Post" accept-charset="utf-8">
+              <form action="{{route('orderComplete')}}" method="Post" accept-charset="utf-8">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
                   <label for="">

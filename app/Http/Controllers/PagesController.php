@@ -141,7 +141,7 @@ class PagesController extends Controller
             $detail->save();
         }
         Cart::destroy();
-        return redirect()->route('getcart')
+        return redirect()->route('getCart')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đơn hàng của bạn đã được gửi đi !']);
 
     }
