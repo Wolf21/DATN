@@ -2,7 +2,7 @@
 
 
 //Auth::routes();
-Route::get('/user', 'HomeController@getEdit');
+Route::get('/user', 'UsersController@getUserInfo');
 //Route::get('/user/edit', 'HomeController@getEdit');
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('loginForm');
 Route::post('/login', 'Auth\LoginController@login');
@@ -35,7 +35,7 @@ Route::group(['prefix' => '/', 'middleware' => 'not_admin'], function () {
 Route::resource('payment', 'PayMentController');
 
 // --------------------------------cac cong viec trong admin (back-end)---------------------------------------
-Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
+Route::group(['prefix' => 'admin', 'middleware' => 'admin_and_su'], function () {
 
     Route::get('/home', function () {
         return view('back-end.home');
@@ -94,7 +94,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
         Route::post('/edit/{id}', ['as' => 'postEditUser', 'uses' => 'UsersController@postEdit'])->where('id', '[0-9]+');
     });
     // -------------------- quan ly thong nhan vien--------------------
-    Route::group(['prefix' => '/member'], function () {
+    Route::group(['prefix' => '/member', 'middleware' => 'admin'], function () {
         ;
 
         Route::get('', ['as' => 'getMember', 'uses' => 'Admin_usersController@getList']);

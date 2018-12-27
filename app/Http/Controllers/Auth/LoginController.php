@@ -64,7 +64,7 @@ class LoginController extends Controller
         $user = LoginService::getUserByName($inputs['user_name']);
         $message = LoginService::getMessage($user);
         if (empty($message) && Auth::attempt($inputs)) {
-            if ($user->role == Role::ADMIN) {
+            if (in_array($user->role, [Role::ADMIN, Role::SUPER_USER])) {
                 return redirect(url('/admin/home'));
             } else {
                 return redirect(url('/'));
