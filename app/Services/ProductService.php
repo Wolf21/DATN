@@ -37,8 +37,8 @@ class ProductService
             ->join('pro_details', 'pro_details.pro_id', '=', 'products.id')
             ->whereNotIn('category.parent_id', [0, 4]);
         if (isset(request()->key)) {
-            $products = $products->where('products.name', 'LIKE', '%' . request()->key . '%');
-            $appends = ['key' => request()->key];
+            $products = $products->where('products.name', 'like', '%' . request()->key . '%');
+            $appends['key'] = request()->key;
         };
         $products = $products->select($select)->orderby('created_at', 'DESC')
             ->paginate(9)->appends($appends);

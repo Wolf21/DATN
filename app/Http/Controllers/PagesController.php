@@ -27,12 +27,18 @@ class PagesController extends Controller
     }
 
     /**
+     * @param Request $request
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function search()
+    public function search(Request $request)
     {
+        $inputs = $request->only('key');
         $mobile = ProductService::getProductDetailsByCategories();
-        return view('home', ['mobile' => $mobile]);
+        $data = [
+            'mobile' => $mobile,
+            'key' => $inputs['key'] ?? ''
+        ];
+        return view('home', $data);
     }
 
     /**
