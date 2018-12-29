@@ -4,7 +4,7 @@
 //Auth::routes();
 Route::get('/user', 'UsersController@getUserInfo');
 //Route::get('/user/edit', 'HomeController@getEdit');
-Route::get('/login', 'Auth\LoginController@showLoginForm')->name('loginForm');
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('/login', 'Auth\LoginController@login');
 Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('registerForm');
 Route::post('/register', 'Auth\RegisterController@register')->name('register');
@@ -36,7 +36,7 @@ Route::group(['prefix' => '/', 'middleware' => 'not_admin'], function () {
 Route::resource('payment', 'PayMentController');
 
 // --------------------------------cac cong viec trong admin (back-end)---------------------------------------
-Route::group(['prefix' => 'admin', 'middleware' => 'admin_and_su'], function () {
+Route::group(['prefix' => 'admin', 'middleware' => ['admin_and_su', 'auth']], function () {
 
     Route::get('/home', function () {
         return view('back-end.home');

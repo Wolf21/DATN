@@ -6,6 +6,7 @@ use Exception;
 use Illuminate\Database\Eloquent\MassAssignmentException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Session\TokenMismatchException;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
 use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
@@ -35,7 +36,7 @@ class Handler extends ExceptionHandler
     /**
      * Report or log an exception.
      *
-     * @param  \Exception  $exception
+     * @param  \Exception $exception
      * @return void
      */
     public function report(Exception $exception)
@@ -46,8 +47,8 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Exception  $exception
+     * @param  \Illuminate\Http\Request $request
+     * @param  \Exception $exception
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $exception)
@@ -56,7 +57,7 @@ class Handler extends ExceptionHandler
         if ($exception instanceof TokenMismatchException) {
             Log::error($exception->getMessage(), $exception->getTrace());
             Session::flash('error', 'ERROR');
-            return redirect(route('loginForm'));
+            return redirect(route('login'));
         }
 
         //handler in case errors status code 403, 404, 500, 503
@@ -64,46 +65,106 @@ class Handler extends ExceptionHandler
             $statusCode = array('401', '403', '404', '500', '503');
             $status = $exception->getStatusCode();
             if (in_array($status, $statusCode)) {
-                return response()->view('errors.' . $status);
+                $view = 'errors.' . $status;
+                if (Auth::guard()->check()) {
+                    if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                        $view = $view . '-admin';
+                    }
+                }
+                return response()->view($view);
             }
         }
         //handler if don't have route.
         if ($this->isHttpException($exception)) {
             Log::error($exception->getMessage(), $exception->getTrace());
-            return response()->view('errors.404');
+            $view = 'errors.404';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         //ページなし
         if ($exception instanceof NotFoundHttpException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
         //許可されていないメソッド
         if ($exception instanceof MethodNotAllowedHttpException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         if ($exception instanceof \ReflectionException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         if ($exception instanceof \ErrorException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         if ($exception instanceof \FatalErrorException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         if ($exception instanceof \InvalidArgumentException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         if ($exception instanceof MassAssignmentException) {
-            return response()->view('errors.500');
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
-        if ($exception instanceof QueryException) {
-            return response()->view('errors.500');
+        if ($exception instanceof \QueryException) {
+            $view = 'errors.500';
+            if (Auth::guard()->check()) {
+                if (in_array(Auth::user()->role, [Role::ADMIN, Role::SUPER_USER])) {
+                    $view = $view . '-admin';
+                }
+            }
+            return response()->view($view);
         }
 
         return parent::render($request, $exception);
