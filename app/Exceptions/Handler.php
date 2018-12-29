@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use App\Enums\Role;
 use Exception;
 use Illuminate\Database\Eloquent\MassAssignmentException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
