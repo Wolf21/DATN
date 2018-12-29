@@ -48,7 +48,7 @@
                                     </div>
                                     <form method="GET" class="col-md-3" style="display: -webkit-inline-box;">
                                         <input type="text" name="key" id="key" class="form-control" value="{{$key ?? ''}}"
-                                               placeholder="Tìm sản phẩm..." required="required">
+                                               placeholder="Tìm sản phẩm...">
                                         <button id="search" class="btn btn-sm" type="submit">Tìm kiếm</button>
                                     </form>
                                 </div>

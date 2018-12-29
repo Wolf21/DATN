@@ -1,5 +1,12 @@
 @extends('back-end.layouts.master')
 @section('content')
+    <style>
+        #search {
+            margin-left: 15px;
+            margin-bottom: 14px;
+            height: 33px;
+        }
+    </style>
     <!-- main content - noi dung chinh trong chu -->
     <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
         <div class="row">
@@ -18,11 +25,11 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <div class="col-md-6">Danh sách tin bản tin</div>
-                        <div class="col-md-4">
-                            <input type="search" name="txttk" id="inputTxttk" class="form-control" value=""
-                                   placeholder="Nhập thông tin..." required="required" title="">
-                            <button id="search" class="btn btn-sm" type="button">Tìm kiếm!</button>
-                        </div>
+                        <form method="GET" class="col-md-3" style="display: -webkit-inline-box;">
+                            <input type="text" name="key" id="key" class="form-control" value="{{$key ?? ''}}"
+                                   placeholder="Tìm tin...">
+                            <button id="search" class="btn btn-sm" type="submit">Tìm kiếm</button>
+                        </form>
                         <a href="{!!url('admin/news/add')!!}" title="">
                             <button type="button" class="btn btn-primary pull-right">Thêm tin mới</button>
                         </a>
@@ -75,7 +82,7 @@
                                         <td style="width: 120px;">
                                             <a href="{!!url('admin/news/edit/'.$row->id)!!}" title="Sửa"><span
                                                     class="glyphicon glyphicon-edit">edit</span> </a>
-                                            <a href="{!!url('admin/news/del/'.$row->id)!!}" title="Xóa"
+                                            <a href="{!!url('admin/news/delete/'.$row->id)!!}" title="Xóa"
                                                onclick="return xacnhan('Xóa danh mục này ?')"><span
                                                     class="glyphicon glyphicon-remove">remove</span> </a>
                                         </td>
@@ -85,6 +92,13 @@
                             </table>
                         </div>
                         {!!$data->render()!!}
+                        @if (\Session::has('flash_message'))
+                            <div class="alert alert-success">
+                                <ul>
+                                    {{ \Session::get('flash_message') }}
+                                </ul>
+                            </div>
+                        @endif
                     </div>
                 </div>
             </div>
