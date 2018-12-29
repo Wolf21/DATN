@@ -15,15 +15,15 @@
                             Internal Server Error !
                         </h1>
 
-                        <hr />
+                        <hr/>
                         <h3 class="lighter smaller">Đã có lỗi xảy ra, vì vậy bạn không thể thực hiện thao tác này!</h3>
 
-                        <div >
+                        <div>
                             <form class="form-search">
                             <span class="input-icon align-middle">
                                 <i class="ace-icon fa fa-search"></i>
 
-                                <input type="text" class="search-query" placeholder="Nhập thông tin cần tìm..." />
+                                <input type="text" class="search-query" placeholder="Nhập thông tin cần tìm..."/>
                             </span>
                                 <button class="btn btn-sm" type="button">Tìm kiếm!</button>
                             </form>
@@ -31,7 +31,7 @@
                             <div class="space"></div>
                             <h4 class="smaller">Hãy thử một trong các cách sau: </h4>
 
-                            <ul >
+                            <ul>
                                 <li>
                                     <i class="glyphicon glyphicon-hand-right"></i>
                                     Kiểm tra lại địa chỉ của bạn
@@ -49,7 +49,7 @@
                             </ul>
                         </div>
 
-                        <hr />
+                        <hr/>
                         <div class="space"></div>
 
                         <div class="center">

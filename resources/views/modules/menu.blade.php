@@ -3,6 +3,22 @@
         color: #FFFFFF !important;
         background-color: #2c3e50 !important;
     }
+
+    .input-search {
+        height: 30px;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .form-search {
+        padding: 10px;
+    }
+
+    #search {
+        margin-bottom: 4px;
+        height: 30px;
+    }
+
 </style>
 <!-- main menu  navbar -->
 <nav class="navbar navbar-default navbar-top" role="navigation" id="main-Nav"
@@ -18,7 +34,7 @@
               <!-- Authentication Links -->
                     @if (Auth::guest())
                         <a class="top-a" href="{{ url('/') }}"> Home </a>  &nbsp;
-                        <a href="{{ route('loginForm') }}"
+                        <a href="{{ route('login') }}"
                            style="color:#e67e22;"> Đăng nhập </a>
                     @else
                         <a class="top-a" href="{{ url('/user') }}"
@@ -28,7 +44,7 @@
                 </span>
             </div>
         <?php
-        $categories = \App\Models\Category::where('parent_id', 0)->get();
+        $categories = \App\Models\Category::where('parent_id', 0)->where('id', '!=', 5)->get();
         ?>
         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="main-mav-top">
@@ -40,13 +56,25 @@
                             <a href="{{ url('') .'/'. $category->slug }}" class="top-menu"> {{ $category->name }} </a>
                         </li>
                     @endforeach
+                    <li>
+                        {{Form::open(['url' => route('search'), 'method' => 'GET', 'class' => 'form-search','autocomplete' => 'off'])}}
+                        <span class="input-icon align-middle">
+                                <i class="ace-icon fa fa-search" style="font-size: 17px"></i>
+                                <input name="key" type="text" class="input-search"
+                                       value="{{$key ?? ''}}"
+                                       placeholder="Nhập thông tin cần tìm..."/>
+                                </span>
+                        <button id="search" class="btn btn-sm" type="submit">Tìm kiếm</button>
+                        {{Form::close()}}
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
                     {{-- <li><a href="{{ url('/admin/home') }}">Vào trang quản trị</a></li> --}}
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown"> <span
                                 class="glyphicon glyphicon-shopping-cart"><span
-                                    class="badge">{{ Cart::count() }}</span></span> Giỏ Hàng <b class="caret"></b></a>
+                                    class="badge">{{ Cart::count() }}</span></span> Giỏ Hàng <b
+                                class="caret"></b></a>
                         <ul class="dropdown-menu" style="right:0; left: auto; min-width: 350px;">
                             @if(Cart::count() !=0)
                                 <div class="table-responsive">
@@ -98,7 +126,7 @@
                     </li>
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ route('loginForm') }}">Đăng nhập</a></li>
+                        <li><a href="{{ route('login') }}">Đăng nhập</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"

@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('back-end.layouts.master')
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-left: 195px!important;">
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->

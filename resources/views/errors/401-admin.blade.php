@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('back-end.layouts.master')
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-left: 195px!important;">
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
@@ -10,14 +10,13 @@
                         <h1 class="grey lighter smaller">
                         <span class="blue bigger-125">
                             <i class="ace-icon fa fa-sitemap"></i>
-                            404
+                            401
                         </span>
-                            Mục này không tồn tại
+                            Unauthorized !
                         </h1>
 
                         <hr/>
-                        <h3 class="lighter smaller">Chúng tôi tìm kiếm khắp nơi nhưng chúng tôi không thể tìm thấy
-                            nó!</h3>
+                        <h3 class="lighter smaller">Xin Lỗi bạn không có quyền truy cập!</h3>
 
                         <div>
                             <form class="form-search">

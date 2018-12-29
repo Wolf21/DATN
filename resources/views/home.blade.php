@@ -53,7 +53,14 @@
 
         </div>
         <!-- ===================================================================================/products ============================== -->
-    {{ $mobile->render() }}
+        {{ $mobile->render() }}
+        @if (Session::has('flash_message'))
+            <div class="alert alert-success">
+                <ul>
+                    {{ Session::get('flash_message') }}
+                </ul>
+            </div>
+        @endif
     <!-- Danh mục điện thoại -->
         <a href="#" target="_blank">
             <img src="/images/slides/thumbs/qc1.png" alt="" border="0" width="100%" height="250"/>

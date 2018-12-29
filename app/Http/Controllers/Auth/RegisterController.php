@@ -88,6 +88,6 @@ class RegisterController extends Controller
         Input::flash();
         UserService::registerUser($inputs);
         Session::flash('info', 'Đăng ký thành công, Hãy đăng nhập để tiếp tục !');
-        return redirect(route('loginForm'));
+        return redirect(route('login'));
     }
 }

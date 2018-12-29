@@ -18,11 +18,11 @@ jQuery(function(){
     });
 });
 function openNav() {
-    document.getElementById("mySidenav").style.width = "55%";
+    document.getElementById("main-mav-top").style.width = "55%";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main-mav-top").style.width = "0";
 }
 
 $(document).ready(function(){
@@ -55,4 +55,3 @@ function xacnhan(msg) {
     return false;
 }
 
-  

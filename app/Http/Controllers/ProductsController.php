@@ -2,45 +2,49 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\ProductService;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Requests\AddProductsRequest;
 use App\Http\Requests\EditProductsRequest;
-use App\Http\Requests;
 use App\Models\Products;
 use App\Models\Category;
 use App\Models\Pro_details;
 use App\Models\Detail_img;
 use Auth;
 use DateTime, File, Input, DB;
+use Illuminate\Support\Facades\Session;
 
 
 class ProductsController extends Controller
 {
-    public function getList($id)
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function getList(Request $request, $id)
     {
-        if ($id != 'all') {
-            $pro = Products::join('category', 'products.cat_id', '=', 'category.id')
-                ->where('cat_id', $id)
-                ->select(
-                    'products.*',
-                    'category.name AS cat_name'
-                )
-                ->paginate(10);
-            $cat = Category::whereNotIn('parent_id', [0, 4])->get();
-            return view('back-end.products.list', ['data' => $pro, 'cat' => $cat, 'loai' => $id]);
-        } else {
-            $pro = Products::join('category', 'products.cat_id', '=', 'category.id')
-                ->select(
-                    'products.*',
-                    'category.name AS cat_name'
-                )
-                ->paginate(10);
-            $cat = Category::whereNotIn('parent_id', [0, 4])->get();
-            return view('back-end.products.list', ['data' => $pro, 'cat' => $cat, 'loai' => $id]);
+        Session::forget('flash_message');
+        $inputs = $request->only('key');
+        $products = ProductService::getListProduct($id);
+        $cat = Category::whereNotIn('parent_id', [0, 4])->get();
+        $data = [
+            'data' => $products,
+            'cat' => $cat,
+            'loai' => $id,
+        ];
+        $data['key'] = $inputs['key'] ?? '';
+        if (!count($products)) {
+            Session::flash('flash_message', 'Không tìm thấy kết quả phù hợp !');
         }
+        return view('back-end.products.list', $data);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getAdd($id)
     {
         $loai = Category::where('id', $id)->first();
@@ -48,15 +52,13 @@ class ProductsController extends Controller
         $p_name = Category::where('id', $p_id)->first();
         $cat = Category::where('parent_id', $p_id)->get();
         $pro = Products::all();
-        if ($p_id >= 19) {
-            return view('back-end.products.pc-add', ['data' => $pro, 'cat' => $cat, 'loai' => $p_name->name]);
-        } else {
-            return view('back-end.products.add', ['data' => $pro, 'cat' => $cat, 'loai' => $p_name->name]);
-        }
-
-
+        return view('back-end.products.add', ['data' => $pro, 'cat' => $cat, 'loai' => $p_name->name]);
     }
 
+    /**
+     * @param AddProductsRequest $rq
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function postAdd(AddProductsRequest $rq)
     {
         $pro = new Products();
@@ -141,6 +143,10 @@ class ProductsController extends Controller
 
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function getDelete($id)
     {
         $detail = Detail_img::where('pro_id', $id)->get();
@@ -159,6 +165,10 @@ class ProductsController extends Controller
             ->with(['flash_level' => 'result_msg', 'flash_massage' => 'Đã xóa !']);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getEdit($id)
     {
         $dt = Products::where('id', $id)->first();
@@ -177,6 +187,11 @@ class ProductsController extends Controller
         ]);
     }
 
+    /**
+     * @param $id
+     * @param EditProductsRequest $rq
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function postEdit($id, EditProductsRequest $rq)
     {
         $pro = Products::find($id);

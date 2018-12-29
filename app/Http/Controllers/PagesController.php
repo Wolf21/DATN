@@ -14,6 +14,7 @@ use Cart;
 use Datetime;
 use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class PagesController extends Controller
 {
@@ -24,6 +25,24 @@ class PagesController extends Controller
     {
         $mobile = ProductService::getProductDetailsByCategories();
         return view('home', ['mobile' => $mobile]);
+    }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function search(Request $request)
+    {
+        $inputs = $request->only('key');
+        $mobile = ProductService::getProductDetailsByCategories();
+        if (!count($mobile)) {
+            Session::flash('flash_message', 'Không tìm thấy kết quả phù hợp !');
+        }
+        $data = [
+            'mobile' => $mobile,
+            'key' => $inputs['key'] ?? ''
+        ];
+        return view('home', $data);
     }
 
     /**
@@ -141,7 +160,7 @@ class PagesController extends Controller
             $detail->save();
         }
         Cart::destroy();
-        return redirect()->route('getcart')
+        return redirect()->route('getCart')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đơn hàng của bạn đã được gửi đi !']);
 
     }

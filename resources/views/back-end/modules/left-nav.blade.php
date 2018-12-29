@@ -2,7 +2,6 @@
 <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
     <form role="search">
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Tìm kiếm ...">
         </div>
     </form>
     <ul class="nav menu">
@@ -38,20 +37,24 @@
                 </svg>
                 Khách hàng</a></li>
 
+        @if(Auth()->user()->role == \App\Enums\Role::ADMIN)
         <li><a href="{{url('admin/member')}}">
                 <svg class="glyph stroked female user">
                     <use xlink:href="#stroked-female-user"/>
                 </svg>
                 Nhân Viên</a></li>
+        @endif
 
         <li role="presentation" class="divider"></li>
-        <li><a href="{{url('admin/khohang')}}">
+        {{--<li><a href="{{url('admin/khohang')}}">--}}
+        <li><a href="#">
                 <svg class="glyph stroked notepad ">
                     <use xlink:href="#stroked-notepad"/>
                 </svg>
                 Thông tin kho hàng</a></li>
 
-        <li><a href="{{url('admin/lichsu')}}">
+        {{--<li><a href="{{url('admin/lichsu')}}">--}}
+        <li><a href="#">
                 <svg class="glyph stroked table">
                     <use xlink:href="#stroked-table"/>
                 </svg>
