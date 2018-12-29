@@ -64,7 +64,7 @@
                                        value="{{$key ?? ''}}"
                                        placeholder="Nhập thông tin cần tìm..."/>
                                 </span>
-                        <button id="search" class="btn btn-sm" type="submit">Tìm kiếm!</button>
+                        <button id="search" class="btn btn-sm" type="submit">Tìm kiếm</button>
                         {{Form::close()}}
                     </li>
                 </ul>

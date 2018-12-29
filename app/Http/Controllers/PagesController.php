@@ -14,6 +14,7 @@ use Cart;
 use Datetime;
 use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class PagesController extends Controller
 {
@@ -34,6 +35,9 @@ class PagesController extends Controller
     {
         $inputs = $request->only('key');
         $mobile = ProductService::getProductDetailsByCategories();
+        if (!count($mobile)) {
+            Session::flash('flash_message', 'Không tìm thấy kết quả phù hợp !');
+        }
         $data = [
             'mobile' => $mobile,
             'key' => $inputs['key'] ?? ''

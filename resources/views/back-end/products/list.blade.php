@@ -49,7 +49,7 @@
                                     <form method="GET" class="col-md-3" style="display: -webkit-inline-box;">
                                         <input type="text" name="key" id="key" class="form-control" value="{{$key ?? ''}}"
                                                placeholder="Tìm sản phẩm..." required="required">
-                                        <button id="search" class="btn btn-sm" type="submit">Tìm kiếm!</button>
+                                        <button id="search" class="btn btn-sm" type="submit">Tìm kiếm</button>
                                     </form>
                                 </div>
 
@@ -74,7 +74,7 @@
                                 @endforeach
                             </ul>
                         </div>
-                    @elseif (Session()->has('flash_level'))
+                        @elseif (Session()->has('flash_level'))
                         <div class="alert alert-success">
                             <ul>
                                 {{ Session::get('flash_massage') }}
@@ -126,6 +126,13 @@
                             </table>
                         </div>
                         {{ $data->render() }}
+                        @if (Session::has('flash_message'))
+                            <div class="alert alert-success">
+                                <ul>
+                                    {{ Session::get('flash_message') }}
+                                </ul>
+                            </div>
+                        @endif
                     </div>
                 </div>
             </div>
