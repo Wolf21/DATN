@@ -1,5 +1,12 @@
 @extends('back-end.layouts.master')
 @section('content')
+    <style>
+        #search {
+            margin-left: 15px;
+            margin-bottom: 14px;
+            height: 33px;
+        }
+    </style>
     <!-- main content - noi dung chinh trong chu -->
     <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
         <div class="row">
@@ -21,9 +28,9 @@
                                 <div class="form-group">
                                     <label for="inputLoai" class="col-sm-3 control-label"><strong> Chọn sản
                                             phẩm </strong></label>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <select name="sltCate" id="inputLoai" class="form-control">
-                                            <option value="0">-- CHỌN MỘT THƯƠNG HIỆU --</option>
+                                            <option value="0">CHỌN MỘT THƯƠNG HIỆU</option>
                                             @foreach($cat as $row)
                                                 <option
                                                     value="{{ $row->id }}" {{$row->id == $loai ? 'selected' : ''}}>{{ $row->name }}</option>
@@ -37,10 +44,11 @@
                                             };
                                         </script>
                                     </div>
-                                    <div class="col-md-3">
-                                        <input type="search" name="txttk" id="inputTxttk" class="form-control" value=""
-                                               placeholder="Tìm sản phẩm..." required="required" title="">
-                                    </div>
+                                    <form method="GET" class="col-md-3" style="display: -webkit-inline-box;">
+                                        <input type="text" name="key" id="key" class="form-control" value="{{$key ?? ''}}"
+                                               placeholder="Tìm sản phẩm..." required="required">
+                                        <button id="search" class="btn btn-sm" type="submit">Tìm kiếm!</button>
+                                    </form>
                                 </div>
 
 
@@ -77,13 +85,13 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Hình ảnh</th>
+                                    <th class="text-center">Hình ảnh</th>
                                     <th>Tên sản phẩm</th>
-                                    <th>Tóm tắt chức năng</th>
+                                    <th style="width: 365px;">Tóm tắt chức năng</th>
                                     <th>Thương hiệu</th>
                                     <th>Giá bán</th>
                                     <th>Trạng thái</th>
-                                    <th>Action</th>
+                                    <th class="text-center">Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
