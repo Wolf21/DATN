@@ -34,7 +34,7 @@
               <!-- Authentication Links -->
                     @if (Auth::guest())
                         <a class="top-a" href="{{ url('/') }}"> Home </a>  &nbsp;
-                        <a href="{{ route('loginForm') }}"
+                        <a href="{{ route('login') }}"
                            style="color:#e67e22;"> Đăng nhập </a>
                     @else
                         <a class="top-a" href="{{ url('/user') }}"
@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse" id="main-mav-top">
                 <ul class="nav navbar-nav">
                     <li class="main-page custom-active"><a href="{{url('')}}" title=""><b
-                                    class="glyphicon glyphicon-home"></b> TRANG CHỦ </a></li>
+                                class="glyphicon glyphicon-home"></b> TRANG CHỦ </a></li>
                     @foreach($categories as $category)
                         <li>
                             <a href="{{ url('') .'/'. $category->slug }}" class="top-menu"> {{ $category->name }} </a>
@@ -59,11 +59,11 @@
                     <li>
                         {{Form::open(['url' => route('search'), 'method' => 'GET', 'class' => 'form-search','autocomplete' => 'off'])}}
                         <span class="input-icon align-middle">
-                                <i class="ace-icon fa fa-search"></i>
+                                <i class="ace-icon fa fa-search" style="font-size: 17px"></i>
                                 <input name="key" type="text" class="input-search"
                                        value="{{$key ?? ''}}"
                                        placeholder="Nhập thông tin cần tìm..."/>
-                            </span>
+                                </span>
                         <button id="search" class="btn btn-sm" type="submit">Tìm kiếm!</button>
                         {{Form::close()}}
                     </li>
@@ -72,9 +72,9 @@
                     {{-- <li><a href="{{ url('/admin/home') }}">Vào trang quản trị</a></li> --}}
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown"> <span
-                                    class="glyphicon glyphicon-shopping-cart"><span
-                                        class="badge">{{ Cart::count() }}</span></span> Giỏ Hàng <b
-                                    class="caret"></b></a>
+                                class="glyphicon glyphicon-shopping-cart"><span
+                                    class="badge">{{ Cart::count() }}</span></span> Giỏ Hàng <b
+                                class="caret"></b></a>
                         <ul class="dropdown-menu" style="right:0; left: auto; min-width: 350px;">
                             @if(Cart::count() !=0)
                                 <div class="table-responsive">
@@ -126,7 +126,7 @@
                     </li>
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ route('loginForm') }}">Đăng nhập</a></li>
+                        <li><a href="{{ route('login') }}">Đăng nhập</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
