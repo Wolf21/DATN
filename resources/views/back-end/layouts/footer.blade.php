@@ -27,9 +27,9 @@
 <script>
     $(document).ready(function () {
         $('.left-menu').each(function (index, element) {
-            if (location.href === element.href) {
-                $('#home').removeClass('active');
+            if (location.href.indexOf(element.closest("li").id) !== -1) {
                 $(this).closest("li").addClass('active');
+                $('#home').removeClass('active');
             }
         });
     });
