@@ -5,13 +5,13 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Dơn đặt hàng</li>
+				<li class="active">Khách hàng</li>
 			</ol>
 		</div><!--/.row-->
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel-heading">
-					Danh sách đơn đặt hàng						
+					Danh sách khách hàng
 				</div>
 				<div class="panel panel-default">					
 					@if (count($errors) > 0)
@@ -54,14 +54,14 @@
 											<td>{!!$row->email!!}</td>											
 											<td>{!!$row->created_at!!}</td>
 											<td>
-												@if($row->status ==0)
+												@if($row->status == 0)
 													<span style="color:#d35400;">Chưa xác nhận</span>
 												@else
 													<span style="color:#27ae60;"> Đã xác nhận</span>
 												@endif
 											</td>
 											<td>
-											    <a href="{!!url('admin/user/edit/'.$row->id)!!}" title="Chi tiết"> Cập nhật</a> &nbsp;
+											    <a href="{!!url('admin/user/details/'.$row->id)!!}" title="Chi tiết"> Chi tiết </a> &nbsp;
 											    <a href="{!!url('admin/user/delete/'.$row->id)!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')">Xóa bỏ</a>
 											</td>
 										</tr>
