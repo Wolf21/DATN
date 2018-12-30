@@ -30,7 +30,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Sánh sách loại sản phẩm
+                        Danh sách danh mục sản phẩm
                         <a href="{{url('admin/category/add')}}" title="">
                             <button type="button" class="btn btn-primary pull-right">Thêm mới danh mục</button>
                         </a>
@@ -57,6 +57,7 @@
                                 <tr>
                                     <th>ID</th>
                                     <th>Tên danh mục</th>
+                                    <th>Danh mục cha</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -65,10 +66,12 @@
                                     <tr>
                                         <td>{{ $row->id }}</td>
                                         <td>{{ $row->name }}</td>
+                                        <td>{{ App\Helpers\CategoryHelper::getCatParentName($row->parent_id) }}</td>
                                         <td>
-                                            <a href="{{ url('/admin/category/edit') .'/'. $row->id }}" class="btn-info edit-btn">Sửa</a>
+                                            <a href="{{ url('/admin/category/edit') .'/'. $row->id }}"
+                                               class="btn btn-sm btn-info edit-btn">Sửa</a>
                                             <a href="{{ url('/admin/category/delete/') .'/'. $row->id }}"
-                                               class="btn-danger delete-btn">Xóa</a>
+                                               class="btn btn-sm btn-danger delete-btn">Xóa</a>
                                         </td>
                                     </tr>
                                 @endforeach
