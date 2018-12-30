@@ -16,6 +16,6 @@ class Admin_usersController extends Controller
    public static function getEdit($id)
    {
        $data = User::where('id', $id)->first();
-       return view('back-end.users.edit', ['data' => $data]);
+       return view('back-end.admin_mem.edit', ['data' => $data]);
    }
 }
