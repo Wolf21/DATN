@@ -123,7 +123,8 @@ class ProductService
                 'pro_details.pin',
                 'pro_details.os',
                 'pro_details.note'
-            )->paginate(12);
+            )->orderBy('created_at', 'desc')
+            ->paginate(12);
     }
 
     /**
