@@ -9,6 +9,9 @@ use App\Models\User;
 
 class UsersController extends Controller
 {
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getList()
     {
         $data = User::where('role', Role::USER)
@@ -16,12 +19,20 @@ class UsersController extends Controller
         return view('back-end.users.list', ['data' => $data]);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getEdit($id)
     {
         $data = User::where('id', $id)->first();
         return view('back-end.users.edit', ['data' => $data]);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public static function getDelete($id)
     {
         $user = User::join('orders', 'users.id', '=', 'orders.c_id')
@@ -42,10 +53,11 @@ class UsersController extends Controller
                     'flash_massage' => 'Không thể Xóa user ' . $id . ' vì còn đơn hàng chưa xác nhận !'
                 ]);
         }
-
-
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public static function getUserInfo()
     {
         $orders = Oders::where('c_id', Auth()->user()->id)->get();

@@ -44,4 +44,14 @@ class Admin_usersController extends Controller
         return redirect(route('getMember'))
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Cập nhật thông tin thành công !']);
     }
+
+    public static function getDelete($id)
+    {
+        User::find($id)->delete();
+        return redirect()->back()
+            ->with([
+                'flash_level' => 'result_msg',
+                'flash_massage' => 'Xóa nhân viên có id: ' . $id . ' thành công !'
+            ]);
+    }
 }
