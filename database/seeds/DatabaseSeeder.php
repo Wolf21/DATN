@@ -20,5 +20,6 @@ class DatabaseSeeder extends Seeder
         $this->call(BannersTableSeeder::class);
         $this->call(OdersTableSeeder::class);
         $this->call(OdersDetailTableSeeder::class);
+        $this->call(OrdersTableSeeder::class);
     }
 }
