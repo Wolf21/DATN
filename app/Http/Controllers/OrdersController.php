@@ -95,18 +95,23 @@ class OrdersController extends Controller
             return redirect()->back()
                 ->with([
                     'flash_level' => 'result_msg',
-                    'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì vẫn còn hàng !']);
+                    'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì vẫn còn hàng !'
+                ]);
         } elseif ($oder->order_status) { // case đơn hàng đã được xác nhận
             return redirect()->back()
                 ->with([
                     'flash_level' => 'result_msg',
-                    'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì đơn hàng đã được xác nhận !']);
+                    'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì đơn hàng đã được xác nhận !'
+                ]);
         } else {    // case có thể remove sản phẩm khỏi đơn hàng
             $oder = Oders_detail::find($id);
             Oders::find($oder->o_id)->update(['total' => $newPrice]);
             $oder->delete();
             return redirect()->back()
-                ->with(['flash_level' => 'result_msg', 'flash_massage' => 'Đã hủy bỏ sản phẩm có mã số chi tiết đơn hàng:  ' . $id . ' !']);
+                ->with([
+                    'flash_level' => 'result_msg',
+                    'flash_massage' => 'Đã hủy bỏ sản phẩm có mã số chi tiết đơn hàng:  ' . $id . ' !'
+                ]);
         }
     }
 }
