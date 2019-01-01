@@ -19,14 +19,14 @@
                         <h3 class="lighter smaller">Đã có lỗi xảy ra, vì vậy bạn không thể thực hiện thao tác này!</h3>
 
                         <div>
-                            <form class="form-search">
+                            {{Form::open(['url' => route('search'), 'method' => 'GET', 'class' => 'form-search','autocomplete' => 'off'])}}
                             <span class="input-icon align-middle">
                                 <i class="ace-icon fa fa-search"></i>
 
-                                <input type="text" class="search-query" placeholder="Nhập thông tin cần tìm..."/>
+                                <input name="key" type="text" class="search-query" placeholder="Nhập thông tin cần tìm..."/>
                             </span>
-                                <button class="btn btn-sm" type="button">Tìm kiếm!</button>
-                            </form>
+                                <button class="btn btn-sm" type="submit">Tìm kiếm!</button>
+                            {{Form::close()}}
 
                             <div class="space"></div>
                             <h4 class="smaller">Hãy thử một trong các cách sau: </h4>
