@@ -163,6 +163,45 @@ viet@test.com',
                 'created_at' => '2018-12-25 21:50:44',
                 'updated_at' => '2018-12-25 21:51:56',
             ),
+            11 =>
+                array (
+                    'id' => 15,
+                    'c_id' => 2,
+                    'qty' => 3,
+                    'sub_total' => '68870000.00',
+                    'total' => '18490000.00',
+                    'status' => 1,
+                    'type' => 'cod',
+                    'note' => 'aaaa',
+                    'created_at' => '2019-01-01 15:50:21',
+                    'updated_at' => '2019-01-01 15:52:32',
+                ),
+            12 =>
+                array (
+                    'id' => 17,
+                    'c_id' => 11,
+                    'qty' => 3,
+                    'sub_total' => '37970000.00',
+                    'total' => '34280000.00',
+                    'status' => 1,
+                    'type' => 'cod',
+                    'note' => 'cuong',
+                    'created_at' => '2019-01-01 16:49:50',
+                    'updated_at' => '2019-01-01 21:48:46',
+                ),
+            13 =>
+                array (
+                    'id' => 18,
+                    'c_id' => 9,
+                    'qty' => 3,
+                    'sub_total' => '37970000.00',
+                    'total' => '34280000.00',
+                    'status' => 1,
+                    'type' => 'cod',
+                    'note' => 'cuong',
+                    'created_at' => '2019-01-01 16:49:50',
+                    'updated_at' => '2019-01-01 21:48:46',
+                ),
         ));
         
         
