@@ -5,40 +5,38 @@
         </div>
     </form>
     <ul class="nav menu">
-        <li class="active"><a href="{{url('admin/home/')}}">
+        <li id="home" class="active"><a href="{{url('admin/home/')}}">
                 <svg class="glyph stroked dashboard-dial">
                     <use xlink:href="#stroked-dashboard-dial"></use>
                 </svg>
                 Trang chủ</a></li>
-        <li id="danhmuc"><a href="{{url('admin/category')}}">
+        <li id="category"><a href="{{url('admin/category')}}" class="left-menu">
                 <svg class="glyph stroked clipboard with paper">
                     <use xlink:href="#stroked-clipboard-with-paper"/>
                 </svg>
                 Danh mục</a></li>
 
-        <li id="sanpham"><a href="{{url('admin/product/all')}}">
+        <li id="product"><a href="{{url('admin/product/all')}}" class="left-menu">
                 <svg class="glyph stroked bag">
                     <use xlink:href="#stroked-bag"></use>
                 </svg>
                 Sản phẩm </a></li>
-        <li><a href="{{url('admin/news')}}"><span class="glyphicon glyphicon-file"></span> Tin tức</a></li>
+        <li id="news"><a href="{{url('admin/news')}}" class="left-menu"><span class="glyphicon glyphicon-file"></span> Tin tức</a></li>
 
-        {{-- <li><a href="{{url('admin/nhaphang')}}"><svg class="glyph stroked download"><use xlink:href="#stroked-download"/></svg> Nhập hàng</a></li> --}}
-
-        <li><a href="{{url('admin/order')}}">
+        <li id="order"><a href="{{url('admin/order')}}" class="left-menu">
                 <svg class="glyph stroked bag">
                     <use xlink:href="#stroked-bag"></use>
                 </svg>
                 Đơn đặt hàng</a></li>
 
-        <li><a href="{{url('admin/user')}}">
+        <li id="user"><a href="{{url('admin/user')}}" class="left-menu">
                 <svg class="glyph stroked app-window">
                     <use xlink:href="#stroked-line-graph"></use>
                 </svg>
                 Khách hàng</a></li>
 
         @if(Auth()->user()->role == \App\Enums\Role::ADMIN)
-        <li><a href="{{url('admin/member')}}">
+        <li id="member"><a href="{{url('admin/member')}}" class="left-menu">
                 <svg class="glyph stroked female user">
                     <use xlink:href="#stroked-female-user"/>
                 </svg>

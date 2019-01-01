@@ -28,9 +28,4 @@ class UsersController extends Controller
         $orders = Oders::where('c_id', Auth()->user()->id)->get();
         return view('member.user', ['data' => $orders]);
     }
-
-    public static function postEdit()
-    {
-
-    }
 }

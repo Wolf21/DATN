@@ -113,7 +113,7 @@
 					      		</div>				      			
 				      		</div>		      				      		
 
-				      		<input type="submit" name="btnCateAdd" class="btn btn-primary" value="Thêm sản phẩm" class="button" />
+				      		<input type="submit" name="btnCateAdd" class="btn btn-primary" value="Sửa bản tin" class="button" />
 				      	</form>			      	
 					</div>
 				</div>

@@ -5,7 +5,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Dơn đặt hàng</li>
+				<li class="active">Đơn đặt hàng</li>
 			</ol>
 		</div><!--/.row-->
 		<div class="row">
@@ -54,9 +54,9 @@
 											<td>{!!$row->phone!!}</td>
 											<td>{!!$row->email!!}</td>
 											<td>{!!$row ->created_at!!}</td>
-											<td>{!!$row->total!!} Vnd</td>
+											<td>{!!number_format($row->total)!!} Vnd</td>
 											<td>
-												@if($row->status ==0)
+												@if($row->status == 0)
 													<span style="color:#d35400;">Chưa xác nhận</span>
 												@else
 													<span style="color:#27ae60;"> Đã xác nhận</span>

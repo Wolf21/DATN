@@ -25,7 +25,7 @@ class RegisterRequest extends Request
             'user_name' => 'required|between:5,255|unique:users',
             'password' => 'required|between:6,255',
             'password_confirm' => 'same:password',
-            'email' => 'required|email'
+            'email' => 'required|email|unique:users'
         ];
     }
 
