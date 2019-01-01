@@ -87,7 +87,8 @@
 													@endif
 												</td>
 												<td>
-												    <a href="{!!url('')!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')"><span class="glyphicon glyphicon-remove">remove</span> </a>
+                                                    <input type="hidden" name="sub_price{{$row->id}}" value="{{ $row->price *  $row->qty}}">
+												    <a href="{!!route('getOrderList') .'/remove/'. $row->id!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')"><span class="glyphicon glyphicon-remove">remove</span> </a>
 												</td>
 											</tr>
 										@endforeach								

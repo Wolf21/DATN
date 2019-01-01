@@ -78,8 +78,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin_and_su', 'auth']], fu
     Route::group(['prefix' => '/order'], function () {
         ;
 
-        Route::get('/', 'OrdersController@getList')->name('getProduct');
+        Route::get('/', 'OrdersController@getList')->name('getOrderList');
         Route::get('/delete/{id}', 'OrdersController@getDelete')->name('getDelOrder')->where('id', '[0-9]+');
+        Route::get('/remove/{id}', 'OrdersController@deleteOrderDetails')->name('getDelOrder')->where('id', '[0-9]+');
 
         Route::get('/detail/{id}', 'OrdersController@getDetail')->name('getDetail')->where('id', '[0-9]+');
         Route::post('/detail/{id}', 'OrdersController@postDetail')->name('postDetail')->where('id', '[0-9]+');
