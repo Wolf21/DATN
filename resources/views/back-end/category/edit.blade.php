@@ -54,6 +54,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Tên danh mục</label>
+                                <input type="hidden" name="cat_id" value="{{$data['id']}}">
                                 <input type="text" name="txtCateName" id="inputTxtCateName" class="form-control"
                                        value="{!! old('txtCateName', isset($data['name']) ? $data['name'] : null)!!}"
                                        required="required">
