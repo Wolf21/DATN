@@ -147,6 +147,7 @@ return [
         'user_name' => 'Tên Đăng Nhập',
         'password' => 'Mật Khẩu',
         'email' => 'Email',
+        'address' => 'Địa chỉ',
     ],
 
 ];

@@ -36,33 +36,39 @@
                         @elseif (Session()->has('flash_level'))
                             <div class="alert alert-success">
                                 <ul>
-                                    {!! Session::get('flash_massage') !!}
+                                    {{ Session::get('flash_massage') }}
                                 </ul>
                             </div>
                         @endif
                         <div>
                             <div class="form-group">
+                                <label for="input-id">Tên Đăng Nhập</label>
+                                <input type="text" name="txtName" id="inputTxtName" class="form-control"
+                                       value="{{ $data['user_name'] ?? ''}}"
+                                       disabled="disabled">
+                            </div>
+                            <div class="form-group">
                                 <label for="input-id">Tên Khách hàng</label>
                                 <input type="text" name="txtName" id="inputTxtName" class="form-control"
-                                       value="{!! old('txtCateName', isset($data['name']) ? $data['name'] : null)!!}"
+                                       value="{{ $data['name'] ?? ''}}"
                                        disabled="disabled">
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Địa chỉ</label>
                                 <input type="text" name="txt_addr" id="txt_addr" class="form-control"
-                                       value="{!! old('txt_addr', isset($data['address']) ? $data['address'] : null)!!}"
+                                       value="{{ $data['address'] ?? ''}}"
                                        disabled="disabled">
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Số Điện Thoại</label>
                                 <input type="text" name="txt_phone" id="txt_phone" class="form-control"
-                                       value="{!! old('txt_phone', isset($data['phone']) ? $data['phone'] : null)!!}"
+                                       value="{{ $data['phone'] ?? '' }}"
                                        disabled="disabled">
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Email</label>
                                 <input type="text" name="txt_email" id="txt_email" class="form-control"
-                                       value="{!! old('email', isset($data['email']) ? $data['email'] : null)!!}"
+                                       value="{{ $data['email'] ?? '' }}"
                                        disabled="disabled">
                             </div>
                             <a href="{{ route('getUser') }}" class="btn btn-primary">Trở về</a>

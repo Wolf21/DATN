@@ -41,36 +41,42 @@
                             </div>
                         @endif
                         <div>
-                            {{ Form::open() }}
+                            {{ Form::open(['method' => 'POST', 'url' => route('getMember') .'/edit/'. $data['id']]) }}
                             {{ csrf_field() }}
+                            <input type="hidden" name="user_id" value="{{$data['id'] ?? ''}}">
                             <div class="form-group">
                                 <label for="input-id"> Chọn Quyền </label>
                                 <select name="sltCate" id="inputSltCate" class="form-control">
-                                    <option value="1">-- Quản trị --</option>
-                                    <option value="2">-- Nhân viên --</option>
+                                    <option value="0">-- Quản trị --</option>
+                                    <option value="1" selected="selected">-- Nhân viên --</option>
                                 </select>
                             </div>
                             <div class="form-group">
+                                <label for="input-id">Tên ĐăngNnhập</label>
+                                <input type="text" name="user_name" id="inputName" class="form-control"
+                                       value="{!! old('user_name', isset($data['user_name']) ? $data['user_name'] : null)!!}"
+                                       required="required">
+                            </div><div class="form-group">
                                 <label for="input-id">Tên Nhân Viên</label>
-                                <input type="text" name="txtName" id="inputTxtName" class="form-control"
-                                       value="{!! old('txtCateName', isset($data['name']) ? $data['name'] : null)!!}"
+                                <input type="text" name="name" id="inputTxtName" class="form-control"
+                                       value="{!! old('name', isset($data['name']) ? $data['name'] : null)!!}"
                                        required="required">
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Địa chỉ</label>
-                                <input type="text" name="txt_addr" id="txt_addr" class="form-control"
-                                       value="{!! old('txt_addr', isset($data['address']) ? $data['address'] : null)!!}"
+                                <input type="text" name="address" id="txt_addr" class="form-control"
+                                       value="{!! old('address', isset($data['address']) ? $data['address'] : null)!!}"
                                        required="required">
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Số Điện Thoại</label>
-                                <input type="text" name="txt_phone" id="txt_phone" class="form-control"
-                                       value="{!! old('txt_phone', isset($data['phone']) ? $data['phone'] : null)!!}"
+                                <input type="text" name="phone" id="txt_phone" class="form-control"
+                                       value="{!! old('phone', isset($data['phone']) ? $data['phone'] : null)!!}"
                                        required="required">
                             </div>
                             <div class="form-group">
                                 <label for="input-id">Email</label>
-                                <input type="text" name="txt_email" id="txt_email" class="form-control"
+                                <input type="text" name="email" id="txt_email" class="form-control"
                                        value="{!! old('email', isset($data['email']) ? $data['email'] : null)!!}"
                                        required="required">
                             </div>
