@@ -53,7 +53,7 @@
                                 class="glyphicon glyphicon-home"></b> TRANG CHỦ </a></li>
                     @foreach($categories as $category)
                         <li>
-                            <a href="{{ url('') .'/'. $category->slug }}" class="top-menu"> {{ $category->name }} </a>
+                            <a id="{{$category->slug}}" href="{{ url('') .'/'. $category->slug }}" class="top-menu"> {{ $category->name }} </a>
                         </li>
                     @endforeach
                     <li>
@@ -149,7 +149,7 @@
     <script>
         $(document).ready(function () {
             $('.top-menu').each(function (index, element) {
-                if (location.href === element.href) {
+                if (location.href.indexOf(element.id) !== -1) {
                     $(this).addClass('custom-active');
                     $('.main-page').removeClass('custom-active');
                 }

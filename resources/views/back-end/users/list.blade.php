@@ -40,7 +40,7 @@
 										<th>Điện thoại</th>
 										<th>Email</th>										
 										<th>Ngày đăng ký</th>
-										<th>Trạng thái</th>
+										{{--<th>Trạng thái</th>--}}
 										<th>Action</th>
 									</tr>
 								</thead>
@@ -53,13 +53,13 @@
 											<td>{!!$row->phone!!}</td>
 											<td>{!!$row->email!!}</td>											
 											<td>{!!$row->created_at!!}</td>
-											<td>
-												@if($row->status == 0)
-													<span style="color:#d35400;">Chưa xác nhận</span>
-												@else
-													<span style="color:#27ae60;"> Đã xác nhận</span>
-												@endif
-											</td>
+											{{--<td>--}}
+												{{--@if($row->status == 0)--}}
+													{{--<span style="color:#d35400;">Chưa xác nhận</span>--}}
+												{{--@else--}}
+													{{--<span style="color:#27ae60;"> Đã xác nhận</span>--}}
+												{{--@endif--}}
+											{{--</td>--}}
 											<td>
 											    <a href="{!!url('admin/user/details/'.$row->id)!!}" title="Chi tiết"> Chi tiết </a> &nbsp;
 											    <a href="{!!url('admin/user/delete/'.$row->id)!!}"  title="Xóa" onclick="return xacnhan('Xóa danh mục này ?')">Xóa bỏ</a>

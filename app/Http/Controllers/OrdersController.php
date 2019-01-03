@@ -19,7 +19,7 @@ class OrdersController extends Controller
     public function getList()
     {
         $data = User::join('orders', 'orders.c_id', '=', 'users.id')
-           ->orderby('orders.created_at', 'DESC')
+            ->orderby('orders.created_at', 'DESC')
             ->paginate(10);
         return view('back-end.orders.list', ['data' => $data]);
     }
@@ -80,18 +80,38 @@ class OrdersController extends Controller
     public function deleteOrderDetails($id)
     {
         $oder = Products::join('oders_detail', 'products.id', '=', 'oders_detail.pro_id')
-            ->where('oders_detail.id', $id)->first();
+            ->join('orders', 'oders_detail.o_id', '=', 'orders.id')
+            ->where('oders_detail.id', $id)
+            ->select(
+                'oders_detail.*',
+                'products.*',
+                'orders.status AS order_status'
+            )
+            ->first();
         $subPrice = $oder->price * $oder->qty;
         $newPrice = Oders::find($oder->o_id)->total - $subPrice;
-        if ($oder->status == 1) {
+        // case sản phẩm vẫn còn hàng
+        if ($oder->status) {
             return redirect()->back()
-                ->with(['flash_level' => 'result_msg', 'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì vẫn còn hàng !']);
-        } else {
+                ->with([
+                    'flash_level' => 'result_msg',
+                    'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì vẫn còn hàng !'
+                ]);
+        } elseif ($oder->order_status) { // case đơn hàng đã được xác nhận
+            return redirect()->back()
+                ->with([
+                    'flash_level' => 'result_msg',
+                    'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì đơn hàng đã được xác nhận !'
+                ]);
+        } else {    // case có thể remove sản phẩm khỏi đơn hàng
             $oder = Oders_detail::find($id);
             Oders::find($oder->o_id)->update(['total' => $newPrice]);
             $oder->delete();
             return redirect()->back()
-                ->with(['flash_level' => 'result_msg', 'flash_massage' => 'Đã hủy bỏ sản phẩm có mã số chi tiết đơn hàng:  ' . $id . ' !']);
+                ->with([
+                    'flash_level' => 'result_msg',
+                    'flash_massage' => 'Đã hủy bỏ sản phẩm có mã số chi tiết đơn hàng:  ' . $id . ' !'
+                ]);
         }
     }
 }

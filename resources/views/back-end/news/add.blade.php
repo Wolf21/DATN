@@ -40,7 +40,7 @@
 					      		<select name="sltCate" id="inputSltCate" required class="form-control">
 					      			<option value="">--Chọn danh mục--</option>
 					      			@foreach($cat as $dt)
-					      				<option value="{!!$dt->id!!}" >{!!'--|--|'.$dt->name!!}</option> 	
+					      				<option value="{!!$dt->id!!}" >{!!$dt->name!!}</option>
 					      			@endforeach	
 					      		</select>
 				      		</div>

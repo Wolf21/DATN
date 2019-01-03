@@ -28,74 +28,82 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005553_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
-',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="Samsung Galaxy S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/samsung-galaxy-s7-a.jpg" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Ng&ocirc;n ngữ thiết kế quen thuộc, bổ sung khả năng chống nước hiệu quả</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Samsung Galaxy S7 chống nước hiệu quả" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-1.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p>Sở hữu vẻ ngo&agrave;i mang nhiều n&eacute;t ti&ecirc;u biểu của người tiền nhiệm S6 nhưng&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Galaxy S7</strong></a>&nbsp;cũng c&oacute; những điểm nhấn mới mẻ của ri&ecirc;ng m&igrave;nh, c&oacute; thể&nbsp;kể đến như mặt lưng được bo cong hơn gi&uacute;p người d&ugrave;ng cầm giữ dễ d&agrave;ng hệ thống camera được l&agrave;m gọn v&agrave; bớt lồi hơn. Đặc biệt, khả năng chống nước v&agrave; bụi đạt ti&ecirc;u chuẩn IP68 sẽ mang đến sự y&ecirc;n t&acirc;m khi sử dụng m&aacute;y trong điều kiện ẩm ướt v&agrave; gi&uacute;p người d&ugrave;ng vệ sinh cho m&aacute;y dễ d&agrave;ng hơn.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh Super AMOLED độ ph&acirc;n giải 2K sắc n&eacute;t</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Màn hình Samsung Galaxy S7 Super AMOLED" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-2.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>M&agrave;n h&igrave;nh của Galaxy S7 sẽ c&oacute; k&iacute;ch thước 5,1 inch với độ ph&acirc;n giải 2K (2560 x 1440 pixel), cho mật độ điểm ảnh l&ecirc;n đến 576 ppi, gi&uacute;p t&aacute;i hiện h&igrave;nh ảnh với độ sắc n&eacute;t cực cao ngay trước mắt người d&ugrave;ng. C&ugrave;ng với đ&oacute;, c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED sẽ mang đến những khung h&igrave;nh với m&agrave;u sắc tươi tắn, sống động, c&ugrave;ng khả năng tiết kiệm điện năng ấn tượng. Nhờ đ&oacute;, Samsung đ&atilde; thiết kế th&ecirc;m&nbsp;<a href="https://fptshop.com.vn/tin-tuc/tin-moi/chuc-nang-always-on-se-chi-danh-rieng-cho-galaxy-s7-37568" target="_blank">t&iacute;nh năng Always On cho Galaxy S7</a>&nbsp;gi&uacute;p người d&ugrave;ng đọc được c&aacute;c th&ocirc;ng b&aacute;o m&agrave; kh&ocirc;ng phải qua thao t&aacute;c mở s&aacute;ng m&agrave;n h&igrave;nh.</p>
-
-<h3>&nbsp;</h3>
-
-<h3><strong>Vi xử l&yacute; mới, sức mạnh mới</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Vi xử lý Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-3.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Điện thoại Galaxy S7</strong></a>&nbsp;sẽ c&oacute; 2 phi&ecirc;n bản sử dụng 2 vi xử l&yacute; kh&aacute;c nhau l&agrave; Qualcomm Snapdragon 820 v&agrave; Exynos 8890 &ndash; cả hai đều l&agrave; những con chip cao cấp thế hệ mới sở hữu hiệu suất vượt trội, gi&uacute;p m&aacute;y xử l&yacute; ho&agrave;n hảo mọi y&ecirc;u cầu t&aacute;c vụ d&ugrave; &ldquo;nặng nề&rdquo; nhất. Th&ecirc;m nữa, dung lượng RAM được n&acirc;ng cấp l&ecirc;n mức 4GB sẽ gi&uacute;p x&oacute;a đi nỗi băn khoăn về hiệu quả thực thi đa nhiệm. Một điểm tuyệt vời kh&aacute;c l&agrave; việc&nbsp;<strong>Galaxy S7</strong>&nbsp;sẽ hỗ trợ thẻ nhớ ngo&agrave;i để người d&ugrave;ng mở rộng kh&ocirc;ng gian lưu trữ.</p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Samsung S7 được trang bị camera chụp h&igrave;nh ấn tượng hơn</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Camera Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-4.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>Camera của Galaxy S7 cũng sẽ c&oacute; những n&acirc;ng cấp đ&aacute;ng kể. D&ugrave; độ ph&acirc;n giải được giảm xuống 12MP (so với 16MP tr&ecirc;n Galaxy S6), tuy nhi&ecirc;n camera n&agrave;y sẽ c&oacute; khẩu độ f/1.7 cho khả năng thu s&aacute;ng tuyệt vời hơn bao giờ hết. Ngo&agrave;i ra, t&iacute;nh năng chống rung quang học OIS gi&uacute;p m&aacute;y ảnh chụp nhanh hơn, &iacute;t nh&ograve;e h&igrave;nh hơn trong điều kiện thiếu s&aacute;ng. Chưa hết, Samsung c&ograve;n sử dụng một cảm biến ảnh mới tự động lấy n&eacute;t điểm ảnh k&eacute;p (Dual Pixel) tương tự cảm biến của c&aacute;c m&aacute;y DSLR của Canon, do vậy h&igrave;nh ảnh sẽ bớt nhiễu, m&agrave;u sắc rực rỡ hơn.</p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p><strong>Nền tảng điều h&agrave;nh mới cho thời lượng pin tốt hơn</strong></p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Dung lượng pin Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-5.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p>Hệ điều h&agrave;nh Android 6.0 Marshmallow mới nhất hiện nay kết hợp với c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED v&agrave; vi xử l&yacute; tiết kiệm điện năng c&ograve;n gi&uacute;p m&aacute;y c&oacute; được thời lượng pin l&acirc;u hơn, c&oacute; thể l&ecirc;n đến 2 ng&agrave;y ở điều kiện sử dụng th&ocirc;ng thường. C&ocirc;ng nghệ sạc nhanh sẽ gi&uacute;p r&uacute;t ngắn đ&aacute;ng kể thời gian chờ đợi của người d&ugrave;ng, ngo&agrave;i ra Galaxy S7 c&ograve;n được trang bị t&iacute;nh năng sạc kh&ocirc;ng d&acirc;y v&agrave; đặc biệt l&agrave; tản nhiệt bằng chất lỏng.</p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S7, Galaxy S7,Galaxy S7',
                 'price' => '15890000.00',
                 'status' => 1,
@@ -115,74 +123,82 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005568_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
-',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="Samsung Galaxy S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/samsung-galaxy-s7-a.jpg" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Ng&ocirc;n ngữ thiết kế quen thuộc, bổ sung khả năng chống nước hiệu quả</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Samsung Galaxy S7 chống nước hiệu quả" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-1.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p>Sở hữu vẻ ngo&agrave;i mang nhiều n&eacute;t ti&ecirc;u biểu của người tiền nhiệm S6 nhưng&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Galaxy S7</strong></a>&nbsp;cũng c&oacute; những điểm nhấn mới mẻ của ri&ecirc;ng m&igrave;nh, c&oacute; thể&nbsp;kể đến như mặt lưng được bo cong hơn gi&uacute;p người d&ugrave;ng cầm giữ dễ d&agrave;ng hệ thống camera được l&agrave;m gọn v&agrave; bớt lồi hơn. Đặc biệt, khả năng chống nước v&agrave; bụi đạt ti&ecirc;u chuẩn IP68 sẽ mang đến sự y&ecirc;n t&acirc;m khi sử dụng m&aacute;y trong điều kiện ẩm ướt v&agrave; gi&uacute;p người d&ugrave;ng vệ sinh cho m&aacute;y dễ d&agrave;ng hơn.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh Super AMOLED độ ph&acirc;n giải 2K sắc n&eacute;t</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Màn hình Samsung Galaxy S7 Super AMOLED" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-2.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>M&agrave;n h&igrave;nh của Galaxy S7 sẽ c&oacute; k&iacute;ch thước 5,1 inch với độ ph&acirc;n giải 2K (2560 x 1440 pixel), cho mật độ điểm ảnh l&ecirc;n đến 576 ppi, gi&uacute;p t&aacute;i hiện h&igrave;nh ảnh với độ sắc n&eacute;t cực cao ngay trước mắt người d&ugrave;ng. C&ugrave;ng với đ&oacute;, c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED sẽ mang đến những khung h&igrave;nh với m&agrave;u sắc tươi tắn, sống động, c&ugrave;ng khả năng tiết kiệm điện năng ấn tượng. Nhờ đ&oacute;, Samsung đ&atilde; thiết kế th&ecirc;m&nbsp;<a href="https://fptshop.com.vn/tin-tuc/tin-moi/chuc-nang-always-on-se-chi-danh-rieng-cho-galaxy-s7-37568" target="_blank">t&iacute;nh năng Always On cho Galaxy S7</a>&nbsp;gi&uacute;p người d&ugrave;ng đọc được c&aacute;c th&ocirc;ng b&aacute;o m&agrave; kh&ocirc;ng phải qua thao t&aacute;c mở s&aacute;ng m&agrave;n h&igrave;nh.</p>
-
-<h3>&nbsp;</h3>
-
-<h3><strong>Vi xử l&yacute; mới, sức mạnh mới</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Vi xử lý Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-3.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Điện thoại Galaxy S7</strong></a>&nbsp;sẽ c&oacute; 2 phi&ecirc;n bản sử dụng 2 vi xử l&yacute; kh&aacute;c nhau l&agrave; Qualcomm Snapdragon 820 v&agrave; Exynos 8890 &ndash; cả hai đều l&agrave; những con chip cao cấp thế hệ mới sở hữu hiệu suất vượt trội, gi&uacute;p m&aacute;y xử l&yacute; ho&agrave;n hảo mọi y&ecirc;u cầu t&aacute;c vụ d&ugrave; &ldquo;nặng nề&rdquo; nhất. Th&ecirc;m nữa, dung lượng RAM được n&acirc;ng cấp l&ecirc;n mức 4GB sẽ gi&uacute;p x&oacute;a đi nỗi băn khoăn về hiệu quả thực thi đa nhiệm. Một điểm tuyệt vời kh&aacute;c l&agrave; việc&nbsp;<strong>Galaxy S7</strong>&nbsp;sẽ hỗ trợ thẻ nhớ ngo&agrave;i để người d&ugrave;ng mở rộng kh&ocirc;ng gian lưu trữ.</p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Samsung S7 được trang bị camera chụp h&igrave;nh ấn tượng hơn</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Camera Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-4.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>Camera của Galaxy S7 cũng sẽ c&oacute; những n&acirc;ng cấp đ&aacute;ng kể. D&ugrave; độ ph&acirc;n giải được giảm xuống 12MP (so với 16MP tr&ecirc;n Galaxy S6), tuy nhi&ecirc;n camera n&agrave;y sẽ c&oacute; khẩu độ f/1.7 cho khả năng thu s&aacute;ng tuyệt vời hơn bao giờ hết. Ngo&agrave;i ra, t&iacute;nh năng chống rung quang học OIS gi&uacute;p m&aacute;y ảnh chụp nhanh hơn, &iacute;t nh&ograve;e h&igrave;nh hơn trong điều kiện thiếu s&aacute;ng. Chưa hết, Samsung c&ograve;n sử dụng một cảm biến ảnh mới tự động lấy n&eacute;t điểm ảnh k&eacute;p (Dual Pixel) tương tự cảm biến của c&aacute;c m&aacute;y DSLR của Canon, do vậy h&igrave;nh ảnh sẽ bớt nhiễu, m&agrave;u sắc rực rỡ hơn.</p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p><strong>Nền tảng điều h&agrave;nh mới cho thời lượng pin tốt hơn</strong></p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Dung lượng pin Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-5.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p>Hệ điều h&agrave;nh Android 6.0 Marshmallow mới nhất hiện nay kết hợp với c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED v&agrave; vi xử l&yacute; tiết kiệm điện năng c&ograve;n gi&uacute;p m&aacute;y c&oacute; được thời lượng pin l&acirc;u hơn, c&oacute; thể l&ecirc;n đến 2 ng&agrave;y ở điều kiện sử dụng th&ocirc;ng thường. C&ocirc;ng nghệ sạc nhanh sẽ gi&uacute;p r&uacute;t ngắn đ&aacute;ng kể thời gian chờ đợi của người d&ugrave;ng, ngo&agrave;i ra Galaxy S7 c&ograve;n được trang bị t&iacute;nh năng sạc kh&ocirc;ng d&acirc;y v&agrave; đặc biệt l&agrave; tản nhiệt bằng chất lỏng.</p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S7, Galaxy S7,Galaxy S7',
                 'price' => '15890000.00',
                 'status' => 1,
@@ -202,100 +218,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -315,100 +313,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
                 'status' => 1,
@@ -428,10 +408,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480399297_s7 edge.png',
-                'r_intro' => '<p>sắp ra mắt</p>
-',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -451,10 +503,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480399312_s7 edge.png',
-                'r_intro' => '<p>sắp ra mắt</p>
-',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -474,10 +598,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480399324_s7 edge.png',
-                'r_intro' => '<p>sắp ra mắt</p>
-',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -497,10 +693,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480399412_asus-zenfone-3-max-400-400x460.png',
-                'r_intro' => '<p>sắp ra mắt</p>
-',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -520,10 +788,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
-                'r_intro' => '<p>sắp ra mắt</p>
-',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -543,74 +883,82 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005568_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
-',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="Samsung Galaxy S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/samsung-galaxy-s7-a.jpg" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Ng&ocirc;n ngữ thiết kế quen thuộc, bổ sung khả năng chống nước hiệu quả</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Samsung Galaxy S7 chống nước hiệu quả" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-1.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p>Sở hữu vẻ ngo&agrave;i mang nhiều n&eacute;t ti&ecirc;u biểu của người tiền nhiệm S6 nhưng&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Galaxy S7</strong></a>&nbsp;cũng c&oacute; những điểm nhấn mới mẻ của ri&ecirc;ng m&igrave;nh, c&oacute; thể&nbsp;kể đến như mặt lưng được bo cong hơn gi&uacute;p người d&ugrave;ng cầm giữ dễ d&agrave;ng hệ thống camera được l&agrave;m gọn v&agrave; bớt lồi hơn. Đặc biệt, khả năng chống nước v&agrave; bụi đạt ti&ecirc;u chuẩn IP68 sẽ mang đến sự y&ecirc;n t&acirc;m khi sử dụng m&aacute;y trong điều kiện ẩm ướt v&agrave; gi&uacute;p người d&ugrave;ng vệ sinh cho m&aacute;y dễ d&agrave;ng hơn.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh Super AMOLED độ ph&acirc;n giải 2K sắc n&eacute;t</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Màn hình Samsung Galaxy S7 Super AMOLED" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-2.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>M&agrave;n h&igrave;nh của Galaxy S7 sẽ c&oacute; k&iacute;ch thước 5,1 inch với độ ph&acirc;n giải 2K (2560 x 1440 pixel), cho mật độ điểm ảnh l&ecirc;n đến 576 ppi, gi&uacute;p t&aacute;i hiện h&igrave;nh ảnh với độ sắc n&eacute;t cực cao ngay trước mắt người d&ugrave;ng. C&ugrave;ng với đ&oacute;, c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED sẽ mang đến những khung h&igrave;nh với m&agrave;u sắc tươi tắn, sống động, c&ugrave;ng khả năng tiết kiệm điện năng ấn tượng. Nhờ đ&oacute;, Samsung đ&atilde; thiết kế th&ecirc;m&nbsp;<a href="https://fptshop.com.vn/tin-tuc/tin-moi/chuc-nang-always-on-se-chi-danh-rieng-cho-galaxy-s7-37568" target="_blank">t&iacute;nh năng Always On cho Galaxy S7</a>&nbsp;gi&uacute;p người d&ugrave;ng đọc được c&aacute;c th&ocirc;ng b&aacute;o m&agrave; kh&ocirc;ng phải qua thao t&aacute;c mở s&aacute;ng m&agrave;n h&igrave;nh.</p>
-
-<h3>&nbsp;</h3>
-
-<h3><strong>Vi xử l&yacute; mới, sức mạnh mới</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Vi xử lý Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-3.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Điện thoại Galaxy S7</strong></a>&nbsp;sẽ c&oacute; 2 phi&ecirc;n bản sử dụng 2 vi xử l&yacute; kh&aacute;c nhau l&agrave; Qualcomm Snapdragon 820 v&agrave; Exynos 8890 &ndash; cả hai đều l&agrave; những con chip cao cấp thế hệ mới sở hữu hiệu suất vượt trội, gi&uacute;p m&aacute;y xử l&yacute; ho&agrave;n hảo mọi y&ecirc;u cầu t&aacute;c vụ d&ugrave; &ldquo;nặng nề&rdquo; nhất. Th&ecirc;m nữa, dung lượng RAM được n&acirc;ng cấp l&ecirc;n mức 4GB sẽ gi&uacute;p x&oacute;a đi nỗi băn khoăn về hiệu quả thực thi đa nhiệm. Một điểm tuyệt vời kh&aacute;c l&agrave; việc&nbsp;<strong>Galaxy S7</strong>&nbsp;sẽ hỗ trợ thẻ nhớ ngo&agrave;i để người d&ugrave;ng mở rộng kh&ocirc;ng gian lưu trữ.</p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Samsung S7 được trang bị camera chụp h&igrave;nh ấn tượng hơn</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Camera Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-4.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>Camera của Galaxy S7 cũng sẽ c&oacute; những n&acirc;ng cấp đ&aacute;ng kể. D&ugrave; độ ph&acirc;n giải được giảm xuống 12MP (so với 16MP tr&ecirc;n Galaxy S6), tuy nhi&ecirc;n camera n&agrave;y sẽ c&oacute; khẩu độ f/1.7 cho khả năng thu s&aacute;ng tuyệt vời hơn bao giờ hết. Ngo&agrave;i ra, t&iacute;nh năng chống rung quang học OIS gi&uacute;p m&aacute;y ảnh chụp nhanh hơn, &iacute;t nh&ograve;e h&igrave;nh hơn trong điều kiện thiếu s&aacute;ng. Chưa hết, Samsung c&ograve;n sử dụng một cảm biến ảnh mới tự động lấy n&eacute;t điểm ảnh k&eacute;p (Dual Pixel) tương tự cảm biến của c&aacute;c m&aacute;y DSLR của Canon, do vậy h&igrave;nh ảnh sẽ bớt nhiễu, m&agrave;u sắc rực rỡ hơn.</p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p><strong>Nền tảng điều h&agrave;nh mới cho thời lượng pin tốt hơn</strong></p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Dung lượng pin Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-5.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p>Hệ điều h&agrave;nh Android 6.0 Marshmallow mới nhất hiện nay kết hợp với c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED v&agrave; vi xử l&yacute; tiết kiệm điện năng c&ograve;n gi&uacute;p m&aacute;y c&oacute; được thời lượng pin l&acirc;u hơn, c&oacute; thể l&ecirc;n đến 2 ng&agrave;y ở điều kiện sử dụng th&ocirc;ng thường. C&ocirc;ng nghệ sạc nhanh sẽ gi&uacute;p r&uacute;t ngắn đ&aacute;ng kể thời gian chờ đợi của người d&ugrave;ng, ngo&agrave;i ra Galaxy S7 c&ograve;n được trang bị t&iacute;nh năng sạc kh&ocirc;ng d&acirc;y v&agrave; đặc biệt l&agrave; tản nhiệt bằng chất lỏng.</p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S7, Galaxy S7,Galaxy S7',
                 'price' => '15890000.00',
                 'status' => 1,
@@ -630,74 +978,82 @@ class ProductsTableSeeder extends Seeder
             'promo3' => 'Hoặc Tặng Combo Quà (Bao da S-View + Tai nghe Level Active)',
                 'packet' => ' Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp OTG, Cáp, Cây lấy sim ',
                 'images' => '1480005568_635918156798139185_s7-g2.jpg',
-            'r_intro' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone Samsung Galaxy S7 sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m. Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
-',
-            'review' => '<p>Ch&iacute;nh thức ra mắt tại sự kiện MWC 2018 tổ chức tại Barcelona (T&acirc;y Ban Nha), smartphone&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Samsung Galaxy S7</strong></a>&nbsp;sở hữu nhiều sự thay đổi nổi bật ở cả thiết kế, cấu h&igrave;nh v&agrave; những t&iacute;nh năng đi k&egrave;m.&nbsp;Chiếc điện thoại n&agrave;y hứa hẹn sẽ tạo n&ecirc;n sự b&ugrave;ng nổ trong ph&acirc;n kh&uacute;c cao cấp v&agrave; mang lại những th&agrave;nh c&ocirc;ng tiếp theo cho h&atilde;ng điện thoại H&agrave;n Quốc.</p>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="Samsung Galaxy S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/samsung-galaxy-s7-a.jpg" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Ng&ocirc;n ngữ thiết kế quen thuộc, bổ sung khả năng chống nước hiệu quả</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Samsung Galaxy S7 chống nước hiệu quả" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-1.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p>Sở hữu vẻ ngo&agrave;i mang nhiều n&eacute;t ti&ecirc;u biểu của người tiền nhiệm S6 nhưng&nbsp;<a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Galaxy S7</strong></a>&nbsp;cũng c&oacute; những điểm nhấn mới mẻ của ri&ecirc;ng m&igrave;nh, c&oacute; thể&nbsp;kể đến như mặt lưng được bo cong hơn gi&uacute;p người d&ugrave;ng cầm giữ dễ d&agrave;ng hệ thống camera được l&agrave;m gọn v&agrave; bớt lồi hơn. Đặc biệt, khả năng chống nước v&agrave; bụi đạt ti&ecirc;u chuẩn IP68 sẽ mang đến sự y&ecirc;n t&acirc;m khi sử dụng m&aacute;y trong điều kiện ẩm ướt v&agrave; gi&uacute;p người d&ugrave;ng vệ sinh cho m&aacute;y dễ d&agrave;ng hơn.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh Super AMOLED độ ph&acirc;n giải 2K sắc n&eacute;t</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Màn hình Samsung Galaxy S7 Super AMOLED" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-2.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>M&agrave;n h&igrave;nh của Galaxy S7 sẽ c&oacute; k&iacute;ch thước 5,1 inch với độ ph&acirc;n giải 2K (2560 x 1440 pixel), cho mật độ điểm ảnh l&ecirc;n đến 576 ppi, gi&uacute;p t&aacute;i hiện h&igrave;nh ảnh với độ sắc n&eacute;t cực cao ngay trước mắt người d&ugrave;ng. C&ugrave;ng với đ&oacute;, c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED sẽ mang đến những khung h&igrave;nh với m&agrave;u sắc tươi tắn, sống động, c&ugrave;ng khả năng tiết kiệm điện năng ấn tượng. Nhờ đ&oacute;, Samsung đ&atilde; thiết kế th&ecirc;m&nbsp;<a href="https://fptshop.com.vn/tin-tuc/tin-moi/chuc-nang-always-on-se-chi-danh-rieng-cho-galaxy-s7-37568" target="_blank">t&iacute;nh năng Always On cho Galaxy S7</a>&nbsp;gi&uacute;p người d&ugrave;ng đọc được c&aacute;c th&ocirc;ng b&aacute;o m&agrave; kh&ocirc;ng phải qua thao t&aacute;c mở s&aacute;ng m&agrave;n h&igrave;nh.</p>
-
-<h3>&nbsp;</h3>
-
-<h3><strong>Vi xử l&yacute; mới, sức mạnh mới</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Vi xử lý Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-3.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s7" target="_blank"><strong>Điện thoại Galaxy S7</strong></a>&nbsp;sẽ c&oacute; 2 phi&ecirc;n bản sử dụng 2 vi xử l&yacute; kh&aacute;c nhau l&agrave; Qualcomm Snapdragon 820 v&agrave; Exynos 8890 &ndash; cả hai đều l&agrave; những con chip cao cấp thế hệ mới sở hữu hiệu suất vượt trội, gi&uacute;p m&aacute;y xử l&yacute; ho&agrave;n hảo mọi y&ecirc;u cầu t&aacute;c vụ d&ugrave; &ldquo;nặng nề&rdquo; nhất. Th&ecirc;m nữa, dung lượng RAM được n&acirc;ng cấp l&ecirc;n mức 4GB sẽ gi&uacute;p x&oacute;a đi nỗi băn khoăn về hiệu quả thực thi đa nhiệm. Một điểm tuyệt vời kh&aacute;c l&agrave; việc&nbsp;<strong>Galaxy S7</strong>&nbsp;sẽ hỗ trợ thẻ nhớ ngo&agrave;i để người d&ugrave;ng mở rộng kh&ocirc;ng gian lưu trữ.</p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Samsung S7 được trang bị camera chụp h&igrave;nh ấn tượng hơn</strong></h3>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Camera Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-4.jpg" title="Samsung Galaxy S7" /></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>Camera của Galaxy S7 cũng sẽ c&oacute; những n&acirc;ng cấp đ&aacute;ng kể. D&ugrave; độ ph&acirc;n giải được giảm xuống 12MP (so với 16MP tr&ecirc;n Galaxy S6), tuy nhi&ecirc;n camera n&agrave;y sẽ c&oacute; khẩu độ f/1.7 cho khả năng thu s&aacute;ng tuyệt vời hơn bao giờ hết. Ngo&agrave;i ra, t&iacute;nh năng chống rung quang học OIS gi&uacute;p m&aacute;y ảnh chụp nhanh hơn, &iacute;t nh&ograve;e h&igrave;nh hơn trong điều kiện thiếu s&aacute;ng. Chưa hết, Samsung c&ograve;n sử dụng một cảm biến ảnh mới tự động lấy n&eacute;t điểm ảnh k&eacute;p (Dual Pixel) tương tự cảm biến của c&aacute;c m&aacute;y DSLR của Canon, do vậy h&igrave;nh ảnh sẽ bớt nhiễu, m&agrave;u sắc rực rỡ hơn.</p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p><strong>Nền tảng điều h&agrave;nh mới cho thời lượng pin tốt hơn</strong></p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><img alt="Dung lượng pin Samsung Galaxy S7" longdesc="http://fptshop.com.vn/dien-thoai/Samsung%20Galaxy%20S7" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/DH/samsung/galaxy-s7/galaxy-s7-5.jpg" title="Samsung Galaxy S7" /></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p>Hệ điều h&agrave;nh Android 6.0 Marshmallow mới nhất hiện nay kết hợp với c&ocirc;ng nghệ m&agrave;n h&igrave;nh Super AMOLED v&agrave; vi xử l&yacute; tiết kiệm điện năng c&ograve;n gi&uacute;p m&aacute;y c&oacute; được thời lượng pin l&acirc;u hơn, c&oacute; thể l&ecirc;n đến 2 ng&agrave;y ở điều kiện sử dụng th&ocirc;ng thường. C&ocirc;ng nghệ sạc nhanh sẽ gi&uacute;p r&uacute;t ngắn đ&aacute;ng kể thời gian chờ đợi của người d&ugrave;ng, ngo&agrave;i ra Galaxy S7 c&ograve;n được trang bị t&iacute;nh năng sạc kh&ocirc;ng d&acirc;y v&agrave; đặc biệt l&agrave; tản nhiệt bằng chất lỏng.</p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S7, Galaxy S7,Galaxy S7',
                 'price' => '15890000.00',
                 'status' => 1,
@@ -717,100 +1073,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -830,100 +1168,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -943,100 +1263,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -1056,100 +1358,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -1169,100 +1453,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -1282,100 +1548,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -1395,100 +1643,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480650741_oppo-f1s-hero-400x460-400x460.png',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '5990000.00',
                 'status' => 1,
@@ -1508,100 +1738,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
                 'status' => 1,
@@ -1621,100 +1833,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
                 'status' => 1,
@@ -1734,103 +1928,85 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
-                'status' => 1,
+                'status' => 0,
                 'cat_id' => 7,
                 'user_id' => 1,
                 'created_at' => '2018-11-24 18:48:45',
@@ -1847,100 +2023,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
                 'status' => 1,
@@ -1960,100 +2118,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
                 'status' => 1,
@@ -2073,100 +2213,82 @@ class ProductsTableSeeder extends Seeder
                 'promo3' => 'Tặng Voucher 500.000đ mua Apple Watch',
                 'packet' => '',
                 'images' => '1480038525_636089592275907954_7-plus-chi-tiet.jpg',
-                'r_intro' => '<p>Với những t&iacute;nh năng vượt trội về camera, iPhone 7 Plus l&agrave; sản phẩm nổi bật c&ograve;n hơn cả iPhone khi c&ugrave;ng ra mắt, khả năng chụp ảnh zoom 10x với camera k&eacute;p v&agrave; chụp ch&acirc;n dung xo&aacute; ph&ocirc;ng đ&atilde; thuyết phục người d&ugrave;ng một c&aacute;ch ngọt ng&agrave;o nhất. Kh&ocirc;ng chỉ vậy, n&acirc;ng cấp về cấu h&igrave;nh, &acirc;m thanh, thiết kế tinh tế hơn v&agrave; phi&ecirc;n bản bộ nhớ l&ecirc;n đến 128 GB cũng khiến đ&acirc;y l&agrave; sản phẩm đ&aacute;ng mua nhất trong lần ra mắt loạt phi&ecirc;n bản mới của Apple</p>
-',
-                'review' => '<h3><strong>Thiết kế ho&agrave;n thiện hơn</strong></h3>
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-3.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
 
 <p>&nbsp;</p>
 
-<p>Về thiết kế, vẫn l&agrave; nh&ocirc;m nguy&ecirc;n khối liền lạc nhưng iPhone 7 Plus đ&atilde; c&oacute; những n&eacute;t thay đổi tinh tế khi đưa hai dải ăng-ten l&ecirc;n s&aacute;t hai cạnh tr&ecirc;n dưới, đồng thời bỏ đi jack cắm tai nghe 3.5 mm. Điểm nhấn ấn tượng nhất về ngoại h&igrave;nh của iPhone 7 Plus l&agrave; việc Apple bỏ đi m&agrave;u x&aacute;m kh&ocirc;ng gian từng rất được ưa chuộng tr&ecirc;n c&aacute;c model cũ để bổ sung th&ecirc;m t&ugrave;y chọn m&agrave;u đen mờ v&agrave; đen b&oacute;ng Jet Black (chỉ c&oacute; tr&ecirc;n iPhone 7 Plus bản 128/256 GB).</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>M&agrave;n h&igrave;nh rộng 5.5 inch, s&aacute;ng hơn, nhiều m&agrave;u sắc hơn</strong></h3>
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-9.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>iPhone 7 Plus cũng c&oacute; m&agrave;n h&igrave;nh 5.5 inch độ ph&acirc;n giải 1080x1920 pixels tương tự iPhone 6s Plus, như vậy về k&iacute;ch thước tổng thể ch&uacute;ng ta kh&ocirc;ng c&oacute; g&igrave; thay đổi. Tuy nhi&ecirc;n, tấm nền m&agrave;n h&igrave;nh mới đ&atilde; được bổ sung th&ecirc;m 25% độ s&aacute;ng, đạt mức cao nhất 625 nits c&ugrave;ng khả năng t&aacute;i tạo m&agrave;u sắc, gam m&agrave;u rộng hơn v&agrave; hỗ trợ 3D Touch.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>N&uacute;t Home ho&agrave;n to&agrave;n mới</strong></h3>
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-6.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
 
 <p>&nbsp;</p>
 
-<p>Với chiếc điện thoại thế hệ mới, Apple đ&atilde; &quot;xo&aacute; sổ&quot; ho&agrave;n to&agrave;n n&uacute;t bấm vật l&yacute; tr&ecirc;n m&agrave;n h&igrave;nh iPhone. Giờ đ&acirc;y n&uacute;t Home ở vị tr&iacute; cũ đ&atilde; trở th&agrave;nh cảm ứng, khi bạn nhấn xuống n&oacute; vẫn cảm nhận được lực nhấn v&agrave; sẽ rung nhẹ để bạn biết rằng bạn đ&atilde; tương t&aacute;c. Apple đ&atilde; sử dụng Taptic Engine tr&ecirc;n Force Touch của Macbook cho chiếc iPhone mới n&agrave;y. Mặc d&ugrave; vậy ph&iacute;m Home vẫn c&oacute; cảm biến v&acirc;n tay Touch ID v&agrave; t&iacute;ch hợp nhiều t&iacute;nh năng bảo mật.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>Camera chất lượng đột ph&aacute; như m&aacute;y ảnh chuy&ecirc;n nghiệp</strong></h3>
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-5.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus đi k&egrave;m với một camera k&eacute;p độ ph&acirc;n giải đồng thời 12 MP, trong số đ&oacute; c&oacute; một ống k&iacute;nh g&oacute;c rộng khẩu độ l&ecirc;n đến f/1.8 v&agrave; một ống k&iacute;nh zoom (tele) l&ecirc;n đến 10x, c&ugrave;ng t&iacute;nh năng ổn định h&igrave;nh ảnh quang học tự động.&nbsp;N&oacute; cũng bao gồm một đ&egrave;n flash 2 t&ocirc;ng m&agrave;u v&agrave; đ&egrave;n flash quad-LED. Camera hỗ trợ quay film 4K 60fps, chụp x&oacute;a ph&ocirc;ng, chụp trước lấy n&eacute;t sau như một m&aacute;y ảnh chuy&ecirc;n nghiệp. Camera trước độ ph&acirc;n giải 7 MP, chụp selfie tốt hơn v&agrave; tự động chống rung. B&ecirc;n cạnh đ&oacute;, iOS 10 cũng cho ph&eacute;p người d&ugrave;ng iPhone 7 Plus chỉnh sửa, chọn lựa ảnh từ Live Photos, lưu ảnh ở định dạng RAW.</p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
 
 <p>&nbsp;</p>
 
-<h3><strong>T&iacute;nh năng chống nước tiện lợi</strong></h3>
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-8.jpg" title="iphone-7-plus-128gb" /></p>
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
 
 <p>&nbsp;</p>
 
-<p>C&oacute; thể n&oacute;i t&iacute;nh năng chống nước l&agrave; điều l&agrave;m h&agrave;i l&ograve;ng nhất c&aacute;c t&iacute;n đồ nh&agrave; T&aacute;o. Với ti&ecirc;u chuẩn chống nước IP67 sẽ gi&uacute;p iPhone mới c&oacute; thể sống ở độ s&acirc;u 1 m&eacute;t nước trong 30 ph&uacute;t, vậy l&agrave; từ nay bạn sẽ qu&ecirc;n đi nỗi lo về thấm nước tr&ecirc;n iPhone 7 Plus khi đi trong trời mưa hay lỡ tay rớt nước.</p>
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
 
 <p>&nbsp;</p>
 
-<h3><strong>Hiệu năng vượt trội, lưu trữ thoải m&aacute;i</strong></h3>
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
 
 <p>&nbsp;</p>
 
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-1.jpg" title="iphone-7-plus-128gb" /></p>
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
 
 <p>&nbsp;</p>
 
-<p>iPhone 7 Plus sử dụng chip A10 Fusion 4 l&otilde;i, 64-bit với tốc độ cực nhanh. Apple c&ocirc;ng bố con chip n&agrave;y c&oacute; hiệu năng xử l&yacute; cao hơn 40% so với chip A9 v&agrave; gấp 2 lần so với chip A8. Đặc biệt l&agrave; n&oacute; c&ograve;n cao gấp 120 lần so với iPhone đời đầu. Đi c&ugrave;ng đ&oacute; l&agrave; sự n&acirc;ng cấp về bộ nhớ trong, phi&ecirc;n bản 16 GB trước đ&acirc;y đ&atilde; bị loại bỏ, thay v&agrave;o đ&oacute; ch&uacute;ng ta sẽ c&oacute; bộ nhớ trong 128 GB ở phi&ecirc;n bản n&agrave;y để thoải m&aacute;i lưu trữ.</p>
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
 
 <p>&nbsp;</p>
 
-<h3><strong>&Acirc;m thanh sống động c&ugrave;ng loa stereo</strong></h3>
-
-<p>&nbsp;</p>
-
-<p><img alt="iphone-7-plus-128gb" longdesc="http://fptshop.com.vn/dien-thoai/iphone-7-plus-128gb" src="http://fptshop.com.vn/Uploads/images/2015/San-pham/iphone-7-plus-128gb/iphone-7-plus-128gb/iphone-7-plus-128gb-7.jpg" title="iphone-7-plus-128gb" /></p>
-
-<p>&nbsp;</p>
-
-<p>Loa ngo&agrave;i tr&ecirc;n iPhone 7 Plus bất ngờ được n&acirc;ng cấp khi từ dạng đơn l&ecirc;n loa k&eacute;p Stereo, với một loa nằm ở cạnh đ&aacute;y v&agrave; một nằm ở cạnh tr&ecirc;n, cho &acirc;m lượng sống động gấp hai lần tr&ecirc;n iPhone 6s Plus.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Tăng thời lượng sử dụng pin</strong></p>
-
-<p>&nbsp;</p>
-
-<p>Theo c&ocirc;ng bố từ Apple, iPhone 7 Plus c&oacute; khả năng sử dụng li&ecirc;n tục trong thời gian hơn 1 ng&agrave;y, với 60 giờ lướt web kh&ocirc;ng d&acirc;y v&agrave; 13 giờ sử dụng mạng LTE. Tăng hơn so với iPhone 6s Plus v&agrave; đảm bảo sử dụng cho cả ng&agrave;y d&agrave;i.</p>
-
-<p>&nbsp;</p>
-
-<p><em>Lưu &yacute;: B&agrave;i viết v&agrave; h&igrave;nh ảnh chỉ c&oacute; t&iacute;nh chất tham khảo v&igrave; cấu h&igrave;nh v&agrave; đặc t&iacute;nh sản phẩm c&oacute; thể thay đổi theo thị trường v&agrave; từng phi&ecirc;n bản. Vui l&ograve;ng gọi tổng đ&agrave;i miễn ph&iacute; 18006601 hoặc đến cửa h&agrave;ng FPT Shop để nhận th&ocirc;ng tin ch&iacute;nh x&aacute;c nhất về sản phẩm.</em></p>
-',
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Ipple',
                 'price' => '25190000.00',
                 'status' => 1,
@@ -2740,8 +2862,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2763,8 +2946,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2786,8 +3030,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2809,8 +3114,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2832,8 +3198,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2855,8 +3282,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2878,8 +3366,69 @@ class ProductsTableSeeder extends Seeder
                 'images' => '1480399445_asus-zenfone-2-laser-1-400x460.png',
                 'r_intro' => '<p>sắp ra mắt</p>
 ',
-                'review' => '<p>sản phẩm sắp được ra mắt</p>
-',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
                 'tag' => 'Galaxy S8, Galaxy S8,Galaxy S8',
                 'price' => '18490000.00',
                 'status' => 1,
@@ -2887,6 +3436,229 @@ class ProductsTableSeeder extends Seeder
                 'user_id' => 1,
                 'created_at' => '2018-11-25 23:45:08',
                 'updated_at' => '2018-11-28 23:04:05',
+            ),
+            55 => 
+            array (
+                'id' => 56,
+                'name' => 'IPhone XS',
+                'slug' => 'iphone-xs',
+                'intro' => 'Selfie ngược sáng HDR, Camera góc rộng, Nhận diện khuôn mặt, Hỗ trợ sạc nhanh, chống nước chuẩn IP68',
+                'promo1' => 'Trả góp 0%',
+                'promo2' => 'Lì xì 1,000,000đ',
+                'promo3' => 'Lì xì thêm 1,000,000đ khi thanh toán online 100% bằng thẻ tín dụng Mastercard',
+                'packet' => 'iPhone, EarPods with Lightning Connector, Lightning to USB Cable, 5W USB Power Adapter',
+                'images' => '1546334250_636748771945393060_iPhone-Xs-Max-gold.png',
+                'r_intro' => '<p>Gi&aacute; đặc biệt khi mua Online đến 02/01: 27,990,000đ</p>
+
+<p>Hoặc mua gi&aacute; thường: 29,990,000đ</p>
+
+<p>Kh&aacute;ch h&agrave;ng chọn 1 trong 2 khuyến mại sau:</p>
+
+<p>KM1:</p>
+
+<p>KM2:</p>
+
+<p>Kh&aacute;ch h&agrave;ng được khuyến mại th&ecirc;m:</p>
+
+<ul>
+<li>
+<ul>
+<li>Trả g&oacute;p 0%</li>
+</ul>
+
+<ul>
+<li>L&igrave; x&igrave; 1,000,000đ</li>
+</ul>
+
+<ul>
+<li>L&igrave; x&igrave; th&ecirc;m 1,000,000đ khi thanh to&aacute;n online 100% bằng thẻ t&iacute;n dụng Mastercard</li>
+</ul>
+
+<ul>
+<li>Cơ hội tr&uacute;ng 600 Chỉ V&agrave;ng 9999&nbsp;<a href="https://fptshop.com.vn/tin-tuc/tin-moi-1/review-test/fptshop-an-tet-lon-mua-hang-trung-600-chi-vang-78636" target="_blank">Xem chi tiết</a></li>
+</ul>
+
+<ul>
+<li>Tặng 6 lon Bia Carlsberg</li>
+</ul>
+
+<ul>
+<li>L&igrave; x&igrave; th&ecirc;m 1,000,000đ khi mua combo sức khỏe (iPhone + Apple Watch + Airpods)</li>
+</ul>
+</li>
+</ul>',
+                'review' => '',
+                'tag' => 'Iphone',
+                'price' => '27990000.00',
+                'status' => 1,
+                'cat_id' => 7,
+                'user_id' => 1,
+                'created_at' => '2019-01-01 16:17:30',
+                'updated_at' => '2019-01-01 16:17:30',
+            ),
+            56 => 
+            array (
+                'id' => 57,
+                'name' => 'Samsung Galaxy J8',
+                'slug' => 'samsung-galaxy-j8',
+                'intro' => 'Samsung Galaxy J8 có khả năng chụp ảnh xóa phông nghệ thuật nhờ camera kép chất lượng, đồng thời bạn sẽ được giải trí trên màn hình vô cực ấn tượng.',
+                'promo1' => 'Lì xì 1,500,000đ',
+                'promo2' => 'Trợ giá lên đến 1,400,000đ',
+                'promo3' => 'Tặng 6 lon Bia Carlsberg',
+                'packet' => 'Cáp xác, tai nghe',
+                'images' => '1546335191_636667501534844172_samsungj8-den-1.jpg',
+                'r_intro' => '<h2><strong>Camera k&eacute;p chinh phục b&oacute;ng tối, x&oacute;a ph&ocirc;ng nghệ thuật</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 chắc chắn l&agrave; chiếc điện thoại c&oacute; camera đ&aacute;ng gờm nhất trong ph&acirc;n kh&uacute;c, đặc biệt l&agrave; khả năng chụp đ&ecirc;m khi mang tr&ecirc;n m&igrave;nh cụm camera k&eacute;p th&ocirc;ng số v&ocirc; c&ugrave;ng chất lượng. Hai cảm biến camera sau 16MP f/1.7 + 5MP f/1.9 đều c&oacute; khẩu độ cực lớn, thu s&aacute;ng tốt trong cả những điều kiện khắc nghiệt, mang đến cho bạn những bức ảnh chụp đ&ecirc;m tuyệt vời.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-1.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>Chụp ảnh x&oacute;a ph&ocirc;ng tr&ecirc;n Galaxy J8 được n&acirc;ng l&ecirc;n một tầm cao mới khi kh&ocirc;ng chỉ x&oacute;a ph&ocirc;ng ch&iacute;nh x&aacute;c, l&agrave;m nổi bật chủ thể m&agrave; bạn c&ograve;n c&oacute; th&ecirc;m cả c&aacute;c bộ lọc Bokeh, tạo những hiệu ứng x&oacute;a ph&ocirc;ng kh&aacute;c nhau đầy nghệ thuật. Ảnh chụp ch&acirc;n dung của bạn sẽ ấn tượng hơn bao giờ hết.</p>',
+                'review' => '<h2><strong>Camera selfie x&oacute;a ph&ocirc;ng chủ động</strong></h2>
+
+<p>Kh&ocirc;ng chỉ camera sau m&agrave; camera trước của Galaxy J8 cũng c&oacute; khả năng chụp selfie x&oacute;a ph&ocirc;ng. Camera n&agrave;y kh&ocirc;ng chỉ độ ph&acirc;n giải cao 16MP, khẩu độ lớn f/1.9 m&agrave; c&ograve;n c&oacute; cả đ&egrave;n flash LED trợ s&aacute;ng chuy&ecirc;n nghiệp với ba mức độ s&aacute;ng kh&aacute;c nhau. Bạn sẽ được thoải m&aacute;i selfie ngay cả trong điều kiện thiếu s&aacute;ng m&agrave; h&igrave;nh ảnh vẫn ho&agrave;n hảo với độ n&eacute;t cao, &iacute;t nhiễu v&agrave; ch&acirc;n thực. T&iacute;nh năng x&oacute;a ph&ocirc;ng chủ động mang đến c&aacute;c bức ảnh selfie x&oacute;a ph&ocirc;ng theo đ&uacute;ng &yacute; bạn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-3.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>M&agrave;n h&igrave;nh v&ocirc; cực sống động từng khung h&igrave;nh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Samsung tiếp tục mang tinh hoa trong c&ocirc;ng nghệ m&agrave;n h&igrave;nh của họ l&ecirc;n Galaxy J8. Đ&oacute; l&agrave; m&agrave;n h&igrave;nh v&ocirc; cực Infinity Display c&ocirc;ng nghệ Super AMOLED cao cấp. Galaxy J8 sở hữu m&agrave;n h&igrave;nh lớn 6 inch HD+, tỉ lệ mới 18,5:9 chuẩn điện ảnh v&agrave; viền m&agrave;n h&igrave;nh cực mỏng. Bạn sẽ được tận hưởng từng khung h&igrave;nh giải tr&iacute; đỉnh cao, m&agrave;u sắc sống động rực rỡ.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-4.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Thiết kế c&aacute; t&iacute;nh, sắc m&agrave;u thời thượng</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Galaxy J8 c&oacute; kiểu d&aacute;ng rất mềm mại để đồng nhất ho&agrave;n to&agrave;n với m&agrave;n h&igrave;nh v&ocirc; cực mặt trước. Bạn sẽ được cầm tr&ecirc;n tay một chiếc m&aacute;y liền lạc, bo cong hợp l&yacute; để cảm gi&aacute;c sử dụng thoải m&aacute;i nhất. Mặc d&ugrave; kiểu d&aacute;ng mượt m&agrave; nhưng Galaxy J8 vẫn rất chắc chắn nhờ lớp vỏ kim loại sang trọng. C&oacute; ba m&agrave;u sắc c&aacute; t&iacute;nh d&agrave;nh cho bạn l&agrave; T&iacute;m Sapphire, Đen Titan v&agrave; V&agrave;ng Thạch Anh.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-5.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Bảo mật an to&agrave;n v&agrave; th&ocirc;ng minh</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Camera trước Galaxy J8 được tối ưu để nhận diện khu&ocirc;n mặt th&ocirc;ng minh v&agrave; nhanh ch&oacute;ng. Chỉ cần đưa m&aacute;y l&ecirc;n l&agrave; chiếc J8 của bạn sẽ tự động mở kh&oacute;a. Ấn tượng hơn, đ&egrave;n flash LED d&agrave;nh cho camera trước sẽ ph&aacute;t huy t&aacute;c dụng để bạn nhận diện được trong cả trời tối. Trong khi đ&oacute; m&aacute;y qu&eacute;t v&acirc;n tay mặt sau cũng l&agrave; một phương thức bảo mật tiện dụng kh&aacute;c m&agrave; bạn c&oacute; thể thao t&aacute;c tiện lợi d&ugrave; cầm bằng bất cứ tay tr&aacute;i hay tay phải.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>Hiệu năng tốt trong tầm gi&aacute;</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Hiệu năng Samsung Galaxy J8 kh&aacute; ổn với bộ vi xử l&yacute; Snapdragon 450 t&aacute;m nh&acirc;n xung nhịp 1,8GHz đi c&ugrave;ng 3GB RAM v&agrave; 32GB bộ nhớ trong. Cấu h&igrave;nh n&agrave;y đủ sức để J8 chạy mượt trong hầu hết c&aacute;c t&aacute;c vụ. Ngo&agrave;i ra việc chạy tr&ecirc;n hệ điều h&agrave;nh Android 8.0 Oreo mới cũng gi&uacute;p cho Galaxy J8 mượt m&agrave; v&agrave; ổn định hơn.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-6.jpg" /></p>
+
+<h2>&nbsp;</h2>
+
+<h2><strong>Thời lượng pin xuất sắc</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>Pin lu&ocirc;n l&agrave; điểm mạnh tr&ecirc;n những chiếc điện thoại Galaxy J v&agrave; kh&ocirc;ng c&oacute; g&igrave; ngạc nhi&ecirc;n khi Galaxy J8 c&oacute; thời lượng pin xuất sắc. Với dung lượng lớn 3500 mAh, con chip tiết kiệm điện v&agrave; cơ chế quản l&yacute; pin th&ocirc;ng minh, Galaxy J8 c&oacute; thể duyệt web tối đa trong 13 giờ qua 4G LTE, xem video li&ecirc;n tục trong 20 giờ, gọi thoại trong 23 giờ, những con số rất ấn tượng.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/samsung-galaxy-j8-mo-ta-2.jpg" /></p>',
+                'tag' => 'Samsung',
+                'price' => '6290000.00',
+                'status' => 1,
+                'cat_id' => 6,
+                'user_id' => 1,
+                'created_at' => '2019-01-01 16:33:11',
+                'updated_at' => '2019-01-01 16:33:11',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'name' => 'Oppo A3s',
+                'slug' => 'oppo-a3s',
+                'intro' => 'Một màn hình lớn cực đã, thời lượng pin siêu dài và camera kép đẳng cấp trong tầm giá rẻ, đó là OPPO A3s, chiếc điện thoại thời trang được ưa chuộng bậc nhất hiện nay.',
+                'promo1' => 'Cơ hội trúng 600 Chỉ Vàng 9999',
+                'promo2' => 'Trả góp 0%/1%',
+                'promo3' => '',
+                'packet' => 'Cáp, sạc, tai nghe',
+                'images' => '1546335358_636688079458645221_oppoA3s-tim-1.jpg',
+                'r_intro' => '<p><strong>Một m&agrave;n h&igrave;nh lớn cực đ&atilde;, thời lượng pin si&ecirc;u d&agrave;i v&agrave; camera k&eacute;p đẳng cấp trong tầm gi&aacute; rẻ, đ&oacute; l&agrave;&nbsp;<a href="https://fptshop.com.vn/dien-thoai/oppo-a3s" target="_blank">OPPO A3s</a>, chiếc điện thoại thời trang được ưa chuộng bậc nhất hiện nay.</strong></p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-1.jpg" /></p>',
+                'review' => '<h2><strong>M&agrave;n h&igrave;nh si&ecirc;u lớn 6,2 inch tr&agrave;n viền</strong></h2>
+
+<p>Hiện tại đang l&agrave; kỷ nguy&ecirc;n của những chiếc điện thoại m&agrave;n h&igrave;nh lớn. OPPO A3s sở hữu m&agrave;n h&igrave;nh c&oacute; k&iacute;ch thước lớn tới 6,2 inch được thiết kế theo dạng tr&agrave;n viền thời thượng, cho bạn những trải nghiệm tuyệt vời. Tỉ lệ m&agrave;n h&igrave;nh mới 19:9 mang đến nhiều nội dung hơn khi lướt web, đọc b&aacute;o v&agrave; kh&ocirc;ng gian rộng lớn hơn khi xem phim hay chơi game.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-2.jpg" /></p>
+
+<h2><strong>Tỏa s&aacute;ng ở mọi &aacute;nh nh&igrave;n</strong></h2>
+
+<p>OPPO A3s c&oacute; kiểu d&aacute;ng hiện đại, ho&agrave;n thiện tuyệt vời với những đường bo cong liền lạc, cho cảm gi&aacute;c cầm nắm ho&agrave;n hảo trong l&ograve;ng b&agrave;n tay. Mặt lưng m&aacute;y được thiết kế lấy cảm hứng từ &aacute;nh s&aacute;ng, lấp l&aacute;nh ở mọi g&oacute;c nh&igrave;n v&agrave; hai m&agrave;u sắc v&ocirc; c&ugrave;ng thời trang. M&agrave;u đỏ tươi trẻ v&agrave; m&aacute;u t&iacute;m c&aacute; t&iacute;nh sẽ l&agrave; những lựa chọn d&agrave;nh cho bạn.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-4.jpg" /></p>
+
+<h2><strong>Camera k&eacute;p</strong></h2>
+
+<p>Camera k&eacute;p tr&ecirc;n OPPO A3s bao gồm hai cảm biến 13MP + 2MP, c&oacute; khả năng chụp được những bức ảnh x&oacute;a ph&ocirc;ng tuyệt vời. Kh&ocirc;ng cần m&aacute;y ảnh chuy&ecirc;n dụng, bạn chỉ cần đưa OPPO A3s l&ecirc;n v&agrave; ấn chụp, chủ thể sẽ xuất hiện rạng rỡ với hậu cảnh l&agrave;m mờ đầy ấn tượng.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-5.jpg" /></p>
+
+<h2><strong>Camera selfie l&agrave;m đẹp AI Beauty 2.0</strong></h2>
+
+<p>C&oacute; thể n&oacute;i camera selfie 8MP của OPPO A3s l&agrave; một &ldquo;chuy&ecirc;n gia trang điểm&rdquo; d&agrave;nh cho bạn. Tr&iacute; th&ocirc;ng minh nh&acirc;n tạo AI c&oacute; thể nhận diện c&aacute;c đặc điểm nổi bật của bạn v&agrave; l&agrave;m đẹp ri&ecirc;ng biệt cho từng người. Mỗi người sẽ c&oacute; một c&aacute;ch l&agrave;m đẹp kh&aacute;c nhau để ai cũng lu&ocirc;n tỏa s&aacute;ng rạng rỡ theo phong c&aacute;ch ri&ecirc;ng.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-6.jpg" /></p>
+
+<h2><strong>Sức mạnh từ vi xử l&yacute; Snapdragon 8 nh&acirc;n 14nm</strong></h2>
+
+<p>OPPO A3s được trang bị bộ vi xử l&yacute; Snapdragon 450. Đ&acirc;y l&agrave; một con chip 64-bit, 8 nh&acirc;n v&agrave; đặc biệt được sản xuất tr&ecirc;n tiến tr&igrave;nh 14nm. Việc sản xuất tr&ecirc;n tiến tr&igrave;nh 14nm gi&uacute;p cho Snapdragon 450 vừa mạnh mẽ, vừa tiết kiệm điện năng hơn, đảm bảo cho m&aacute;y lu&ocirc;n chạy mượt m&agrave;.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-7.jpg" /></p>
+
+<h2><strong>Vi&ecirc;n pin cực khủng 4230 mAh</strong></h2>
+
+<p>OPPO A3s mang tr&ecirc;n m&igrave;nh vi&ecirc;n pin c&oacute; dung lượng lơn hiếm thấy tr&ecirc;n thị trường hiện nay. Với dung lượng l&ecirc;n tới 4230 mAh, OPPO A3s c&oacute; thể sử dụng thoải m&aacute;i trong hai ng&agrave;y. D&ugrave; bạn l&agrave;m g&igrave; đi chăng nữa, sẽ kh&ocirc;ng phải lo hết pin tr&ecirc;n OPPO A3s.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-8.jpg" /></p>
+
+<h2><strong>Mở kh&oacute;a khu&ocirc;n mặt cực nhanh</strong></h2>
+
+<p>Kh&ocirc;ng cần những mật khẩu d&agrave;i d&ograve;ng, chỉ cần đưa chiếc OPPO A3s của bạn l&ecirc;n, m&aacute;y sẽ tự động nhận diện khu&ocirc;n mặt chủ nh&acirc;n v&agrave; mở kh&oacute;a m&aacute;y ngay lập tức. Phương thức bảo mật n&agrave;y rất an to&agrave;n v&agrave; tiện lợi.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-9.jpg" /></p>
+
+<h2><strong>Giao diện mới hiện đại</strong></h2>
+
+<p>Hệ điều h&agrave;nh ColorOS 5.1 mới nhất tr&ecirc;n OPPO A3s mang lại sức sống tươi trẻ, giao diện hiện đại v&agrave; trực quan. Bạn sẽ c&oacute; đủ những t&iacute;nh năng m&igrave;nh cần v&agrave; thao t&aacute;c hết sức đơn giản.</p>
+
+<p><img alt="" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/oppo-a3s-10.jpg" /></p>',
+                'tag' => 'OPPO',
+                'price' => '3690000.00',
+                'status' => 1,
+                'cat_id' => 8,
+                'user_id' => 1,
+                'created_at' => '2019-01-01 16:35:58',
+                'updated_at' => '2019-01-01 16:35:58',
             ),
         ));
         
