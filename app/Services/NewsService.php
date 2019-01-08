@@ -34,4 +34,14 @@ class NewsService
         };
         return $news->paginate(10)->appends($appends);
     }
+
+    /**
+     * @param $perPage
+     * @return mixed
+     */
+    public static function paginateNews($perPage)
+    {
+        return News::orderBy('created_at', 'desc')
+            ->paginate($perPage);
+    }
 }

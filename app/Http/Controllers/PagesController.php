@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Enums\Categories;
 use App\Models\News;
-use App\Models\Oders;
-use App\Models\Oders_detail;
 use App\Models\Products;
+use App\Services\CartService;
 use App\Services\CategoriesService;
+use App\Services\NewsService;
+use App\Services\OrderService;
 use App\Services\ProductService;
 use Auth;
 use Cart;
-use Datetime;
 use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
@@ -65,35 +65,25 @@ class PagesController extends Controller
     public function addCart($id)
     {
         $product = Products::where('id', $id)->first();
-        Cart::add([
-            'id' => $product->id,
-            'name' => $product->name,
-            'qty' => 1,
-            'price' => $product->price,
-            'options' => ['img' => $product->images]
-        ]);
+        CartService::addCart($product);
         return redirect()->route('getCart');
     }
 
     /**
      * @param $id
-     * @param $qty
-     * @param $dk
+     * @param $quantity
+     * @param $condition
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function getUpdateCart($id, $qty, $dk)
+    public function getUpdateCart($id, $quantity, $condition)
     {
-        if ($dk == 'up') {
-            $qt = $qty + 1;
-            Cart::update($id, $qt);
-            return redirect()->route('getCart');
-        } elseif ($dk == 'down') {
-            $qt = $qty - 1;
-            Cart::update($id, $qt);
-            return redirect()->route('getCart');
-        } else {
-            return redirect()->route('getCart');
+        if ($condition == 'up') {
+            $quantity = $quantity + 1;
+        } elseif ($condition == 'down') {
+            $quantity = $quantity - 1;
         }
+        Cart::update($id, $quantity);
+        return redirect()->route('getCart');
     }
 
     /**
@@ -123,42 +113,18 @@ class PagesController extends Controller
         if (Auth::guest()) {
             return redirect('login');
         } else {
-
             return view('detail.oder')
                 ->with('slug', 'Xác nhận');
         }
     }
 
     /**
-     * @param Request $rq
+     * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postOrder(Request $rq)
+    public function postOrder(Request $request)
     {
-        $oder = new Oders();
-        $total = 0;
-        foreach (Cart::content() as $row) {
-            $total = $total + ($row->qty * $row->price);
-        }
-        $oder->c_id = Auth::user()->id;
-        $oder->qty = Cart::count();
-        $oder->sub_total = floatval($total);
-        $oder->total = floatval($total);
-        $oder->note = $rq->txtnote;
-        $oder->status = 0;
-        $oder->type = 'cod';
-        $oder->created_at = new datetime;
-        $oder->save();
-        $o_id = $oder->id;
-
-        foreach (Cart::content() as $row) {
-            $detail = new Oders_detail();
-            $detail->pro_id = $row->id;
-            $detail->qty = $row->qty;
-            $detail->o_id = $o_id;
-            $detail->created_at = new datetime;
-            $detail->save();
-        }
+        OrderService::saveOrder();
         Cart::destroy();
         return redirect()->route('getCart')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đơn hàng của bạn đã được gửi đi !']);
@@ -173,13 +139,9 @@ class PagesController extends Controller
     {
         $catParent = CategoriesService::getCategoryBySlug($cat);
         if ($cat == Categories::NEWS) {
-            $new = DB::table('news')
-                ->orderBy('created_at', 'desc')
-                ->paginate(3);
+            $new = NewsService::paginateNews(3);
             $top1 = $new->shift();
-            $all = DB::table('news')
-                ->orderBy('created_at', 'desc')
-                ->paginate(5);
+            $all = NewsService::paginateNews(5);
             return view('category.news', ['data' => $new, 'hot1' => $top1, 'all' => $all]);
         } else {
             $products = ProductService::getProductByCategory($catParent->id);
@@ -210,7 +172,7 @@ class PagesController extends Controller
                 'same_products' => $sameProducts
             ];
             if (empty($mobile)) {
-                return view('errors.503');
+                return view('errors.404');
             } else {
                 return view('detail.mobile', [
                     'data' => $data,
