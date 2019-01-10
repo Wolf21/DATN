@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\ProductService;
-use Carbon\Carbon;
-use Illuminate\Http\Request;
 use App\Http\Requests\AddProductsRequest;
 use App\Http\Requests\EditProductsRequest;
-use App\Models\Products;
 use App\Models\Category;
-use App\Models\Pro_details;
 use App\Models\Detail_img;
+use App\Models\Products;
+use App\Services\ProductService;
 use Auth;
-use DateTime, File, Input, DB;
+use DB;
+use File;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Input;
 
 
 class ProductsController extends Controller
@@ -56,88 +56,12 @@ class ProductsController extends Controller
     }
 
     /**
-     * @param AddProductsRequest $rq
+     * @param AddProductsRequest $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postAdd(AddProductsRequest $rq)
+    public function postAdd(AddProductsRequest $request)
     {
-        $pro = new Products();
-
-        $pro->name = $rq->txtname;
-        $pro->slug = str_slug($rq->txtname, '-');
-        $pro->intro = $rq->txtintro;
-        $pro->promo1 = $rq->txtpromo1 ?? '';
-        $pro->promo2 = $rq->txtpromo2 ?? '';
-        $pro->promo3 = $rq->txtpromo3 ?? '';
-        $pro->packet = $rq->txtpacket ?? '';
-        $pro->r_intro = $rq->txtre_Intro ?? '';
-        $pro->review = $rq->txtReview ?? '';
-        $pro->tag = $rq->txttag ?? '';
-        $pro->price = $rq->txtprice;
-        $pro->cat_id = $rq->sltCate;
-        $pro->user_id = Auth()->user()->id;
-        $pro->created_at = Carbon::now();
-        $pro->status = '1';
-        $f = $rq->file('txtimg')->getClientOriginalName();
-        $filename = time() . '_' . $f;
-        $pro->images = $filename;
-        $rq->file('txtimg')->move('uploads/products/', $filename);
-        $pro->save();
-        $pro_id = $pro->id;
-
-        $detail = new Pro_details();
-
-        $detail->cpu = $rq->txtCpu ?? '';
-        $detail->ram = $rq->txtRam ?? '';
-        $detail->screen = $rq->txtScreen ?? '';
-        $detail->vga = $rq->txtVga ?? '';
-        $detail->storage = $rq->txtStorage ?? '';
-        $detail->exten_memmory = $rq->txtExtend ?? '';
-        $detail->cam1 = $rq->txtCam1 ?? '';
-        $detail->cam2 = $rq->txtCam2 ?? '';
-        $detail->sim = $rq->txtSIM ?? '';
-        $detail->connect = $rq->txtConnect ?? '';
-        $detail->pin = $rq->txtPin ?? '';
-        $detail->os = $rq->txtOs ?? '';
-        $detail->note = $rq->txtNote ?? '';
-        $detail->pro_id = $pro_id;
-
-        if ($rq->txtCam1 == '') {
-            $detail->cam1 = 'không có';
-        }
-        if ($rq->txtCam2 == '') {
-            $detail->cam2 = 'không có';
-        }
-        if ($rq->exten_memmory == '') {
-            $detail->exten_memmory = $rq->txtCase ?? 'Không';
-        }
-        if ($rq->pin == '') {
-            $detail->pin = 'Không có';
-        }
-        if ($rq->sim == '') {
-            $detail->sim = 'Không có';
-        }
-        if ($rq->note == '') {
-            $detail->note = 'Không có';
-        }
-
-        $detail->created_at = new datetime;
-        $detail->save();
-
-        if ($rq->hasFile('txtdetail_img')) {
-            $df = $rq->file('txtdetail_img');
-            foreach ($df as $row) {
-                $img_detail = new Detail_img();
-                if (isset($row)) {
-                    $name_img = time() . '_' . $row->getClientOriginalName();
-                    $img_detail->images_url = $name_img;
-                    $img_detail->pro_id = $pro_id;
-                    $img_detail->created_at = new datetime;
-                    $row->move('uploads/products/details/', $name_img);
-                    $img_detail->save();
-                }
-            }
-        }
+        ProductService::addProduct();
         return redirect('admin/product/all')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã thêm thành công !']);
 
@@ -153,7 +77,6 @@ class ProductsController extends Controller
         foreach ($detail as $row) {
             $dt = Detail_img::find($row->id);
             $pt = public_path('uploads/products/details/') . $dt->images_url;
-            // dd($pt);
             if (file_exists($pt)) {
                 unlink($pt);
             }
@@ -189,93 +112,12 @@ class ProductsController extends Controller
 
     /**
      * @param $id
-     * @param EditProductsRequest $rq
+     * @param EditProductsRequest $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postEdit($id, EditProductsRequest $rq)
+    public function postEdit($id, EditProductsRequest $request)
     {
-        $pro = Products::find($id);
-
-        $pro->name = $rq->txtname;
-        $pro->slug = str_slug($rq->txtname, '-');
-        $pro->intro = $rq->txtintro ?? '';
-        $pro->promo1 = $rq->txtpromo1 ?? '';
-        $pro->promo2 = $rq->txtpromo2 ?? '';
-        $pro->promo3 = $rq->txtpromo3 ?? '';
-        $pro->packet = $rq->txtpacket ?? '';
-        $pro->r_intro = $rq->txtre_Intro ?? '';
-        $pro->review = $rq->txtReview ?? '';
-        $pro->tag = $rq->txttag ?? '';
-        $pro->price = $rq->txtprice;
-        $pro->cat_id = $rq->sltCate;
-        $pro->user_id = Auth()->user()->id;
-        $pro->updated_at = Carbon::now();
-        $pro->status = '1';
-        $file_path = public_path('uploads/products/') . $pro->images;
-        if ($rq->hasFile('txtimg')) {
-            if (file_exists($file_path)) {
-                unlink($file_path);
-            }
-
-            $f = $rq->file('txtimg')->getClientOriginalName();
-            $filename = time() . '_' . $f;
-            $pro->images = $filename;
-            $rq->file('txtimg')->move('uploads/products/', $filename);
-        }
-        $pro->save();
-
-        $pro_details = new Pro_details();
-        $pro_details->cpu = $rq->txtCpu ?? '';
-        $pro_details->ram = $rq->txtRam ?? '';
-        $pro_details->screen = $rq->txtScreen ?? '';
-        $pro_details->vga = $rq->txtVga ?? '';
-        $pro_details->storage = $rq->txtStorage ?? '';
-        $pro_details->exten_memmory = $rq->txtExtend ?? '';
-        $pro_details->connect = $rq->txtConnect ?? '';
-        $pro_details->cam1 = $rq->txtCam1 ?? '';
-        $pro_details->cam2 = $rq->txtCam2 ?? '';
-        $pro_details->note = $rq->txtNote ?? '';
-        $pro_details->pro_id = $id;
-
-        if ($rq->txtSIM == '') {
-            $pro_details->sim = 'Không có';
-        } else {
-            $pro_details->sim = $rq->txtSIM;
-        }
-
-        if ($rq->txtPin == '') {
-            $pro_details->pin = 'Không có';
-        } else {
-            $pro_details->pin = $rq->txtPin;
-        }
-        $pro_details->os = $rq->txtOs;
-        $pro_details->updated_at = Carbon::now();
-
-        if ($rq->hasFile('txtdetail_img')) {
-            $detail = Detail_img::where('pro_id', $id)->get();
-            $df = $rq->file('txtdetail_img');
-            foreach ($detail as $row) {
-                $dt = Detail_img::find($row->id);
-                $pt = public_path('uploads/products/details/') . $dt->images_url;
-                // dd($pt);
-                if (file_exists($pt)) {
-                    unlink($pt);
-                }
-                $dt->delete();
-            }
-            foreach ($df as $row) {
-                $img_detail = new Detail_img();
-                if (isset($row)) {
-                    $name_img = time() . '_' . $row->getClientOriginalName();
-                    $img_detail->images_url = $name_img;
-                    $img_detail->pro_id = $id;
-                    $img_detail->created_at = new datetime;
-                    $row->move('uploads/products/details/', $name_img);
-                    $img_detail->save();
-                }
-            }
-        }
-        $pro_details->save();
+        ProductService::updateProduct($id);
         return redirect('admin/product/all')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã lưu !']);
     }

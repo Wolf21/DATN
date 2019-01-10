@@ -5,6 +5,8 @@ namespace App\Services;
 
 use App\Helpers\SearchHelper;
 use App\Models\Products;
+use Carbon\Carbon;
+use File;
 
 class ProductService
 {
@@ -52,11 +54,13 @@ class ProductService
 
         //case search product
         if (isset(request()->key)) {
-            $products = $products->where(function ($query) use ($columns) {
-                foreach ($columns as $column) {
-                    $query->orWhere($column, 'like', '%' . SearchHelper::escapeLike(request()->key) . '%');
-                }
-            });
+//            $products = $products->where(function ($query) use ($columns) {
+            foreach ($columns as $column) {
+                $products = $products->whereLike($column, request()->key);
+//                    $query->orWhere($column, 'like', '%' . SearchHelper::escapeLike(request()->key) . '%');
+            }
+//            });
+            dd($products);
             $appends['key'] = request()->key;
         };
 
@@ -75,17 +79,6 @@ class ProductService
             ->where('category.parent_id', '=', '1')
             ->select('products.*', 'pro_details.cpu', 'pro_details.ram', 'pro_details.screen', 'pro_details.vga', 'pro_details.storage', 'pro_details.exten_memmory', 'pro_details.cam1', 'pro_details.cam2', 'pro_details.sim', 'pro_details.connect', 'pro_details.pin', 'pro_details.os', 'pro_details.note')
             ->paginate(2);
-    }
-
-    /**
-     * @param $product_id
-     * @return mixed
-     */
-    public static function getDetailImg($product_id)
-    {
-        return Products::join('detail_img', 'products.id', '=', 'detail_img.pro_id')
-            ->where('products.id', $product_id)
-            ->get();
     }
 
     /**
@@ -165,5 +158,82 @@ class ProductService
             ->paginate(10)
             ->appends($appends);
         return $products;
+    }
+
+    public static function addProduct()
+    {
+        //insert to product
+        $product = new Products();
+        $product = self::addProductBasicInfo($product);
+        $file = request()->file('txtimg')->getClientOriginalName();
+        $filename = time() . '_' . $file;
+        $product->images = $filename;
+        request()->file('txtimg')->move('uploads/products/', $filename);
+        $product->save();
+
+        // get product id
+        $productId = $product->id;
+
+        //insert to Product details
+        ProductDetailsService::insertProductDetails($productId);
+
+        //insert to details img
+        if (request()->hasFile('txtdetail_img')) {
+            DetailsImageService::insertDetailImg($productId);
+        }
+    }
+
+    /**
+     * @param $id
+     */
+    public static function updateProduct($id)
+    {
+        $product = Products::find($id);
+        $product = self::addProductBasicInfo($product);
+        $file_path = public_path('uploads/products/') . $product->images;
+        if (request()->hasFile('txtimg')) {
+            if (file_exists($file_path)) {
+                unlink($file_path);
+            }
+            $f = request()->file('txtimg')->getClientOriginalName();
+            $filename = time() . '_' . $f;
+            $product->images = $filename;
+            request()->file('txtimg')->move('uploads/products/', $filename);
+        }
+        $product->save();
+        // get product id
+        $productId = $product->id;
+
+        //insert to Product details
+        ProductDetailsService::insertProductDetails($productId);
+
+        //insert to details img
+        if (request()->hasFile('txtdetail_img')) {
+            DetailsImageService::updateDetailImg($productId);
+        }
+    }
+
+    /**
+     * @param $product
+     * @return mixed
+     */
+    public static function addProductBasicInfo($product)
+    {
+        $product->name = request()->txtname;
+        $product->slug = str_slug(request()->txtname, '-');
+        $product->intro = request()->txtintro;
+        $product->promo1 = request()->txtpromo1 ?? '';
+        $product->promo2 = request()->txtpromo2 ?? '';
+        $product->promo3 = request()->txtpromo3 ?? '';
+        $product->packet = request()->txtpacket ?? '';
+        $product->r_intro = request()->txtre_Intro ?? '';
+        $product->review = request()->txtReview ?? '';
+        $product->tag = request()->txttag ?? '';
+        $product->price = request()->txtprice;
+        $product->cat_id = request()->sltCate;
+        $product->user_id = Auth()->user()->id;
+        $product->created_at = Carbon::now();
+        $product->status = '1';
+        return $product;
     }
 }

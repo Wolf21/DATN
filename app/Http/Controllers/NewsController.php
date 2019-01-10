@@ -3,16 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Enums\Categories;
+use App\Http\Requests\AddNewsRequest;
+use App\Http\Requests\EditNewsRequest;
 use App\Models\Category;
 use App\Models\News;
 use App\Services\NewsService;
-use Illuminate\Http\Request;
-use App\Http\Requests\AddNewsRequest;
-use App\Http\Requests\EditNewsRequest;
-
-use App\Http\Requests;
 use Auth;
-use DateTime, File, Input, DB;
+use DB;
+use File;
+use Illuminate\Http\Request;
+use Input;
 
 class NewsController extends Controller
 {
@@ -41,29 +41,12 @@ class NewsController extends Controller
     }
 
     /**
-     * @param AddNewsRequest $rq
+     * @param AddNewsRequest $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postAdd(AddNewsRequest $rq)
+    public function postAdd(AddNewsRequest $request)
     {
-        $n = new News();
-        $n->title = $rq->txtTitle;
-        $n->slug = str_slug($rq->txtTitle, '-');
-        $n->author = $rq->txtAuth;
-        $n->status = $rq->slstatus;
-        $n->source = $rq->txtSource;
-        $n->intro = $rq->txtIntro;
-        $n->full = $rq->txtFull;
-        $n->cat_id = $rq->sltCate;
-        $n->user_id = Auth()->user()->id;
-        $n->created_at = new datetime;
-
-        $f = $rq->file('txtimg')->getClientOriginalName();
-        $filename = time() . '_' . $f;
-        $n->images = $filename;
-        $rq->file('txtimg')->move('uploads/news/', $filename);
-
-        $n->save();
+        NewsService::addNews();
         return redirect('admin/news')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã thêm thành công !']);
     }
@@ -80,41 +63,21 @@ class NewsController extends Controller
     }
 
     /**
-     * @param EditNewsRequest $rq
+     * @param EditNewsRequest $request
      * @param $id
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postEdit(EditNewsRequest $rq, $id)
+    public function postEdit(EditNewsRequest $request, $id)
     {
-        $n = News::find($id);
-        $n->title = $rq->txtTitle;
-        $n->slug = str_slug($rq->txtTitle, '-');
-        $n->author = $rq->txtAuth;
-        $n->status = $rq->slstatus;
-        $n->source = $rq->txtSource;
-        $n->intro = $rq->txtIntro;
-        $n->full = $rq->txtFull;
-        $n->cat_id = $rq->sltCate;
-        $n->user_id = Auth()->user()->id;
-        $n->created_at = new datetime;
-
-        $file_path = public_path('uploads/news/') . $n->images;
-        if ($rq->hasFile('txtimg')) {
-            if (file_exists($file_path)) {
-                unlink($file_path);
-            }
-
-            $f = $rq->file('txtimg')->getClientOriginalName();
-            $filename = time() . '_' . $f;
-            $n->images = $filename;
-            $rq->file('txtimg')->move('uploads/news/', $filename);
-        }
-
-        $n->save();
+        NewsService::updateNews($id);
         return redirect('admin/news')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã sửa thành công !']);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function getDelete($id)
     {
         $news = News::find($id);

@@ -7,6 +7,7 @@ use App\Models\News;
 use App\Models\Products;
 use App\Services\CartService;
 use App\Services\CategoriesService;
+use App\Services\DetailsImageService;
 use App\Services\NewsService;
 use App\Services\OrderService;
 use App\Services\ProductService;
@@ -164,7 +165,7 @@ class PagesController extends Controller
             return view('detail.news', ['data' => $new, 'slug' => $slug]);
         } else {
             $mobile = Products::where('id', $id)->first();
-            $detailImg = ProductService::getDetailImg($id);
+            $detailImg = DetailsImageService::getDetailImg($id);
             $data = [
                 'mobile' => $mobile,
                 'detail_img' => $detailImg,
