@@ -2,38 +2,46 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Category;
 use App\Http\Requests\AddCategoryRequest;
-use Carbon\Carbon;
-use DateTime;
+use App\Models\Category;
+use App\Services\CategoriesService;
 
 class CategoryController extends Controller
 {
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getList()
     {
         $data = Category::all();
         return View('back-end.category.cat-list', ['data' => $data]);
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getAdd()
     {
         $data = Category::where('parent_id', 0)->get();
         return View('back-end.category.add', ['data' => $data]);
     }
 
-    public function postAdd(AddCategoryRequest $rq)
+    /**
+     * @param AddCategoryRequest $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function postAdd(AddCategoryRequest $request)
     {
-        $cat = new Category();
-        $cat->parent_id = $rq->sltCate;
-        $cat->name = $rq->txtCateName;
-        $cat->slug = str_slug($rq->txtCateName, '-');
-        $cat->created_at = Carbon::now();
-        $cat->save();
+        CategoriesService::addCategory();
         return redirect()->route('getCat')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã thêm thành công !']);
 
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getEdit($id)
     {
         $cat = Category::where('parent_id', 0)->get();
@@ -41,19 +49,24 @@ class CategoryController extends Controller
         return View('back-end.category.edit', ['cat' => $cat, 'data' => $data]);
     }
 
+    /**
+     * @param $id
+     * @param AddCategoryRequest $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function postEdit($id, AddCategoryRequest $request)
     {
-        $cat = category::find($id);
-        $cat->name = $request->txtCateName;
-        $cat->slug = str_slug($request->txtCateName, '-');
-        $cat->parent_id = $request->sltCate;
-        $cat->updated_at = new DateTime;
-        $cat->save();
+        $category = category::find($id);
+        CategoriesService::updateCategory($category);
         return redirect()->route('getCat')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã sửa']);
 
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function getDelete($id)
     {
         $parent_id = category::where('parent_id', $id)->count();

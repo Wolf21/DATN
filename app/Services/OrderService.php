@@ -1,14 +1,20 @@
 <?php
 
 namespace App\Services;
+
 use App\Models\Oders;
 use App\Models\Oders_detail;
+use App\Models\Products;
+use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
 class OrderService
 {
 
+    /**
+     *
+     */
     public static function saveOrder()
     {
         $order = new Oders();
@@ -35,6 +41,55 @@ class OrderService
             $detail->created_at = Carbon::now();
             $detail->save();
         }
+    }
+
+    /**
+     * @param $id
+     * @return mixed
+     */
+    public static function getOrderByUser($id)
+    {
+        return User::join('orders', 'orders.c_id', '=', 'users.id')
+            ->where('orders.id', $id)->first();
+    }
+
+    /**
+     * @param $id
+     * @return mixed
+     */
+    public static function getOrderDetails($id)
+    {
+        return Products::join('oders_detail', 'products.id', '=', 'oders_detail.pro_id')
+            ->groupBy('oders_detail.id')
+            ->where('oders_detail.o_id', $id)
+            ->get();
+    }
+
+    /**
+     * @param $id
+     */
+    public static function updateOrder($id)
+    {
+        $order = Oders::find($id);
+        $order->status = 1;
+        $order->save();
+    }
+
+    /**
+     * @param $id
+     * @return mixed
+     */
+    public static function getOrderProducts($id)
+    {
+        return Products::join('oders_detail', 'products.id', '=', 'oders_detail.pro_id')
+            ->join('orders', 'oders_detail.o_id', '=', 'orders.id')
+            ->where('oders_detail.id', $id)
+            ->select(
+                'oders_detail.*',
+                'products.*',
+                'orders.status AS order_status'
+            )
+            ->first();
     }
 
 }

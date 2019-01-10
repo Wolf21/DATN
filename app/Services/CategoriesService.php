@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Models\Category;
+use Carbon\Carbon;
 
 class CategoriesService
 {
@@ -16,9 +17,38 @@ class CategoriesService
             ->first();
     }
 
+    /**
+     * @param $cat_id
+     * @return mixed
+     */
     public static function getCategoryById($cat_id)
     {
         return Category::where('id', $cat_id)
             ->first();
+    }
+
+    /**
+     * 
+     */
+    public static function addCategory()
+    {
+        $category = new Category();
+        $category->parent_id = request()->sltCate;
+        $category->name = request()->txtCateName;
+        $category->slug = str_slug(request()->txtCateName, '-');
+        $category->created_at = Carbon::now();
+        $category->save();
+    }
+
+    /**
+     * @param $category
+     */
+    public static function updateCategory($category)
+    {
+        $category->name = request()->txtCateName;
+        $category->slug = str_slug(request()->txtCateName, '-');
+        $category->parent_id = request()->sltCate;
+        $category->updated_at = Carbon::now();
+        $category->save();
     }
 }

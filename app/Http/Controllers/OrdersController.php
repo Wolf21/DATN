@@ -4,11 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Oders;
 use App\Models\Oders_detail;
-use App\Models\Products;
 use App\Models\User;
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
+use App\Services\OrderService;
 use DB;
 
 class OrdersController extends Controller
@@ -30,14 +27,9 @@ class OrdersController extends Controller
      */
     public function getDetail($id)
     {
-        $oder = User::join('orders', 'orders.c_id', '=', 'users.id')
-            ->where('orders.id', $id)->first();
-        $data = DB::table('products')
-            ->join('oders_detail', 'products.id', '=', 'oders_detail.pro_id')
-            ->groupBy('oders_detail.id')
-            ->where('oders_detail.o_id', $id)
-            ->get();
-        return view('back-end.orders.detail', ['data' => $data, 'oder' => $oder]);
+        $order = OrderService::getOrderByUser($id);
+        $data = OrderService::getOrderDetails($id);
+        return view('back-end.orders.detail', ['data' => $data, 'oder' => $order]);
     }
 
     /**
@@ -46,10 +38,7 @@ class OrdersController extends Controller
      */
     public function postDetail($id)
     {
-        $oder = Oders::find($id);
-
-        $oder->status = 1;
-        $oder->save();
+        OrderService::updateOrder($id);
         return redirect('admin/order')
             ->with(['flash_level' => 'result_msg', 'flash_massage' => ' Đã xác nhận đơn hàng thành công !']);
 
@@ -79,34 +68,26 @@ class OrdersController extends Controller
      */
     public function deleteOrderDetails($id)
     {
-        $oder = Products::join('oders_detail', 'products.id', '=', 'oders_detail.pro_id')
-            ->join('orders', 'oders_detail.o_id', '=', 'orders.id')
-            ->where('oders_detail.id', $id)
-            ->select(
-                'oders_detail.*',
-                'products.*',
-                'orders.status AS order_status'
-            )
-            ->first();
-        $subPrice = $oder->price * $oder->qty;
-        $newPrice = Oders::find($oder->o_id)->total - $subPrice;
+        $order = OrderService::getOrderProducts($id);
+        $subPrice = $order->price * $order->qty;
+        $newPrice = Oders::find($order->o_id)->total - $subPrice;
         // case sản phẩm vẫn còn hàng
-        if ($oder->status) {
+        if ($order->status) {
             return redirect()->back()
                 ->with([
                     'flash_level' => 'result_msg',
                     'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì vẫn còn hàng !'
                 ]);
-        } elseif ($oder->order_status) { // case đơn hàng đã được xác nhận
+        } elseif ($order->order_status) { // case đơn hàng đã được xác nhận
             return redirect()->back()
                 ->with([
                     'flash_level' => 'result_msg',
                     'flash_massage' => 'Không thể hủy sản phẩm có mã số chi tiết đơn hàng là: ' . $id . ' vì đơn hàng đã được xác nhận !'
                 ]);
         } else {    // case có thể remove sản phẩm khỏi đơn hàng
-            $oder = Oders_detail::find($id);
-            Oders::find($oder->o_id)->update(['total' => $newPrice]);
-            $oder->delete();
+            $order = Oders_detail::find($id);
+            Oders::find($order->o_id)->update(['total' => $newPrice]);
+            $order->delete();
             return redirect()->back()
                 ->with([
                     'flash_level' => 'result_msg',
