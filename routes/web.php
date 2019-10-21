@@ -33,7 +33,7 @@ Route::group(['prefix' => '/', 'middleware' => 'not_admin'], function () {
     Route::get('/{cat}/{id}-{slug}', 'PagesController@detail')->name('getDetail');
 });
 
-Route::resource('payment', 'PayMentController');
+Route::resource('payment', 'PaymentController');
 
 // --------------------------------cac cong viec trong admin (back-end)---------------------------------------
 Route::group(['prefix' => 'admin', 'middleware' => ['admin_and_su', 'auth']], function () {

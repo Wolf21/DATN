@@ -25,12 +25,13 @@ class AddProductsRequest extends Request
     {
         return [
             'sltCate' => 'required',
-            'txtname'=>'required',
-            'txtintro'=>'required',
-            'txtimg'=>'required',
-            'txtprice'=>'required'
+            'txtname' => 'required',
+            'txtintro' => 'required',
+            'txtimg' => 'required',
+            'txtprice' => 'required'
         ];
     }
+
     public function messages()
     {
         return [
@@ -39,7 +40,7 @@ class AddProductsRequest extends Request
             'txtintro.required' => ' Hãy nhập tóm tắt chức năng cho sản phẩm',
             'txtimg.required' => ' Hãy nhập chọn một hình ảnh cho sản phẩm',
             'txtprice.required' => ' Hãy nhập giá cho sản phẩm'
-            
+
         ];
     }
 }

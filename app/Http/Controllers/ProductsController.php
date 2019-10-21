@@ -11,8 +11,11 @@ use App\Services\ProductService;
 use Auth;
 use DB;
 use File;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\View\View;
 use Input;
 
 
@@ -21,7 +24,7 @@ class ProductsController extends Controller
     /**
      * @param Request $request
      * @param $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getList(Request $request, $id)
     {
@@ -43,7 +46,7 @@ class ProductsController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getAdd($id)
     {
@@ -57,7 +60,7 @@ class ProductsController extends Controller
 
     /**
      * @param AddProductsRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postAdd(AddProductsRequest $request)
     {
@@ -69,7 +72,7 @@ class ProductsController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function getDelete($id)
     {
@@ -90,7 +93,7 @@ class ProductsController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getEdit($id)
     {
@@ -113,7 +116,7 @@ class ProductsController extends Controller
     /**
      * @param $id
      * @param EditProductsRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postEdit($id, EditProductsRequest $request)
     {

@@ -26,8 +26,8 @@ use PayPal\Auth\OAuthTokenCredential;
 use PayPal\Rest\ApiContext;
 
 use Cart,Auth,DateTime;
-class PayMentController extends Controller
-{    
+class PaymentController extends Controller
+{
     private $apiContext;
 
     public function __construct()
@@ -66,7 +66,7 @@ class PayMentController extends Controller
 
         try {
             $result = $payment->execute($execution,$this->apiContext);
-            if ($result->getState() =='approved') 
+            if ($result->getState() =='approved')
             {
                 $oder = new Oders();
                 $total =0;
@@ -91,13 +91,13 @@ class PayMentController extends Controller
                    $detail->o_id = $o_id;
                    $detail->created_at = new datetime;
                    $detail->save();
-                } 
-            Cart::destroy();   
+                }
+            Cart::destroy();
             return redirect()->route('getcart')
-            ->with(['flash_level'=>'result_msg','flash_massage'=>'Thanh toán đơn hàng thành công !']);     
+            ->with(['flash_level'=>'result_msg','flash_massage'=>'Thanh toán đơn hàng thành công !']);
             } else {
                 return redirect()->route('getcart')
-                ->with(['flash_level'=>'result_msg','flash_massage'=>' Thanh toán thất bại !']);  
+                ->with(['flash_level'=>'result_msg','flash_massage'=>' Thanh toán thất bại !']);
             }
         } catch (Exception $e) {
             return redirect()->route('getcart')
@@ -113,7 +113,7 @@ class PayMentController extends Controller
      */
     public function store(Request $request)
     {
-        
+
         // ### Payer
         // A resource representing a Payer that funds a payment
         // For paypal account payments, set payment method
@@ -156,14 +156,14 @@ class PayMentController extends Controller
         // ### Transaction
         // A transaction defines the contract of a
         // payment - what is the payment for and who
-        // is fulfilling it. 
+        // is fulfilling it.
         $transaction = new Transaction();
         $transaction->setAmount($amount)
             // ->setItemList($itemList)
             ->setDescription("Payment description")
             ->setInvoiceNumber(uniqid());
         // ### Redirect urls
-        // Set the urls that the buyer must be redirected to after 
+        // Set the urls that the buyer must be redirected to after
         // payment approval/ cancellation.
         // $baseUrl = getBaseUrl();
         $redirectUrls = new RedirectUrls();

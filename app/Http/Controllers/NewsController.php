@@ -11,14 +11,17 @@ use App\Services\NewsService;
 use Auth;
 use DB;
 use File;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 use Input;
 
 class NewsController extends Controller
 {
     /**
      * @param Request $request
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getList(Request $request)
     {
@@ -32,7 +35,7 @@ class NewsController extends Controller
     }
 
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getAdd()
     {
@@ -42,7 +45,7 @@ class NewsController extends Controller
 
     /**
      * @param AddNewsRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postAdd(AddNewsRequest $request)
     {
@@ -53,7 +56,7 @@ class NewsController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getEdit($id)
     {
@@ -65,7 +68,7 @@ class NewsController extends Controller
     /**
      * @param EditNewsRequest $request
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postEdit(EditNewsRequest $request, $id)
     {
@@ -76,7 +79,7 @@ class NewsController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function getDelete($id)
     {

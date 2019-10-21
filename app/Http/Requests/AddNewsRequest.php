@@ -23,12 +23,13 @@ class AddNewsRequest extends Request
      */
     public function rules()
     {
-       return [
+        return [
             'txtTitle' => 'required|unique:news,title',
             'txtAuth' => 'required',
             'txtimg' => 'required'
         ];
     }
+
     public function messages()
     {
         return [
@@ -36,7 +37,7 @@ class AddNewsRequest extends Request
             'txtTitle.unique' => 'Bản tin này đã tồn tại',
             'txtAuth.required' => 'Hãy nhập tên tác giả',
             'txtimg.required' => 'Hãy chọn một hình ảnh'
-            
+
         ];
     }
 }

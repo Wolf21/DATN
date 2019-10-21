@@ -7,11 +7,14 @@ use App\Models\Oders_detail;
 use App\Models\User;
 use App\Services\OrderService;
 use DB;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 
 class OrdersController extends Controller
 {
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getList()
     {
@@ -23,7 +26,7 @@ class OrdersController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getDetail($id)
     {
@@ -34,7 +37,7 @@ class OrdersController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postDetail($id)
     {
@@ -46,7 +49,7 @@ class OrdersController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function getDelete($id)
     {
@@ -64,7 +67,7 @@ class OrdersController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function deleteOrderDetails($id)
     {

@@ -5,11 +5,14 @@ namespace App\Http\Controllers;
 use App\Http\Requests\AddCategoryRequest;
 use App\Models\Category;
 use App\Services\CategoriesService;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 
 class CategoryController extends Controller
 {
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getList()
     {
@@ -18,7 +21,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getAdd()
     {
@@ -28,7 +31,7 @@ class CategoryController extends Controller
 
     /**
      * @param AddCategoryRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postAdd(AddCategoryRequest $request)
     {
@@ -40,7 +43,7 @@ class CategoryController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getEdit($id)
     {
@@ -52,7 +55,7 @@ class CategoryController extends Controller
     /**
      * @param $id
      * @param AddCategoryRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postEdit($id, AddCategoryRequest $request)
     {
@@ -65,7 +68,7 @@ class CategoryController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function getDelete($id)
     {

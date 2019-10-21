@@ -14,13 +14,17 @@ use App\Services\ProductService;
 use Auth;
 use Cart;
 use DB;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Session;
+use Illuminate\View\View;
 
 class PagesController extends Controller
 {
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function index()
     {
@@ -30,7 +34,7 @@ class PagesController extends Controller
 
     /**
      * @param Request $request
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function search(Request $request)
     {
@@ -47,7 +51,7 @@ class PagesController extends Controller
     }
 
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getCart()
     {
@@ -61,7 +65,7 @@ class PagesController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function addCart($id)
     {
@@ -74,7 +78,7 @@ class PagesController extends Controller
      * @param $id
      * @param $quantity
      * @param $condition
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function getUpdateCart($id, $quantity, $condition)
     {
@@ -89,7 +93,7 @@ class PagesController extends Controller
 
     /**
      * @param $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function getDeleteCart($id)
     {
@@ -98,7 +102,7 @@ class PagesController extends Controller
     }
 
     /**
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function empty()
     {
@@ -107,7 +111,7 @@ class PagesController extends Controller
     }
 
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|\Illuminate\View\View
+     * @return Factory|RedirectResponse|Redirector|View
      */
     public function getOrder()
     {
@@ -121,7 +125,7 @@ class PagesController extends Controller
 
     /**
      * @param Request $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function postOrder(Request $request)
     {
@@ -134,7 +138,7 @@ class PagesController extends Controller
 
     /**
      * @param $cat
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function getCategories($cat)
     {
@@ -154,7 +158,7 @@ class PagesController extends Controller
      * @param $cat
      * @param $id
      * @param $slug
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
+     * @return Factory|RedirectResponse|View
      */
     public function detail($cat, $id, $slug)
     {

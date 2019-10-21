@@ -26,12 +26,13 @@ class EditNewsRequest extends Request
             'txtAuth' => 'required'
         ];
     }
+
     public function messages()
     {
         return [
-            'txtTitle.required' => ' Hãy nhập tên bản tin ',            
+            'txtTitle.required' => ' Hãy nhập tên bản tin ',
             'txtAuth.required' => 'Hãy nhập tên tác giả'
-            
+
         ];
     }
 }
